@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-10-16T10:31:14.367471+00:00",
+  "status": "passed",
+  "original_freeze_unchanged": true,
+  "frozen_files_verified": 17,
+  "raw_images_sha256_verified": 41180,
+  "processed_images_sha256_verified": 114112,
+  "source_metadata_files_verified": 2,
+  "reference_image_verified": 1,
+  "samples_per_branch": 57056,
+  "group_overlap_count": 0,
+  "portable_no_directory_links": true,
+  "raw_counts": {
+    "LC25000": 25000,
+    "BreakHis": 7909,
+    "LungHist700": 691,
+    "CRC-VAL-HE-7K": 7180,
+    "BACH": 400
+  },
+  "errors": [],
+  "seconds": 96.5,
+  "external_data_directories_required": false
+}

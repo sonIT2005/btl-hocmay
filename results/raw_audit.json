@@ -1,0 +1,41 @@
+{
+  "raw_images": 41180,
+  "source_counts": {
+    "LC25000": 25000,
+    "BreakHis": 7909,
+    "LungHist700": 691,
+    "CRC-VAL-HE-7K": 7180,
+    "BACH": 400
+  },
+  "dimensions": {
+    "LC25000": {
+      "768x768:RGB": 25000
+    },
+    "BreakHis": {
+      "700x460:RGB": 7835,
+      "700x456:RGB": 74
+    },
+    "LungHist700": {
+      "1600x1200:RGB": 691
+    },
+    "CRC-VAL-HE-7K": {
+      "224x224:RGB": 7180
+    },
+    "BACH": {
+      "2048x1536:RGB": 400
+    }
+  },
+  "selected_counts": {
+    "LC25000": 25000,
+    "BreakHis": 1995,
+    "LungHist700": 691,
+    "CRC-VAL-HE-7K": 1974,
+    "BACH": 400
+  },
+  "excluded_reasons": {
+    "BreakHis:unselected_magnification": 5914,
+    "CRC-VAL-HE-7K:out_of_scope_tissue": 5206
+  },
+  "errors": [],
+  "status": "passed"
+}

@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-16T10:20:51.436805+00:00",
+  "status": "passed",
+  "frozen_files_verified": 17,
+  "raw_sources_to_move_verified": 25691,
+  "redundant_outer_lc_files_verified": 25000,
+  "mismatches": [],
+  "moves": [
+    {
+      "source": "C:\\Users\\Admin\\Documents\\FrameView\\duanhocmay\\duanhocmay\\dataset\\lung_colon_image_set",
+      "destination": "C:\\Users\\Admin\\Documents\\FrameView\\btl-histo\\data\\raw\\LC25000"
+    },
+    {
+      "source": "C:\\Users\\Admin\\Documents\\FrameView\\duanhocmay\\duanhocmay\\dataset\\LungHist700\\data",
+      "destination": "C:\\Users\\Admin\\Documents\\FrameView\\btl-histo\\data\\raw\\LungHist700"
+    }
+  ],
+  "cleanup_scope": "Only this FrameView workspace; preserve canonical raw and active processed files; remove redundant copies, superseded preprocessing, archives and local caches/environments.",
+  "legacy_lunghist_rar_members_match_canonical_raw": 692,
+  "legacy_lunghist_rar_comparison": "Exact relative file set, per-file size and CRC32 from archive versus retained raw; raw SHA256 previously verified.",
+  "legacy_generated_patches": "24185 PNG files at dataset/patches/LungHist700_normalized, emitted by legacy run_c3_pipeline.py; no active manifest references this directory. Preserve all legacy code, reports and metadata."
+}

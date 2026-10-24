@@ -1,0 +1,215 @@
+[
+  {
+    "a": "colonca1004.jpeg",
+    "neighbors": [
+      "colonca1004.jpeg",
+      "colonca3011.jpeg",
+      "colonca2784.jpeg",
+      "colonca4183.jpeg",
+      "colonca1182.jpeg",
+      "colonca3425.jpeg",
+      "colonca3424.jpeg",
+      "colonca4182.jpeg",
+      "colonca4840.jpeg",
+      "colonca3835.jpeg"
+    ],
+    "cosines": [
+      0.9999998211860657,
+      0.8940894603729248,
+      0.8796031475067139,
+      0.876880407333374,
+      0.8754159212112427,
+      0.8714120388031006,
+      0.8634800314903259,
+      0.8590039014816284,
+      0.8572049140930176,
+      0.8541167378425598
+    ],
+    "relaxed_diagnostics": [
+      {
+        "b": "colonca3011.jpeg",
+        "inliers": 76,
+        "inlier_ratio": 0.98701,
+        "coverage": 0.77096,
+        "scale": 1.35717,
+        "correlation": 0.99358,
+        "mirror": false
+      },
+      {
+        "b": "colonca2784.jpeg",
+        "inliers": 55,
+        "inlier_ratio": 0.98214,
+        "coverage": 0.76163,
+        "scale": 1.47001,
+        "correlation": 0.99472,
+        "mirror": true
+      },
+      {
+        "b": "colonca4183.jpeg",
+        "inliers": 52,
+        "inlier_ratio": 1.0,
+        "coverage": 0.66294,
+        "scale": 1.28345,
+        "correlation": 0.97758,
+        "mirror": true
+      },
+      {
+        "b": "colonca1182.jpeg",
+        "inliers": 39,
+        "inlier_ratio": 1.0,
+        "coverage": 0.76597,
+        "scale": 1.43403,
+        "correlation": 0.99347,
+        "mirror": false
+      },
+      {
+        "b": "colonca3425.jpeg",
+        "inliers": 45,
+        "inlier_ratio": 0.97826,
+        "coverage": 0.75573,
+        "scale": 1.35813,
+        "correlation": 0.99408,
+        "mirror": false
+      },
+      {
+        "b": "colonca3424.jpeg",
+        "inliers": 50,
+        "inlier_ratio": 1.0,
+        "coverage": 0.66061,
+        "scale": 1.28346,
+        "correlation": 0.99413,
+        "mirror": true
+      },
+      {
+        "b": "colonca4182.jpeg",
+        "inliers": 25,
+        "inlier_ratio": 0.96154,
+        "coverage": 0.45781,
+        "scale": 1.5454,
+        "correlation": 0.9686,
+        "mirror": false
+      },
+      {
+        "b": "colonca4840.jpeg",
+        "inliers": 29,
+        "inlier_ratio": 0.96667,
+        "coverage": 0.61058,
+        "scale": 1.58128,
+        "correlation": 0.99196,
+        "mirror": false
+      },
+      {
+        "b": "colonca3835.jpeg",
+        "inliers": 31,
+        "inlier_ratio": 0.93939,
+        "coverage": 0.58443,
+        "scale": 1.17172,
+        "correlation": 0.99358,
+        "mirror": false
+      }
+    ]
+  },
+  {
+    "a": "colonca1074.jpeg",
+    "neighbors": [
+      "colonca1074.jpeg",
+      "colonca4708.jpeg",
+      "colonca544.jpeg",
+      "colonca774.jpeg",
+      "colonca1595.jpeg",
+      "colonca2119.jpeg",
+      "colonca3136.jpeg",
+      "colonca4336.jpeg",
+      "colonca230.jpeg",
+      "colonca2080.jpeg"
+    ],
+    "cosines": [
+      0.9999997019767761,
+      0.9088225364685059,
+      0.9034945964813232,
+      0.8960259556770325,
+      0.8948501348495483,
+      0.8888916969299316,
+      0.8888711929321289,
+      0.8886229991912842,
+      0.8881421089172363,
+      0.8881173133850098
+    ],
+    "relaxed_diagnostics": [
+      {
+        "b": "colonca544.jpeg",
+        "inliers": 44,
+        "inlier_ratio": 0.93617,
+        "coverage": 0.64641,
+        "scale": 1.47083,
+        "correlation": 0.99716,
+        "mirror": false
+      }
+    ]
+  },
+  {
+    "a": "colonca150.jpeg",
+    "neighbors": [
+      "colonca150.jpeg",
+      "colonca149.jpeg",
+      "colonca4004.jpeg",
+      "colonca3528.jpeg",
+      "colonca1382.jpeg",
+      "colonca855.jpeg",
+      "colonca4932.jpeg",
+      "colonca765.jpeg",
+      "colonca3240.jpeg",
+      "colonca4759.jpeg"
+    ],
+    "cosines": [
+      0.9999998807907104,
+      0.9186007976531982,
+      0.9093694090843201,
+      0.898335337638855,
+      0.896064043045044,
+      0.8842396140098572,
+      0.8818544149398804,
+      0.878096878528595,
+      0.8677768707275391,
+      0.8655259609222412
+    ],
+    "relaxed_diagnostics": [
+      {
+        "b": "colonca149.jpeg",
+        "inliers": 32,
+        "inlier_ratio": 0.88889,
+        "coverage": 0.48907,
+        "scale": 1.12691,
+        "correlation": 0.98612,
+        "mirror": true
+      },
+      {
+        "b": "colonca4004.jpeg",
+        "inliers": 43,
+        "inlier_ratio": 0.86,
+        "coverage": 0.54682,
+        "scale": 1.20931,
+        "correlation": 0.99754,
+        "mirror": true
+      },
+      {
+        "b": "colonca4932.jpeg",
+        "inliers": 58,
+        "inlier_ratio": 0.92063,
+        "coverage": 0.65785,
+        "scale": 1.28437,
+        "correlation": 0.99724,
+        "mirror": true
+      },
+      {
+        "b": "colonca4759.jpeg",
+        "inliers": 101,
+        "inlier_ratio": 0.93519,
+        "coverage": 0.80426,
+        "scale": 1.35713,
+        "correlation": 0.98864,
+        "mirror": false
+      }
+    ]
+  }
+]

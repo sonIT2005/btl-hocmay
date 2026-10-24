@@ -1,0 +1,10 @@
+{
+  "BACH:beta=0.15": 399,
+  "BACH:beta=0.025": 1,
+  "BreakHis:beta=0.15": 1995,
+  "CRC-VAL-HE-7K:beta=0.15": 1974,
+  "LC25000:beta=0.15": 24915,
+  "LC25000:beta=0.05": 13,
+  "LC25000:beta=0.1": 21,
+  "LungHist700:beta=0.15": 691
+}

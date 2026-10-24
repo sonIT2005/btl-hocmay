@@ -1,0 +1,165 @@
+{
+  "preserved_legacy_source_reports_metadata": true,
+  "canonical_raw_moved_without_copy": [
+    "LC25000",
+    "LungHist700"
+  ],
+  "before_workspace_apparent_bytes": 50811757197,
+  "completed_at_utc": "2026-10-16T10:27:24.3296258Z",
+  "removed": [
+    {
+      "bytes": 0,
+      "kind": "junction_only",
+      "path": "btl-histo\\.runtime\\python\\cpython-3.11-windows-x86_64-none"
+    },
+    {
+      "bytes": 4273561758,
+      "kind": "file",
+      "path": "btl-histo\\data\\downloads\\BreaKHis_v1.tar.gz"
+    },
+    {
+      "bytes": 800276929,
+      "kind": "file",
+      "path": "btl-histo\\data\\downloads\\CRC-VAL-HE-7K.zip"
+    },
+    {
+      "bytes": 3854965814,
+      "kind": "file",
+      "path": "btl-histo\\data\\downloads\\BACH_microscopy_zip_tail.bin"
+    },
+    {
+      "bytes": 51200128,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\features.npy"
+    },
+    {
+      "bytes": 1504465,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\feature_paths.json"
+    },
+    {
+      "bytes": 94585,
+      "kind": "file",
+      "path": "btl-histo\\data\\processed\\references\\9d19d86717a8a811.png"
+    },
+    {
+      "bytes": 670356405,
+      "kind": "file",
+      "path": "duanhocmay\\duanhocmay\\dataset\\LungHist700.rar"
+    },
+    {
+      "bytes": 2928,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_colon_aca_r3_highres.npz"
+    },
+    {
+      "bytes": 9684,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_colon_aca_r3.npz"
+    },
+    {
+      "bytes": 188388,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_colon_aca.npz"
+    },
+    {
+      "bytes": 3120,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_colon_n_r3_highres.npz"
+    },
+    {
+      "bytes": 9408,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_colon_n_r3.npz"
+    },
+    {
+      "bytes": 158292,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_colon_n.npz"
+    },
+    {
+      "bytes": 4152,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_lung_aca_r3_highres.npz"
+    },
+    {
+      "bytes": 9156,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_lung_aca_r3.npz"
+    },
+    {
+      "bytes": 117312,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_lung_aca.npz"
+    },
+    {
+      "bytes": 5688,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_lung_n_r3_highres.npz"
+    },
+    {
+      "bytes": 10188,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_lung_n_r3.npz"
+    },
+    {
+      "bytes": 125088,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_lung_n.npz"
+    },
+    {
+      "bytes": 3720,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_lung_scc_r3_highres.npz"
+    },
+    {
+      "bytes": 9900,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_lung_scc_r3.npz"
+    },
+    {
+      "bytes": 85872,
+      "kind": "file",
+      "path": "btl-histo\\outputs\\grouping\\sift_candidates_lung_scc.npz"
+    },
+    {
+      "files": 40233,
+      "bytes": 5647143320,
+      "kind": "directory",
+      "path": "btl-histo\\outputs\\grouping\\descriptors"
+    },
+    {
+      "files": 19295,
+      "bytes": 1682941361,
+      "kind": "directory",
+      "path": "btl-histo\\.cache"
+    },
+    {
+      "files": 21971,
+      "bytes": 1683207442,
+      "kind": "directory",
+      "path": "btl-histo\\.venv"
+    },
+    {
+      "files": 4185,
+      "bytes": 74308210,
+      "kind": "directory",
+      "path": "btl-histo\\.runtime"
+    },
+    {
+      "files": 25000,
+      "bytes": 1889443507,
+      "kind": "directory",
+      "path": "lung_colon_image_set"
+    },
+    {
+      "files": 24185,
+      "bytes": 1762158252,
+      "kind": "directory",
+      "path": "duanhocmay\\duanhocmay\\dataset\\patches\\LungHist700_normalized"
+    }
+  ],
+  "original_frozen_manifest_preserved": true,
+  "before_shared_library_hardlink_GiB_rounded": 1.502,
+  "preserved_legacy_provenance_path": "data/downloads/provenance/legacy_project"
+}

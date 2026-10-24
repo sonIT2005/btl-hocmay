@@ -1,0 +1,138 @@
+{
+  "completed_at_utc": "2026-10-16T10:31:14.380678+00:00",
+  "status": "passed",
+  "workspace_contains_only": "btl-histo",
+  "before_workspace_apparent_bytes": 50811757197,
+  "after_workspace_apparent_bytes_at_scan": 28419794742,
+  "before_workspace_apparent_GiB": 47.322,
+  "after_workspace_apparent_GiB_at_scan": 26.468,
+  "apparent_reduction_GiB": 20.854,
+  "size_note": "Sum of file lengths, not NTFS allocated space. Before total counted about 1.502 GiB of shared environment hardlinks twice. No resource copies or new archive were created during consolidation. The two newly written JSON reports add only a few KiB.",
+  "kept": {
+    "raw_images": 41180,
+    "processed_images": 114112,
+    "branches": [
+      "none",
+      "macenko"
+    ],
+    "purpose": "Original sources for traceability/reproduction and two distinct experimental transformations; labels, manifests, code, environment recipes and verification evidence retained."
+  },
+  "moves_without_copy": [
+    "LC25000",
+    "LungHist700",
+    "legacy project code/documents/metadata to data/downloads/provenance/legacy_project"
+  ],
+  "legacy_unique_code_documents_reports_preserved": true,
+  "retained_grouping_evidence": [
+    "outputs/grouping/accepted_edges.csv",
+    "outputs/grouping/accepted_checkpoint.jsonl",
+    "splits/lc_groups.csv"
+  ],
+  "removed_target_count": 29,
+  "removed_details": "cleanup_actions.json",
+  "integrity_report": "delivery_integrity.json",
+  "by_directory": [
+    {
+      "path": ".",
+      "bytes": 28419794742,
+      "GiB": 26.468,
+      "files": 155407
+    },
+    {
+      "path": "configs",
+      "bytes": 1867,
+      "GiB": 0.0,
+      "files": 2
+    },
+    {
+      "path": "data",
+      "bytes": 28340509636,
+      "GiB": 26.394,
+      "files": 155340
+    },
+    {
+      "path": "data/downloads",
+      "bytes": 5741568,
+      "GiB": 0.005,
+      "files": 30
+    },
+    {
+      "path": "data/processed",
+      "bytes": 13011001645,
+      "GiB": 12.117,
+      "files": 114113
+    },
+    {
+      "path": "data/raw",
+      "bytes": 15323765117,
+      "GiB": 14.271,
+      "files": 41196
+    },
+    {
+      "path": "data/raw/BACH",
+      "bytes": 7370598536,
+      "GiB": 6.864,
+      "files": 401
+    },
+    {
+      "path": "data/raw/BreakHis",
+      "bytes": 4279462730,
+      "GiB": 3.986,
+      "files": 7923
+    },
+    {
+      "path": "data/raw/CRC-VAL-HE-7K",
+      "bytes": 1092768980,
+      "GiB": 1.018,
+      "files": 7180
+    },
+    {
+      "path": "data/raw/LC25000",
+      "bytes": 1889443507,
+      "GiB": 1.76,
+      "files": 25000
+    },
+    {
+      "path": "data/raw/LungHist700",
+      "bytes": 691491364,
+      "GiB": 0.644,
+      "files": 692
+    },
+    {
+      "path": "outputs",
+      "bytes": 13735450,
+      "GiB": 0.013,
+      "files": 10
+    },
+    {
+      "path": "results",
+      "bytes": 45238,
+      "GiB": 0.0,
+      "files": 25
+    },
+    {
+      "path": "splits",
+      "bytes": 65411959,
+      "GiB": 0.061,
+      "files": 10
+    },
+    {
+      "path": "src",
+      "bytes": 9823,
+      "GiB": 0.0,
+      "files": 4
+    },
+    {
+      "path": "tests",
+      "bytes": 8206,
+      "GiB": 0.0,
+      "files": 4
+    },
+    {
+      "path": "tools",
+      "bytes": 60105,
+      "GiB": 0.0,
+      "files": 7
+    }
+  ]
+}

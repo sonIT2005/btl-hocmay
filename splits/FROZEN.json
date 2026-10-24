@@ -1,0 +1,30 @@
+{
+  "frozen_at_utc": "2026-10-16T10:03:56.478461+00:00",
+  "status": "passed_with_identity_and_scale_limitations",
+  "sha256": {
+    "splits/splits.csv": "8a737525de564e3a3b7de911f50875e06e8e22ab0d0cad074339dacd49d3be4b",
+    "splits/splits_none.csv": "13b2738e14fd34aa95f75a60be077934211cee11b822d3f3e33481cc2a2a07e3",
+    "splits/splits_macenko.csv": "78108c759713d78d3e83a3823b8fe095312adb3b60d2946d1384ecbede2e17e0",
+    "splits/lc_groups.csv": "3a6dd42012f20743ab0e187cd21ea8fc4a5d38a0d4753e1ab1536c5cdf3a0758",
+    "splits/label_map.json": "b8c5e301c9a85e6af975f27fe641120df0a7f1bab5c1ca228efde089fba247ef",
+    "splits/raw_checksums.csv": "3e854940e8fa2d921b90b9bf581772e1a327b0e580cf2c48ccea977cd8a71a58",
+    "splits/inventory.csv": "47602755e3f2d90c3ec15704f34f3075d51cba01df6eb4539cbadf63bc9c2ef9",
+    "splits/grouping_review_required.csv": "d766bbd7adb7b9d489b2b288e566a7bc25c83b88440192172b0d5a796606549f",
+    "results/source_metadata.json": "635e8ef89eea45bcd472d8588f8b29ef914bfa61b4fac5fb0053f75acfbd4443",
+    "splits/processed_checksums.csv": "8c7a8fe80fefaec74d968898eef07a351b6ecff06dac3dcddedfc0276ccc904d",
+    "configs/preparation.yaml": "32a7d9d346795b7112a9a866c753a952c176540565c78c8c6e2dc2d61776a448",
+    "configs/reference.json": "e95a75c716000d0cc3ee06a27ecf05d347d52ad08912db116829f4fee3e83c4a",
+    "results/grouping_summary.json": "789d9664ffc5c40a414b6578b071daa46ae06843ea3f65405273fce1c1cd014c",
+    "src/data/stain.py": "5dcd9ac6a598bf3aa4e4ad541ec2252d24a85af288e38f6b1c56c48208b913d0",
+    "src/data/catalog.py": "37f9efbaec9d47ef866cf5129d395a326540e9e5fcd76504ad126ca09bd6d41a",
+    "tools/prepare.py": "c1dbd61836676aaaddfa653575c157e4d5d3a7004946f6834e63826e70696877",
+    "tools/group_lc.py": "5ea1977396c9030c340f58f6b309ca7e0893972da69f26339d777367aa806196"
+  },
+  "sample_rows": 57056,
+  "limitations": [
+    "LC25000 and LungHist700 physical pixel scale is estimated, not calibrated.",
+    "LC25000 groups reconstruct augmentation families, not patient identities.",
+    "CRC/BACH published patch/image identifiers do not guarantee patient-independent bootstrap.",
+    "51 LC25000 images are retained separately pending reliable family assignment."
+  ]
+}

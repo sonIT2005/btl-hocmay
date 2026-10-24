@@ -1,0 +1,14 @@
+{
+  "BACH_ground_truth_matches": 400,
+  "LungHist700_metadata_matches": 691,
+  "files": [
+    {
+      "path": "data/raw/LungHist700/data.csv",
+      "sha256": "3aee2079e771bf1f8456291dd53c0adb637cdb6de93e7dad848ad1a8a71794fc"
+    },
+    {
+      "path": "data/raw/BACH/ICIAR2018_BACH_Challenge/Photos/microscopy_ground_truth.csv",
+      "sha256": "85d3a044d01dcc757e447cf58345319351e12db8719bb820abef1d7616e6202b"
+    }
+  ]
+}

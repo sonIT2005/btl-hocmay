@@ -1,0 +1,19 @@
+test_crc_only_two_tissues (test_catalog.CatalogTests.test_crc_only_two_tissues) ... ok
+test_patient_sections_do_not_leak (test_catalog.CatalogTests.test_patient_sections_do_not_leak) ... ok
+test_scc_and_aca_all_grades (test_catalog.CatalogTests.test_scc_and_aca_all_grades) ... ok
+test_odd_rotation_and_flip_recovered_but_other_tissue_rejected (test_grouping.GroupingTests.test_odd_rotation_and_flip_recovered_but_other_tissue_rejected) ... ok
+test_real_augmentation_can_resize_axes_differently (test_grouping.GroupingTests.test_real_augmentation_can_resize_axes_differently) ... ok
+test_strong_augmentation_axis_distortion_is_still_same_field (test_grouping.GroupingTests.test_strong_augmentation_axis_distortion_is_still_same_field) ... ok
+test_external_is_never_internal (test_splits.SplitTests.test_external_is_never_internal) ... ok
+test_group_integrity_and_reproducibility_independent_of_input_order (test_splits.SplitTests.test_group_integrity_and_reproducibility_independent_of_input_order) ... ok
+test_agrees_with_independent_torchstain_dense_fixture (test_stain.StainTests.test_agrees_with_independent_torchstain_dense_fixture) ... ok
+test_blank_image_is_explicit_failure (test_stain.StainTests.test_blank_image_is_explicit_failure) ... ok
+test_bright_blue_tissue_is_not_classified_as_glass (test_stain.StainTests.test_bright_blue_tissue_is_not_classified_as_glass) ... ok
+test_two_distinct_stains_and_self_reconstruction (test_stain.StainTests.test_two_distinct_stains_and_self_reconstruction) ... ok
+test_unfitted_is_explicit_failure (test_stain.StainTests.test_unfitted_is_explicit_failure) ... ok
+test_whole_source_profile_preserves_local_structure (test_stain.StainTests.test_whole_source_profile_preserves_local_structure) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.335s
+
+OK

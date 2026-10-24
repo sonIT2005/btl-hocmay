@@ -1,0 +1,62 @@
+[
+  {
+    "name": "lc25000_readme",
+    "url": "https://raw.githubusercontent.com/tampapath/lung_colon_image_set/master/README.md",
+    "bytes": 1249,
+    "status": "saved"
+  },
+  {
+    "name": "breakhis_description",
+    "url": "https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-BreakHis/",
+    "bytes": 56350,
+    "status": "saved"
+  },
+  {
+    "name": "breakhis_paper",
+    "url": "https://www.inf.ufpr.br/lesoliveira/download/TBME-00608-2015-R2-preprint.pdf",
+    "bytes": 583348,
+    "status": "saved"
+  },
+  {
+    "name": "crc_record",
+    "url": "https://zenodo.org/api/records/1214456",
+    "bytes": 8389,
+    "status": "saved"
+  },
+  {
+    "name": "bach_record",
+    "url": "https://zenodo.org/api/records/3632035",
+    "bytes": 7687,
+    "status": "saved"
+  },
+  {
+    "name": "bach_license",
+    "url": "https://zenodo.org/records/3632035/files/LICENSE.txt?download=1",
+    "bytes": 746,
+    "status": "saved"
+  },
+  {
+    "name": "bach_readme",
+    "url": "https://zenodo.org/records/3632035/files/README.txt?download=1",
+    "bytes": 1771,
+    "status": "saved"
+  },
+  {
+    "name": "phikon_model_card",
+    "url": "https://huggingface.co/owkin/phikon/raw/main/README.md",
+    "bytes": 2492,
+    "status": "saved"
+  },
+  {
+    "name": "phikon_license",
+    "url": "https://raw.githubusercontent.com/owkin/HistoSSLscaling/main/LICENSE.txt",
+    "bytes": 26629,
+    "status": "saved"
+  },
+  {
+    "name": "lunghist_paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11455975/",
+    "bytes": 141151,
+    "status": "saved"
+  }
+]

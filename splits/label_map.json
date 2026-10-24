@@ -1,0 +1,43 @@
+{
+  "classes": {
+    "0": "lung_benign",
+    "1": "lung_aca",
+    "2": "lung_scc",
+    "3": "colon_benign",
+    "4": "colon_aca",
+    "5": "breast_benign",
+    "6": "breast_malignant"
+  },
+  "dataset_mappings": {
+    "LC25000": {
+      "lung_n": 0,
+      "lung_aca": 1,
+      "lung_scc": 2,
+      "colon_n": 3,
+      "colon_aca": 4
+    },
+    "LungHist700": {
+      "nor": 0,
+      "aca_bd": 1,
+      "aca_md": 1,
+      "aca_pd": 1,
+      "scc_bd": 2,
+      "scc_md": 2,
+      "scc_pd": 2
+    },
+    "CRC-VAL-HE-7K": {
+      "NORM": 3,
+      "TUM": 4
+    },
+    "BACH": {
+      "Normal": 5,
+      "Benign": 5,
+      "InSitu": 6,
+      "Invasive": 6
+    },
+    "BreakHis": {
+      "B": 5,
+      "M": 6
+    }
+  }
+}

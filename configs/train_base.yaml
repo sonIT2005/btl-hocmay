@@ -1,0 +1,16 @@
+# Công thức huấn luyện chung cho E1/E2 (mục 5.2, R04). Không tuning:
+# đổi giá trị nào ở đây thì phải sinh lại và chạy lại toàn bộ config trong configs/runs/.
+data_root: data
+splits_dir: splits
+num_classes: 7
+lr: 1.0e-4
+weight_decay: 0.05
+warmup_epochs: 2
+epochs: 30
+patience: 5
+batch_size: 32
+eval_batch_size: 128
+num_workers: 8
+amp_dtype: bfloat16
+class_weighting: inverse_frequency
+augmentation: [rot90, hflip, vflip]

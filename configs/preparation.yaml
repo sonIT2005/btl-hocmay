@@ -1,0 +1,52 @@
+seed: 42
+split_balance_trials: 2048
+min_verified_lc_family_size: 5
+image_size: 224
+breakhis_magnification: 40
+target_mpp: 0.5
+field_of_view_um: 112
+min_tissue_ratio: 0.50
+white_threshold: 220
+patch_stride: 224
+workers: 4
+grouping:
+  embedding_model: resnet18
+  embedding_weights: IMAGENET1K_V1
+  neighbors: 40
+  candidate_cosine: 0.90
+  sift_features: 180
+  verification_size: 256
+  min_inliers: 15
+  min_inlier_ratio: 0.50
+  min_overlap_correlation: 0.85
+  max_reprojection_error: 2.5
+  min_coverage: 0.10
+  scale_range: [0.40, 2.50]
+  geometry_model: affine2d
+  max_axis_scale_ratio: 2.20
+normalization:
+  reference_source: LC25000
+  reference_split: train
+  alpha: 1
+  beta: 0.15
+  max_condition_number: 50
+  failure_policy: error
+# Measured metadata is used where available. Never label estimates as calibrated.
+scale:
+  LC25000:
+    mpp: 0.5
+    status: estimated_unverified
+  BreakHis:
+    mpp: 0.49
+    status: published_table_I_40x
+  BACH:
+    mpp: 0.42
+    status: published
+  CRC-VAL-HE-7K:
+    mpp: 0.5
+    status: published
+  LungHist700:
+    mpp_20x: 0.5
+    mpp_40x: 0.25
+    status: estimated_unverified
+

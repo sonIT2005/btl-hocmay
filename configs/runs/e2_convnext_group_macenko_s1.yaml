@@ -1,0 +1,23 @@
+run_name: e2_convnext_group_macenko_s1
+experiment: e2
+model: convnext
+split: group
+stain: macenko
+seed: 1
+data_root: data
+splits_dir: splits
+num_classes: 7
+lr: 0.0001
+weight_decay: 0.05
+warmup_epochs: 2
+epochs: 30
+patience: 5
+batch_size: 32
+eval_batch_size: 128
+num_workers: 8
+amp_dtype: bfloat16
+class_weighting: inverse_frequency
+augmentation:
+- rot90
+- hflip
+- vflip

@@ -1,0 +1,23 @@
+{
+  "frozen_files_verified": 17,
+  "mismatches": [],
+  "none_columns": [
+    "image_path",
+    "label",
+    "organ",
+    "source",
+    "group_id",
+    "split",
+    "split_random"
+  ],
+  "macenko_columns": [
+    "image_path",
+    "label",
+    "organ",
+    "source",
+    "group_id",
+    "split",
+    "split_random"
+  ],
+  "handoff_exists": true
+}

@@ -1,0 +1,76 @@
+{
+  "raw_counts": {
+    "LC25000": 25000,
+    "BreakHis": 7909,
+    "LungHist700": 691,
+    "CRC-VAL-HE-7K": 7180,
+    "BACH": 400
+  },
+  "included_source_images": {
+    "LC25000": 24949,
+    "BreakHis": 1995,
+    "LungHist700": 691,
+    "CRC-VAL-HE-7K": 1974,
+    "BACH": 400
+  },
+  "model_samples": 57056,
+  "samples_by_source": {
+    "BACH": 13581,
+    "BreakHis": 1995,
+    "CRC-VAL-HE-7K": 1974,
+    "LC25000": 24949,
+    "LungHist700": 14557
+  },
+  "samples_by_split": {
+    "xtest": 30112,
+    "train": 18859,
+    "val": 4041,
+    "test": 4044
+  },
+  "samples_by_label": {
+    "5": 7380,
+    "6": 8196,
+    "3": 5727,
+    "4": 6224,
+    "1": 10908,
+    "0": 8362,
+    "2": 10259
+  },
+  "tissue_rejected_patches": 419,
+  "reference": {
+    "source_image_path": "raw/LC25000/colon_image_sets/colon_aca/colonca1.jpeg",
+    "group_id": "LC25000:bdc57ff988aae588",
+    "split": "train",
+    "crop_bbox_scaled": [
+      0,
+      0,
+      768,
+      768
+    ],
+    "reference_image": "processed/references/6900f50fb8e9de5a.png",
+    "sha256": "42a929517346753f3718092ef7912107185178286883d2e33aa34d213e841c71",
+    "basis_condition_number": 3.92056227566549,
+    "beta_used": 0.15,
+    "target_basis": [
+      [
+        0.7171924505550706,
+        0.3033608784972537
+      ],
+      [
+        0.6811203296917301,
+        0.9474869728325909
+      ],
+      [
+        0.14734342654981786,
+        0.10119591745672211
+      ]
+    ],
+    "target_concentrations": [
+      0.8979157896687132,
+      1.0262395819171932
+    ]
+  },
+  "processing_signature": "f5c641abf5b155b1",
+  "lc_images_pending_family_review": 51,
+  "scale_limitation": "LC25000 and LungHist700 MPP are unverified estimates. Do not claim exact physical-scale matching."
+}

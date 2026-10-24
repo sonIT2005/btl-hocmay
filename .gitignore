@@ -1,0 +1,13 @@
+# Dữ liệu và ảnh: không đưa lên Git (R10). BACH là CC BY-NC-ND, không phát hành ảnh biến đổi.
+data/
+outputs/qa/
+outputs/grouping/
+
+# Checkpoint và trạng thái train dở
+outputs/checkpoints/
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

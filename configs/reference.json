@@ -1,0 +1,33 @@
+{
+  "source_image_path": "raw/LC25000/colon_image_sets/colon_aca/colonca1.jpeg",
+  "group_id": "LC25000:bdc57ff988aae588",
+  "split": "train",
+  "crop_bbox_scaled": [
+    0,
+    0,
+    768,
+    768
+  ],
+  "reference_image": "processed/references/6900f50fb8e9de5a.png",
+  "sha256": "42a929517346753f3718092ef7912107185178286883d2e33aa34d213e841c71",
+  "basis_condition_number": 3.92056227566549,
+  "beta_used": 0.15,
+  "target_basis": [
+    [
+      0.7171924505550706,
+      0.3033608784972537
+    ],
+    [
+      0.6811203296917301,
+      0.9474869728325909
+    ],
+    [
+      0.14734342654981786,
+      0.10119591745672211
+    ]
+  ],
+  "target_concentrations": [
+    0.8979157896687132,
+    1.0262395819171932
+  ]
+}

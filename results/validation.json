@@ -1,0 +1,65 @@
+{
+  "sample_rows": 57056,
+  "image_files_decoded": 114112,
+  "group_overlap_count": 0,
+  "patient_overlap_count": 0,
+  "branch_statistics": {
+    "none": {
+      "images": 57056,
+      "near_black_gt95pct": 0,
+      "near_white_gt95pct": 0
+    },
+    "macenko": {
+      "images": 57056,
+      "near_black_gt95pct": 0,
+      "near_white_gt95pct": 0
+    }
+  },
+  "by_source": {
+    "BACH": 13581,
+    "BreakHis": 1995,
+    "CRC-VAL-HE-7K": 1974,
+    "LC25000": 24949,
+    "LungHist700": 14557
+  },
+  "by_label_split": {
+    "5:xtest": 6755,
+    "6:xtest": 6826,
+    "5:train": 436,
+    "5:val": 93,
+    "5:test": 96,
+    "6:test": 205,
+    "6:train": 959,
+    "6:val": 206,
+    "3:xtest": 741,
+    "4:xtest": 1233,
+    "4:train": 3493,
+    "4:val": 749,
+    "4:test": 749,
+    "3:train": 3491,
+    "3:test": 747,
+    "3:val": 748,
+    "1:train": 3496,
+    "1:val": 749,
+    "1:test": 749,
+    "0:train": 3494,
+    "0:val": 748,
+    "0:test": 749,
+    "2:train": 3490,
+    "2:val": 748,
+    "2:test": 749,
+    "1:xtest": 5914,
+    "0:xtest": 3371,
+    "2:xtest": 5272
+  },
+  "lc_images_pending_family_review": 51,
+  "errors": [],
+  "warnings": [],
+  "status": "passed_with_identity_and_scale_limitations",
+  "limitations": [
+    "LC25000 and LungHist700 physical pixel scale is estimated, not calibrated.",
+    "LC25000 groups reconstruct augmentation families, not patient identities.",
+    "CRC/BACH published patch/image identifiers do not guarantee patient-independent bootstrap.",
+    "51 LC25000 images are retained separately pending reliable family assignment."
+  ]
+}

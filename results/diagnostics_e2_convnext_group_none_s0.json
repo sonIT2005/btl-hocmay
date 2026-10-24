@@ -1,0 +1,131 @@
+{
+  "run_name": "e2_convnext_group_none_s0",
+  "n_lc_val": 500,
+  "n_breakhis_val": 299,
+  "tests": {
+    "lc_val_scale": [
+      {
+        "value": 1.0,
+        "organ_confusion": 0.0,
+        "pred_breast": 0.0,
+        "acc7": 0.946
+      },
+      {
+        "value": 0.85,
+        "organ_confusion": 0.0,
+        "pred_breast": 0.0,
+        "acc7": 0.946
+      },
+      {
+        "value": 0.75,
+        "organ_confusion": 0.0,
+        "pred_breast": 0.0,
+        "acc7": 0.946
+      },
+      {
+        "value": 0.66,
+        "organ_confusion": 0.0,
+        "pred_breast": 0.0,
+        "acc7": 0.956
+      },
+      {
+        "value": 0.5,
+        "organ_confusion": 0.0,
+        "pred_breast": 0.0,
+        "acc7": 0.944
+      }
+    ],
+    "breakhis_val_scale": [
+      {
+        "value": 1.0,
+        "organ_confusion": 0.0,
+        "pred_breast": 1.0,
+        "acc7": 0.9297658862876255
+      },
+      {
+        "value": 1.5,
+        "organ_confusion": 0.010033444816053512,
+        "pred_breast": 0.9899665551839465,
+        "acc7": 0.903010033444816
+      },
+      {
+        "value": 2.0,
+        "organ_confusion": 0.05016722408026756,
+        "pred_breast": 0.9498327759197325,
+        "acc7": 0.8561872909698997
+      },
+      {
+        "value": 3.0,
+        "organ_confusion": 0.3010033444816054,
+        "pred_breast": 0.6989966555183946,
+        "acc7": 0.6120401337792643
+      }
+    ],
+    "lc_val_saturation": [
+      {
+        "value": 1.0,
+        "organ_confusion": 0.0,
+        "pred_breast": 0.0,
+        "acc7": 0.946
+      },
+      {
+        "value": 0.6,
+        "organ_confusion": 0.0,
+        "pred_breast": 0.0,
+        "acc7": 0.924
+      },
+      {
+        "value": 0.3,
+        "organ_confusion": 0.0,
+        "pred_breast": 0.0,
+        "acc7": 0.9
+      },
+      {
+        "value": 0.0,
+        "organ_confusion": 0.192,
+        "pred_breast": 0.08,
+        "acc7": 0.59
+      }
+    ],
+    "breakhis_val_jpeg": [
+      {
+        "value": null,
+        "organ_confusion": 0.0,
+        "pred_breast": 1.0,
+        "acc7": 0.9297658862876255
+      },
+      {
+        "value": 95,
+        "organ_confusion": 0.006688963210702341,
+        "pred_breast": 0.9933110367892977,
+        "acc7": 0.9264214046822743
+      },
+      {
+        "value": 75,
+        "organ_confusion": 0.006688963210702341,
+        "pred_breast": 0.9933110367892977,
+        "acc7": 0.919732441471572
+      },
+      {
+        "value": 50,
+        "organ_confusion": 0.006688963210702341,
+        "pred_breast": 0.9933110367892977,
+        "acc7": 0.9163879598662207
+      }
+    ],
+    "lc_val_color_to": [
+      {
+        "value": "breakhis_benign",
+        "organ_confusion": 0.222,
+        "pred_breast": 0.05,
+        "acc7": 0.718
+      },
+      {
+        "value": "breakhis_malignant",
+        "organ_confusion": 0.05,
+        "pred_breast": 0.01,
+        "acc7": 0.858
+      }
+    ]
+  }
+}
