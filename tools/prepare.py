@@ -5,6 +5,7 @@ from collections import Counter,defaultdict
 from concurrent.futures import ThreadPoolExecutor
 import csv
 import hashlib
+import io
 import json
 from pathlib import Path
 import sys
@@ -17,6 +18,7 @@ import yaml
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 from src.data.catalog import collect,CLASS_NAMES,MAPPINGS
+from src.data.scale import scale_limitations
 from src.data.stain import MacenkoNormalizer,StainError
 
 def write_csv(path,rows,columns=None):
@@ -78,7 +80,7 @@ def windows(im,external,size,stride):
         x=(im.width-size)//2;y=(im.height-size)//2
         yield (x,y,x+size,y+size)
 
-def choose_reference(rows,cfg):
+def choose_reference(rows,cfg,persist=True):
     # Stable candidate order; only internal training data can be considered.
     candidates=sorted((r for r in rows if r['source']=='LC25000' and r['split']=='train'),
                       key=lambda r:r['source_image_path'])
@@ -91,15 +93,17 @@ def choose_reference(rows,cfg):
         except StainError:continue
         reference_pixels=np.asarray(im)
         reference_id=hashlib.sha256(reference_pixels.tobytes()).hexdigest()[:16]
-        path=ROOT/f'data/processed/references/{reference_id}.png';path.parent.mkdir(parents=True,exist_ok=True)
-        Image.fromarray(reference_pixels).save(path)
+        path=ROOT/f'data/processed/references/{reference_id}.png'
+        buffer=io.BytesIO();Image.fromarray(reference_pixels).save(buffer,format='PNG')
         record={'source_image_path':row['source_image_path'],'group_id':row['group_id'],
             'split':row['split'],'crop_bbox_scaled':[0,0,im.width,im.height],'reference_image':path.relative_to(ROOT/'data').as_posix(),
-            'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),
+            'sha256':hashlib.sha256(buffer.getvalue()).hexdigest(),
             'basis_condition_number':float(np.linalg.cond(normalizer.target_basis)),
             'beta_used':normalizer.target_beta_used,
             'target_basis':normalizer.target_basis.tolist(),'target_concentrations':normalizer.target_concentrations.tolist()}
-        (ROOT/'configs/reference.json').write_text(json.dumps(record,indent=2),encoding='utf-8')
+        if persist:
+            path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(buffer.getvalue())
+            (ROOT/'configs/reference.json').write_text(json.dumps(record,indent=2),encoding='utf-8')
         return normalizer,record
     raise RuntimeError('No numerical-quality training reference')
 
@@ -133,15 +137,40 @@ def process_source(row,cfg,normalizer):
         samples.append(sample)
     return samples,rejected
 
+def require_regeneration_opt_in(root,allow):
+    if (Path(root)/'splits/FROZEN.json').exists() and not allow:
+        raise RuntimeError('Frozen data exists. Preparation is blocked by default. Keep the baseline unchanged; only use --allow-regenerate after MPP review and a verified snapshot.')
+
+
+def processing_signature(root,cfg,reference_sha):
+    value=json.dumps(cfg,sort_keys=True)+reference_sha
+    for name in ['src/data/stain.py','src/data/catalog.py','src/data/scale.py','tools/prepare.py']:
+        value+=(Path(root)/name).read_text(encoding='utf-8')
+    return hashlib.sha256(value.encode()).hexdigest()[:16]
+
+
+def preserve_existing_splits(rows,baseline):
+    old={r['source_image_path']:r for r in baseline}
+    if set(old)!={r['source_image_path'] for r in rows}:
+        raise ValueError('Raw source-image set changed; split preservation failed')
+    for row in rows:
+        prior=old[row['source_image_path']]
+        for key in ['label','organ','source','group_id']:
+            if str(row[key])!=str(prior[key]):raise ValueError(f'Identity changed: {key} {row["source_image_path"]}')
+        for key in ['split','split_random']:
+            row[key]=prior[key]
+
+
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--catalog-only',action='store_true');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--catalog-only',action='store_true')
+    parser.add_argument('--allow-regenerate',action='store_true',help='Explicit opt-in AFTER approved MPP and snapshot; never required for measurement/preflight')
+    args=parser.parse_args()
+    require_regeneration_opt_in(ROOT,args.allow_regenerate)
     cfg=yaml.safe_load((ROOT/'configs/preparation.yaml').read_text())
     rows=collect(ROOT/'data',cfg)
     count=Counter(r['source'] for r in rows)
     for source,n in {'LC25000':25000,'BreakHis':7909,'LungHist700':691,'CRC-VAL-HE-7K':7180,'BACH':400}.items():
         if count[source]!=n:raise ValueError(f'{source}: expected {n}, found {count[source]}')
-    (ROOT/'splits/label_map.json').write_text(json.dumps({'classes':dict(enumerate(CLASS_NAMES)),
-        'dataset_mappings':MAPPINGS},indent=2),encoding='utf-8')
     if args.catalog_only:
         write_csv(ROOT/'splits/inventory.csv',rows)
         print('CATALOG_DONE',json.dumps(dict(count)),flush=True)
@@ -155,14 +184,14 @@ def main():
             if int(group['group_size'])<cfg['min_verified_lc_family_size']:
                 row['included']=False;row['exclusion_reason']='family_assignment_requires_review'
                 quarantine.append({**row,'group_size':group['group_size']})
-    write_csv(ROOT/'splits/grouping_review_required.csv',quarantine or [],
-              columns=list(quarantine[0]) if quarantine else ['source_image_path','group_id','group_size'])
-    assign_splits(rows,cfg['seed'],cfg['split_balance_trials'])
-    write_csv(ROOT/'splits/inventory.csv',rows)
-    normalizer,reference=choose_reference(rows,cfg)
-    signature_input=json.dumps(cfg,sort_keys=True)+reference['sha256']
-    signature_input+=(ROOT/'src/data/stain.py').read_text()+(ROOT/'tools/prepare.py').read_text()
-    cfg['processing_signature']=hashlib.sha256(signature_input.encode()).hexdigest()[:16]
+    baseline_path=ROOT/'splits/inventory.csv'
+    if baseline_path.exists():
+        with baseline_path.open(encoding='utf-8-sig',newline='') as f:preserve_existing_splits(rows,list(csv.DictReader(f)))
+    else:assign_splits(rows,cfg['seed'],cfg['split_balance_trials'])
+    normalizer,reference=choose_reference(rows,cfg,persist=False)
+    cfg['processing_signature']=processing_signature(ROOT,cfg,reference['sha256'])
+    if (ROOT/'data/processed'/cfg['processing_signature']).exists():
+        raise FileExistsError('Output fingerprint already exists; refuse cached reuse or overwrite. Review/archive the incomplete NEW output separately.')
     included=[r for r in rows if r['included']]
     all_samples=[];errors=[];rejected=0;start=time.time()
     def task(row):
@@ -176,6 +205,12 @@ def main():
             if i%1000==0 or i==len(included):print('PREPROCESS',i,len(included),'SAMPLES',len(all_samples),'ERRORS',len(errors),f'{time.time()-start:.0f}s',flush=True)
     (ROOT/'results/preprocessing_errors.json').write_text(json.dumps(errors,indent=2),encoding='utf-8')
     if errors:raise RuntimeError(f'{len(errors)} sources failed. See results/preprocessing_errors.json; handoff not written.')
+    choose_reference(rows,cfg,persist=True)
+    (ROOT/'splits/label_map.json').write_text(json.dumps({'classes':dict(enumerate(CLASS_NAMES)),
+        'dataset_mappings':MAPPINGS},indent=2),encoding='utf-8')
+    write_csv(ROOT/'splits/inventory.csv',rows)
+    write_csv(ROOT/'splits/grouping_review_required.csv',quarantine or [],
+              columns=list(quarantine[0]) if quarantine else ['source_image_path','group_id','group_size'])
     all_samples.sort(key=lambda r:r['image_path'])
     write_csv(ROOT/'splits/splits.csv',all_samples)
     # Explicit two-branch manifests keep the required seven-column interface.
@@ -188,7 +223,7 @@ def main():
         'samples_by_label':dict(Counter(r['label'] for r in all_samples)),
         'tissue_rejected_patches':rejected,'reference':reference,'processing_signature':cfg['processing_signature'],
         'lc_images_pending_family_review':len(quarantine),
-        'scale_limitation':'LC25000 and LungHist700 MPP are unverified estimates. Do not claim exact physical-scale matching.'}
+        'scale_limitation':scale_limitations(cfg)}
     (ROOT/'results/preparation_summary.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
     print('PREPARATION_DONE',json.dumps(summary),flush=True)
 

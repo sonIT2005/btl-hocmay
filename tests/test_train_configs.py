@@ -1,10 +1,12 @@
 from pathlib import Path
 import unittest
+import os
 
 import pandas as pd
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
+SPLITS = Path(os.environ.get('BTL_TEST_SPLITS_DIR', ROOT / 'splits'))
 
 
 def load_runs():
@@ -22,8 +24,8 @@ class TrainConfigTests(unittest.TestCase):
             self.assertEqual({k: r[k] for k in base}, base)  # R04: cùng công thức cho mọi lần chạy
 
     def test_stain_manifests_differ_only_in_image_path(self):
-        none = pd.read_csv(ROOT / 'splits/splits_none.csv')
-        macenko = pd.read_csv(ROOT / 'splits/splits_macenko.csv')
+        none = pd.read_csv(SPLITS / 'splits_none.csv')
+        macenko = pd.read_csv(SPLITS / 'splits_macenko.csv')
         cols = ['label', 'organ', 'source', 'group_id', 'split', 'split_random']
         self.assertTrue(none[cols].equals(macenko[cols]))
         self.assertTrue((none.image_path.str.replace('/none/', '/macenko/', n=1) == macenko.image_path).all())

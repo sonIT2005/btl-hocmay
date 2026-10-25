@@ -1,5 +1,5 @@
 # Dữ liệu và ảnh: không đưa lên Git (R10). BACH là CC BY-NC-ND, không phát hành ảnh biến đổi.
-data/
+/data/
 outputs/qa/
 outputs/grouping/
 
@@ -11,3 +11,10 @@ outputs/checkpoints/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Local measurement inputs, environments and trial outputs
+/.runtime/
+/measurements/
+/outputs/trials/
+/outputs/precalibration/
+/snapshots/

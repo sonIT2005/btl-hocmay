@@ -1,4 +1,5 @@
 import tempfile
+import os
 import unittest
 from pathlib import Path
 import cv2
@@ -9,10 +10,11 @@ from threadpoolctl import threadpool_limits
 from tools.group_lc import verify
 
 ROOT=Path(__file__).resolve().parents[1]
+DATA=Path(os.environ.get('BTL_TEST_DATA_ROOT',ROOT/'data'))
 
 class GroupingTests(unittest.TestCase):
     def test_real_augmentation_can_resize_axes_differently(self):
-        folder=ROOT/'data/raw/LC25000/colon_image_sets/colon_aca'
+        folder=DATA/'raw/LC25000/colon_image_sets/colon_aca'
         if not folder.exists():self.skipTest('Local LC25000 fixture unavailable')
         cfg=yaml.safe_load((ROOT/'configs/preparation.yaml').read_text())['grouping']
         with threadpool_limits(limits=1):
@@ -21,7 +23,7 @@ class GroupingTests(unittest.TestCase):
         self.assertGreater(result['inlier_ratio'],.95)
 
     def test_strong_augmentation_axis_distortion_is_still_same_field(self):
-        folder=ROOT/'data/raw/LC25000/colon_image_sets/colon_aca'
+        folder=DATA/'raw/LC25000/colon_image_sets/colon_aca'
         if not folder.exists():self.skipTest('Local LC25000 fixture unavailable')
         cfg=yaml.safe_load((ROOT/'configs/preparation.yaml').read_text())['grouping']
         cfg.update(verification_size=512,sift_features=500,min_inliers=20)
@@ -30,7 +32,7 @@ class GroupingTests(unittest.TestCase):
         self.assertGreater(result['correlation'],.98)
 
     def test_odd_rotation_and_flip_recovered_but_other_tissue_rejected(self):
-        source=ROOT/'data/raw/LC25000/lung_image_sets/lung_aca/lungaca1.jpeg'
+        source=DATA/'raw/LC25000/lung_image_sets/lung_aca/lungaca1.jpeg'
         other=source.with_name('lungaca10.jpeg')
         if not source.exists():self.skipTest('Local LC25000 integration fixture unavailable')
         cfg=yaml.safe_load((ROOT/'configs/preparation.yaml').read_text())['grouping']

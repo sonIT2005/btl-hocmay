@@ -10,6 +10,7 @@ import argparse
 import csv
 import json
 import math
+import importlib.metadata
 import random
 import time
 
@@ -24,6 +25,8 @@ from tqdm import tqdm
 from src.train.data import ROOT, ManifestDataset, class_weights, eval_sets, load_manifest
 from src.train.models import build_model, norm_stats
 from src.train.predict import predict_probs, write_predictions
+from src.train.provenance import (add_path_arguments, apply_overrides, inspect_run,
+                                 make_provenance, output_root, require_same)
 
 
 def seed_everything(seed):
@@ -33,9 +36,15 @@ def seed_everything(seed):
     torch.cuda.manual_seed_all(seed)
 
 
+def save_checkpoint(value,path):
+    temp=path.with_suffix(path.suffix+'.tmp')
+    torch.save(value,temp)
+    temp.replace(path)
+
+
 def smoke_subset(df, split_col, seed):
     """Vài chục ảnh mỗi lớp để kiểm tra pipeline từ đầu đến cuối, không dùng kết quả."""
-    take = {'train': 32, 'val': 16, 'test': 16, 'xtest': 16}
+    take = {'train': 32, 'val': 16}  # Technical smoke must not evaluate xtest.
     parts = [g.sample(min(len(g), take[s]), random_state=seed)
              for (s, _), g in df.groupby([split_col, 'label']) if s in take]
     return df.loc[sorted(np.concatenate([p.index for p in parts]))]
@@ -54,20 +63,26 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('config')
     parser.add_argument('--smoke', action='store_true', help='2 epoch trên vài trăm ảnh, ghi ra tên *_smoke')
+    add_path_arguments(parser)
     args = parser.parse_args()
-    cfg = yaml.safe_load(open(args.config, encoding='utf-8'))
+    cfg = apply_overrides(yaml.safe_load(open(args.config, encoding='utf-8')), args)
     if args.smoke:
-        cfg.update(run_name=cfg['run_name'] + '_smoke', epochs=2, warmup_epochs=1)
+        cfg.update(run_name=cfg['run_name'] + '_smoke', epochs=2, warmup_epochs=1, technical_smoke=True)
+        cfg.setdefault('_output_root', 'outputs/trials')
     run = cfg['run_name']
-    ckpt_dir, log_dir = ROOT / 'outputs/checkpoints', ROOT / 'outputs/logs'
+    provenance = make_provenance(cfg)
+    run_state = inspect_run(cfg, provenance)
+    if run_state == 'complete':
+        print(f'{run}: complete, same frozen data and recipe; no training repeated')
+        return
+    if not torch.cuda.is_available():
+        raise RuntimeError('Training requires CUDA. Run tools/check_training.py --tensor-check --forward --device cpu for a CPU preflight.')
+    if cfg['amp_dtype'] == 'bfloat16' and not torch.cuda.is_bf16_supported():
+        raise RuntimeError('GPU does not support the configured bfloat16 recipe')
+    ckpt_dir, log_dir = output_root(cfg) / 'checkpoints', output_root(cfg) / 'logs'
     ckpt_dir.mkdir(parents=True, exist_ok=True)
     log_dir.mkdir(parents=True, exist_ok=True)
     best_path, last_path, log_path = ckpt_dir / f'{run}.pt', ckpt_dir / f'{run}.last.pt', log_dir / f'{run}.csv'
-    if (log_dir / f'{run}.json').exists():
-        print(f'{run} đã chạy xong ({log_dir / f"{run}.json"}). Muốn dự đoán lại: python -m src.train.predict {args.config}')
-        return
-    if not last_path.exists():
-        log_path.unlink(missing_ok=True)  # log của lần chạy dở chưa kịp lưu epoch nào
 
     seed_everything(cfg['seed'])
     torch.backends.cudnn.benchmark = True
@@ -82,7 +97,7 @@ def main():
     gen = torch.Generator().manual_seed(cfg['seed'])
     loader = DataLoader(ManifestDataset(train_df, cfg, mean, std, train=True), batch_size=cfg['batch_size'],
                         shuffle=True, drop_last=True, num_workers=cfg['num_workers'], pin_memory=True,
-                        persistent_workers=True, generator=gen)
+                        persistent_workers=cfg['num_workers'] > 0, generator=gen)
     weights = class_weights(train_df.label, cfg['num_classes'])
     criterion = torch.nn.CrossEntropyLoss(weight=weights.cuda())
     eval_criterion = torch.nn.NLLLoss(weight=weights)
@@ -95,11 +110,14 @@ def main():
     state = {'epoch': 0, 'best_f1': -1.0, 'best_epoch': 0, 'bad_epochs': 0, 'finished': False, 'epoch_sec': []}
     if last_path.exists():
         last = torch.load(last_path, map_location='cpu', weights_only=False)
+        require_same(provenance, last.get('provenance'), 'Last checkpoint')
         model.load_state_dict(last['model'])
         optimizer.load_state_dict(last['optimizer'])
         scheduler.load_state_dict(last['scheduler'])
         state = last['state']
         print(f'Tiếp tục từ epoch {state["epoch"]} (best macro-F1 {state["best_f1"]:.4f} ở epoch {state["best_epoch"]})')
+
+    (log_dir / f'{run}.provenance.json').write_text(json.dumps(provenance, indent=2), encoding='utf-8')
 
     while not state['finished'] and state['epoch'] < cfg['epochs']:
         epoch = state['epoch'] + 1
@@ -131,7 +149,8 @@ def main():
         state['epoch'], state['epoch_sec'] = epoch, state['epoch_sec'] + [round(train_sec, 1)]
         if metrics['val_macro_f1'] > state['best_f1']:
             state.update(best_f1=metrics['val_macro_f1'], best_epoch=epoch, bad_epochs=0)
-            torch.save({'model': model.state_dict(), 'config': cfg, 'epoch': epoch, 'val': metrics}, best_path)
+            save_checkpoint({'model': model.state_dict(), 'config': cfg, 'epoch': epoch, 'val': metrics,
+                        'provenance': provenance}, best_path)
             mark = ' (best)'
         else:
             state['bad_epochs'] += 1
@@ -142,16 +161,23 @@ def main():
             print(f'Early stopping: {cfg["patience"]} epoch không cải thiện')
             state['finished'] = True
         state['finished'] |= state['epoch'] >= cfg['epochs']
-        torch.save({'model': model.state_dict(), 'optimizer': optimizer.state_dict(),
-                    'scheduler': scheduler.state_dict(), 'state': state}, last_path)
+        save_checkpoint({'model': model.state_dict(), 'optimizer': optimizer.state_dict(),
+                    'scheduler': scheduler.state_dict(), 'state': state,
+                    'provenance': provenance}, last_path)
 
     best = torch.load(best_path, map_location='cpu', weights_only=False)
+    require_same(provenance, best.get('provenance'), 'Best checkpoint')
     model.load_state_dict(best['model'])
-    write_predictions(model, cfg, mean, std, eval_sets(df, split_col))
+    sets = {'val_smoke': val_df} if args.smoke else eval_sets(df, split_col)
+    write_predictions(model, cfg, mean, std, sets, provenance=provenance)
     summary = {'run_name': run, 'best_epoch': state['best_epoch'], 'best_val_macro_f1': state['best_f1'],
                'epochs_run': state['epoch'], 'mean_epoch_sec': float(np.mean(state['epoch_sec'])),
                'peak_vram_gb': round(torch.cuda.max_memory_allocated() / 2**30, 2),
-               'n_train': len(train_df), 'n_val': len(val_df)}
+               'n_train': len(train_df), 'n_val': len(val_df), 'provenance': provenance,
+               'technical_smoke': bool(args.smoke),
+               'runtime': {'torch': torch.__version__, 'cuda': torch.version.cuda,
+                           'timm': importlib.metadata.version('timm'),
+                           'gpu': torch.cuda.get_device_name(0)}}
     (log_dir / f'{run}.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
     last_path.unlink()
     print(json.dumps(summary, indent=2))

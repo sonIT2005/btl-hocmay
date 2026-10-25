@@ -10,9 +10,12 @@ from pathlib import Path
 import sys
 from datetime import datetime,timezone
 import numpy as np
+import yaml
 from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
+from src.data.scale import scale_limitations
 
 def read_csv(path):
     with path.open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
@@ -23,6 +26,7 @@ def sha(path):
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--freeze',action='store_true');args=parser.parse_args()
     rows=read_csv(ROOT/'splits/splits.csv');inventory=read_csv(ROOT/'splits/inventory.csv')
+    cfg=yaml.safe_load((ROOT/'configs/preparation.yaml').read_text(encoding='utf-8'))
     errors=[];warnings=[]
     required={'image_path','label','organ','source','group_id','split','split_random'}
     if not required.issubset(rows[0]):errors.append('Required columns missing')
@@ -90,8 +94,7 @@ def main():
         'by_source':dict(Counter(r['source'] for r in rows)),'by_label_split':dict(Counter(r['label']+':'+r['split'] for r in rows)),
         'lc_images_pending_family_review':len(quarantine),
         'errors':errors,'warnings':warnings,'status':'passed_with_identity_and_scale_limitations' if not errors else 'failed',
-        'limitations':['LC25000 and LungHist700 physical pixel scale is estimated, not calibrated.',
-                       'LC25000 groups reconstruct augmentation families, not patient identities.',
+        'limitations':scale_limitations(cfg)+['LC25000 groups reconstruct augmentation families, not patient identities.',
                        'CRC/BACH published patch/image identifiers do not guarantee patient-independent bootstrap.',
                        f'{len(quarantine)} LC25000 images are retained separately pending reliable family assignment.']}
     (ROOT/'results/validation.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
@@ -103,7 +106,7 @@ def main():
                'splits/grouping_review_required.csv','results/source_metadata.json',
                'splits/processed_checksums.csv',
                'configs/preparation.yaml','configs/reference.json','results/grouping_summary.json']
-        names+=['src/data/stain.py','src/data/catalog.py','tools/prepare.py','tools/group_lc.py']
+        names+=['src/data/stain.py','src/data/catalog.py','src/data/scale.py','tools/prepare.py','tools/group_lc.py']
         frozen={'frozen_at_utc':datetime.now(timezone.utc).isoformat(),'status':result['status'],
                 'sha256':{n:sha(ROOT/n) for n in names},'sample_rows':len(rows),'limitations':result['limitations']}
         (ROOT/'splits/FROZEN.json').write_text(json.dumps(frozen,indent=2),encoding='utf-8')

@@ -1,4 +1,5 @@
 import unittest
+import os
 import numpy as np
 from pathlib import Path
 from PIL import Image
@@ -27,7 +28,7 @@ class StainTests(unittest.TestCase):
             MacenkoNormalizer().transform(self.image)
 
     def test_bright_blue_tissue_is_not_classified_as_glass(self):
-        p=Path(__file__).resolve().parents[1]/'data/raw/LC25000/lung_image_sets/lung_aca/lungaca1179.jpeg'
+        p=Path(os.environ.get('BTL_TEST_DATA_ROOT',Path(__file__).resolve().parents[1]/'data'))/'raw/LC25000/lung_image_sets/lung_aca/lungaca1179.jpeg'
         if not p.exists():self.skipTest('Local bright-blue integration fixture unavailable')
         with Image.open(p) as im:a=np.asarray(im.convert('RGB').crop((272,272,496,496)))
         n=MacenkoNormalizer().fit(self.image)
@@ -38,7 +39,7 @@ class StainTests(unittest.TestCase):
 
     def test_agrees_with_independent_torchstain_dense_fixture(self):
         import torchstain
-        root=Path(__file__).resolve().parents[1]/'data/raw'
+        root=Path(os.environ.get('BTL_TEST_DATA_ROOT',Path(__file__).resolve().parents[1]/'data'))/'raw'
         if not (root/'LC25000').exists():self.skipTest('Local integration fixtures unavailable')
         with Image.open(root/'LC25000/colon_image_sets/colon_aca/colonca1.jpeg') as im:
             ref=np.asarray(im.convert('RGB'))[::2,::2]
@@ -51,7 +52,7 @@ class StainTests(unittest.TestCase):
         self.assertLess(float(np.abs(ours.astype(float)-expected).mean()),2)
 
     def test_whole_source_profile_preserves_local_structure(self):
-        root=Path(__file__).resolve().parents[1]/'data/raw'
+        root=Path(os.environ.get('BTL_TEST_DATA_ROOT',Path(__file__).resolve().parents[1]/'data'))/'raw'
         if not (root/'LC25000').exists():self.skipTest('Local integration fixtures unavailable')
         with Image.open(root/'LC25000/colon_image_sets/colon_aca/colonca1.jpeg') as im:ref=np.asarray(im.convert('RGB'))
         with Image.open(root/'LungHist700/images/aca_bd/aca_bd_20x_0.jpg') as im:a=np.asarray(im.convert('RGB'))

@@ -1,0 +1,4 @@
+# Preserve frozen data-contract bytes on future checkouts. Do not renormalize old artifacts.
+/splits/*.csv -text
+/splits/FROZEN.json -text
+/configs/reference.json -text
