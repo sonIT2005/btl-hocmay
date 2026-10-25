@@ -9,6 +9,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 import yaml
+from src.data.paths import resolve_data_root
 from src.train.provenance import add_path_arguments, apply_overrides, inspect_run, make_provenance, resolve_path
 
 
@@ -20,7 +21,7 @@ def check(cfg, tensor_check=False, forward=False, device='cpu'):
     provenance = make_provenance(cfg)
     splits = resolve_path(cfg['splits_dir'])
     df = pd.read_csv(splits / f"splits_{cfg['stain']}.csv")
-    data = resolve_path(cfg['data_root'])
+    data = resolve_data_root(ROOT, cfg.get('data_root'))
     if not data.is_dir():
         raise FileNotFoundError('Use --data-root to point to existing data: ' + str(data))
     required = {'image_path', 'label', 'organ', 'source', 'group_id', 'split', 'split_random'}

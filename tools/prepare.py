@@ -17,6 +17,8 @@ import yaml
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
+from src.data.paths import resolve_data_root
+DATA_ROOT = resolve_data_root(ROOT)
 from src.data.catalog import collect,CLASS_NAMES,MAPPINGS
 from src.data.scale import scale_limitations
 from src.data.stain import MacenkoNormalizer,StainError
@@ -65,7 +67,7 @@ def assign_splits(rows,seed,balance_trials=2048):
         if row['split']=='xtest':row['split_random']='xtest'
 
 def scaled_image(row,cfg):
-    with Image.open(ROOT/'data'/row['source_image_path']) as im:im=im.convert('RGB')
+    with Image.open(DATA_ROOT/row['source_image_path']) as im:im=im.convert('RGB')
     factor=float(row['native_mpp'])/cfg['target_mpp']
     if abs(factor-1)>1e-6:
         im=im.resize((round(im.width*factor),round(im.height*factor)),Image.Resampling.LANCZOS)
@@ -93,10 +95,10 @@ def choose_reference(rows,cfg,persist=True):
         except StainError:continue
         reference_pixels=np.asarray(im)
         reference_id=hashlib.sha256(reference_pixels.tobytes()).hexdigest()[:16]
-        path=ROOT/f'data/processed/references/{reference_id}.png'
+        path=DATA_ROOT/f'processed/references/{reference_id}.png'
         buffer=io.BytesIO();Image.fromarray(reference_pixels).save(buffer,format='PNG')
         record={'source_image_path':row['source_image_path'],'group_id':row['group_id'],
-            'split':row['split'],'crop_bbox_scaled':[0,0,im.width,im.height],'reference_image':path.relative_to(ROOT/'data').as_posix(),
+            'split':row['split'],'crop_bbox_scaled':[0,0,im.width,im.height],'reference_image':path.relative_to(DATA_ROOT).as_posix(),
             'sha256':hashlib.sha256(buffer.getvalue()).hexdigest(),
             'basis_condition_number':float(np.linalg.cond(normalizer.target_basis)),
             'beta_used':normalizer.target_beta_used,
@@ -120,7 +122,7 @@ def process_source(row,cfg,normalizer):
         rel=Path(row['source'])/Path(row['source_image_path']).parent.name/(Path(row['source_image_path']).stem+f'__x{x}_y{y}.png')
         pnone=Path('processed')/cfg['processing_signature']/'none'/rel
         pmac=Path('processed')/cfg['processing_signature']/'macenko'/rel
-        none=ROOT/'data'/pnone;mac=ROOT/'data'/pmac
+        none=DATA_ROOT/pnone;mac=DATA_ROOT/pmac
         if not (none.exists() and mac.exists()):
             normalized=normalizer.transform(crop,source_profile=source_profile)
             for dest,array in [(none,crop),(mac,normalized)]:
@@ -162,12 +164,14 @@ def preserve_existing_splits(rows,baseline):
 
 
 def main():
+    global DATA_ROOT
     parser=argparse.ArgumentParser();parser.add_argument('--catalog-only',action='store_true')
     parser.add_argument('--allow-regenerate',action='store_true',help='Explicit opt-in AFTER approved MPP and snapshot; never required for measurement/preflight')
-    args=parser.parse_args()
+    parser.add_argument('--data-root', help='Existing raw/processed image directory');args=parser.parse_args()
+    DATA_ROOT=resolve_data_root(ROOT,args.data_root)
     require_regeneration_opt_in(ROOT,args.allow_regenerate)
     cfg=yaml.safe_load((ROOT/'configs/preparation.yaml').read_text())
-    rows=collect(ROOT/'data',cfg)
+    rows=collect(DATA_ROOT,cfg)
     count=Counter(r['source'] for r in rows)
     for source,n in {'LC25000':25000,'BreakHis':7909,'LungHist700':691,'CRC-VAL-HE-7K':7180,'BACH':400}.items():
         if count[source]!=n:raise ValueError(f'{source}: expected {n}, found {count[source]}')
@@ -190,7 +194,7 @@ def main():
     else:assign_splits(rows,cfg['seed'],cfg['split_balance_trials'])
     normalizer,reference=choose_reference(rows,cfg,persist=False)
     cfg['processing_signature']=processing_signature(ROOT,cfg,reference['sha256'])
-    if (ROOT/'data/processed'/cfg['processing_signature']).exists():
+    if (DATA_ROOT/'processed'/cfg['processing_signature']).exists():
         raise FileExistsError('Output fingerprint already exists; refuse cached reuse or overwrite. Review/archive the incomplete NEW output separately.')
     included=[r for r in rows if r['included']]
     all_samples=[];errors=[];rejected=0;start=time.time()

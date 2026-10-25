@@ -1,3 +1,5 @@
+> Ghi chú 25/10: đây là kiểm chứng lịch sử trước các sửa lỗi/hợp nhất. Trạng thái hiện hành: [bàn giao instruct2](docs/BAN_GIAO_INSTRUCT2.md), [workspace](docs/WORKSPACE_LAYOUT.md). Không dùng các đường dẫn cũ trong báo cáo này làm entrypoint hiện hành.
+
 # Kiểm chứng phản hồi lệch tỷ lệ LC25000
 
 Ngày kiểm tra: **24/10/2026**. Phạm vi: bản bàn giao local tại `C:\Users\Admin\Documents\FrameView\btl-histo` và tài liệu người dùng gửi, được lưu lại trong `input_request.md`.

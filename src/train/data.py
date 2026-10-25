@@ -1,4 +1,5 @@
 """Đọc manifest splits_{stain}.csv và nạp ảnh 224×224 đã xử lý sẵn ở C1–C3."""
+from src.data.paths import resolve_data_root
 from pathlib import Path
 import random
 
@@ -35,7 +36,7 @@ class ManifestDataset(Dataset):
     """Chỉ dùng phép hình học (R05): xoay 90°, lật ngang, lật dọc."""
 
     def __init__(self, df, cfg, mean, std, train):
-        self.paths = [ROOT / cfg['data_root'] / p for p in df.image_path]
+        self.paths = [resolve_data_root(ROOT, cfg.get('data_root')) / p for p in df.image_path]
         self.labels = df.label.tolist()
         self.aug = set(cfg['augmentation']) if train else set()
         self.mean = torch.tensor(mean).view(3, 1, 1)

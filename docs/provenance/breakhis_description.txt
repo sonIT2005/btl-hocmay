@@ -1,0 +1,455 @@
+<!DOCTYPE html> <html lang="en-US"><head>
+	    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://web.inf.ufpr.br/vri/xmlrpc.php">
+    
+<title>Breast Cancer Histopathological Database (BreakHis) - Laboratório Visão Robótica e Imagem</title>
+
+<!-- The SEO Framework by Sybre Waaijer -->
+<meta name="robots" content="max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+<link rel="canonical" href="https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/" />
+<meta name="description" content="The Breast Cancer Histopathological Image Classification (BreakHis) is composed of 9,109 microscopic images of breast tumor tissue collected from 82 patients…" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Laboratório Visão Robótica e Imagem" />
+<meta property="og:title" content="Breast Cancer Histopathological Database (BreakHis)" />
+<meta property="og:description" content="The Breast Cancer Histopathological Image Classification (BreakHis) is composed of 9,109 microscopic images of breast tumor tissue collected from 82 patients using different magnifying factors (40X…" />
+<meta property="og:url" content="https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/" />
+<meta property="og:image" content="https://web.inf.ufpr.br/vri2/wp-content/uploads/sites/7/2017/06/Screen-Shot-2017-06-20-at-09.58.29.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Breast Cancer Histopathological Database (BreakHis)" />
+<meta name="twitter:description" content="The Breast Cancer Histopathological Image Classification (BreakHis) is composed of 9,109 microscopic images of breast tumor tissue collected from 82 patients using different magnifying factors (40X…" />
+<meta name="twitter:image" content="https://web.inf.ufpr.br/vri2/wp-content/uploads/sites/7/2017/06/Screen-Shot-2017-06-20-at-09.58.29.png" />
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://web.inf.ufpr.br/vri/#/schema/WebSite","url":"https://web.inf.ufpr.br/vri/","name":"Laboratório Visão Robótica e Imagem","description":"Laboratório de Pesquisa ligado ao Departamento de Informática","inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://web.inf.ufpr.br/vri/search/{search_term_string}/"},"query-input":"required name=search_term_string"},"publisher":{"@type":"Organization","@id":"https://web.inf.ufpr.br/vri/#/schema/Organization","name":"Laboratório Visão Robótica e Imagem","url":"https://web.inf.ufpr.br/vri/","logo":{"@type":"ImageObject","url":"https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2017/06/cropped-Screen-Shot-2017-06-19-at-19.11.05.png","contentUrl":"https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2017/06/cropped-Screen-Shot-2017-06-19-at-19.11.05.png","width":328,"height":82}}},{"@type":"WebPage","@id":"https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/","url":"https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/","name":"Breast Cancer Histopathological Database (BreakHis) - Laboratório Visão Robótica e Imagem","description":"The Breast Cancer Histopathological Image Classification (BreakHis) is composed of 9,109 microscopic images of breast tumor tissue collected from 82 patients…","inLanguage":"en-US","isPartOf":{"@id":"https://web.inf.ufpr.br/vri/#/schema/WebSite"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://web.inf.ufpr.br/vri/#/schema/BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":"https://web.inf.ufpr.br/vri/","name":"Laboratório Visão Robótica e Imagem"},{"@type":"ListItem","position":2,"item":"https://web.inf.ufpr.br/vri/databases/","name":"Databases"},{"@type":"ListItem","position":3,"name":"Breast Cancer Histopathological Database (BreakHis)"}]},"potentialAction":{"@type":"ReadAction","target":"https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/"}}]}</script>
+<!-- / The SEO Framework by Sybre Waaijer | 6.79ms meta | 0.46ms boot -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Laboratório Visão Robótica e Imagem &raquo; Feed" href="https://web.inf.ufpr.br/vri/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Laboratório Visão Robótica e Imagem &raquo; Comments Feed" href="https://web.inf.ufpr.br/vri/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://web.inf.ufpr.br/vri/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.inf.ufpr.br%2Fvri%2Fdatabases%2Fbreast-cancer-histopathological-database-breakhis%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://web.inf.ufpr.br/vri/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.inf.ufpr.br%2Fvri%2Fdatabases%2Fbreast-cancer-histopathological-database-breakhis%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://web.inf.ufpr.br/vri/wp-includes/css/dist/block-library/style.min.css?ver=6.9.10' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote :where(cite),.wp-block-pullquote :where(footer),.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+/*# sourceURL=/wp-includes/css/dist/block-library/theme.min.css */
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--gray: #666666;--wp--preset--color--light-gray: #f3f3f3;--wp--preset--color--dark-gray: #222222;--wp--preset--color--blue: #294a70;--wp--preset--color--dark-blue: #15305b;--wp--preset--color--navy-blue: #00387d;--wp--preset--color--sky-blue: #49688e;--wp--preset--color--light-blue: #6081a7;--wp--preset--color--yellow: #f4a024;--wp--preset--color--dark-yellow: #ffab1f;--wp--preset--color--red: #e4572e;--wp--preset--color--green: #54b77e;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 28px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--huge: 32px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='fontawesome-css' href='https://web.inf.ufpr.br/vri/wp-content/themes/education-hub/third-party/font-awesome/css/all.min.css?ver=6.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='education-hub-google-fonts-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A600%2C400%2C400italic%2C300%2C100%2C700%7CMerriweather+Sans%3A400%2C700&#038;ver=6.9.10' type='text/css' media='all' />
+<link rel='stylesheet' id='education-hub-style-css' href='https://web.inf.ufpr.br/vri/wp-content/themes/education-hub/style.css?ver=3.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='education-hub-block-style-css' href='https://web.inf.ufpr.br/vri/wp-content/themes/education-hub/css/blocks.css?ver=20201208' type='text/css' media='all' />
+<link rel='stylesheet' id='cf-front-css' href='https://web.inf.ufpr.br/vri/wp-content/plugins/caldera-forms/assets/build/css/caldera-forms-front.min.css?ver=1.9.6' type='text/css' media='all' />
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://web.inf.ufpr.br/vri/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://web.inf.ufpr.br/vri/wp-json/wp/v2/pages/101" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://web.inf.ufpr.br/vri/xmlrpc.php?rsd" />
+<meta name="generator" content="Elementor 3.35.4; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			</head>
+
+<body class="wp-singular page-template-default page page-id-101 page-child parent-pageid-16 wp-custom-logo wp-embed-responsive wp-theme-education-hub group-blog site-layout-fluid global-layout-right-sidebar elementor-default elementor-kit-1881">
+
+	
+	    <div id="page" class="container hfeed site">
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    	<div id="tophead">
+		<div class="container">
+			<div id="quick-contact">
+									<ul>
+													<li class="quick-call"><a href="tel:554133613655">+55 41 3361 3655</a></li>
+																			<li class="quick-email"><a href="mailto:vri@inf.ufpr.br">vri@inf.ufpr.br</a></li>
+											</ul>
+				
+							</div>
+
+			
+			
+		</div> <!-- .container -->
+	</div><!--  #tophead -->
+
+	<header id="masthead" class="site-header" role="banner"><div class="container">			    <div class="site-branding">
+
+		    <a href="https://web.inf.ufpr.br/vri/" class="custom-logo-link" rel="home"><img width="328" height="82" src="https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2017/06/cropped-Screen-Shot-2017-06-19-at-19.11.05.png" class="custom-logo" alt="Laboratório Visão Robótica e Imagem" decoding="async" srcset="https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2017/06/cropped-Screen-Shot-2017-06-19-at-19.11.05.png 328w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2017/06/cropped-Screen-Shot-2017-06-19-at-19.11.05-300x75.png 300w" sizes="(max-width: 328px) 100vw, 328px" /></a>
+										        <div id="site-identity">
+					            	              <p class="site-title"><a href="https://web.inf.ufpr.br/vri/" rel="home">Laboratório Visão Robótica e Imagem</a></p>
+	            				
+					            <p class="site-description">Laboratório de Pesquisa ligado ao Departamento de Informática</p>
+					        </div><!-- #site-identity -->
+			
+	    </div><!-- .site-branding -->
+
+	    	    		    <div class="search-section">
+		    	<form role="search" method="get" class="search-form" action="https://web.inf.ufpr.br/vri/">
+	      <label>
+	        <span class="screen-reader-text">Search for:</span>
+	        <input type="search" class="search-field" placeholder="Search..." value="" name="s" title="Search for:" />
+	      </label>
+	      <input type="submit" class="search-submit" value="Search" />
+	    </form>		    </div>
+	    
+        </div><!-- .container --></header><!-- #masthead -->    <div id="main-nav" class="clear-fix">
+        <div class="container">
+        <nav id="site-navigation" class="main-navigation" role="navigation">
+          <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+          	<i class="fa fa-bars"></i>
+          	<i class="fa fa-close"></i>
+			Menu</button>
+            <div class="wrap-menu-content">
+				<div class="menu-menu-container"><ul id="primary-menu" class="menu"><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-24"><a href="https://web.inf.ufpr.br/vri/">About</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://web.inf.ufpr.br/vri/members/">Members</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="https://web.inf.ufpr.br/vri/projects/">Projects</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-21"><a href="https://web.inf.ufpr.br/vri/databases/">Databases</a></li>
+<li id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225"><a href="https://web.inf.ufpr.br/vri/software/">Software</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://web.inf.ufpr.br/vri/alumni/">Theses &amp; Dissertations</a></li>
+</ul></div>            </div><!-- .menu-content -->
+        </nav><!-- #site-navigation -->
+       </div> <!-- .container -->
+    </div> <!-- #main-nav -->
+    
+	<div id="content" class="site-content"><div class="container"><div class="inner-wrapper">    
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			
+				
+<article id="post-101" class="post-101 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">Breast Cancer Histopathological Database (BreakHis)</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+    		<p>The Breast Cancer Histopathological Image Classification (BreakHis) is  composed of 9,109 microscopic images of breast tumor tissue collected from 82 patients using different magnifying factors (40X, 100X, 200X, and 400X).  To date, it contains 2,480  benign and 5,429 malignant samples (700X460 pixels, 3-channel RGB, 8-bit depth in each channel, PNG format). This database has been built in collaboration with the P&amp;D Laboratory  &#8211; Pathological Anatomy and Cytopathology, Parana, Brazil (http://www.prevencaoediagnose.com.br). We believe that researchers will find this database a useful tool since it makes future benchmarking and evaluation possible.</p>
+<h3>Characteristics</h3>
+<p>The dataset BreaKHis is divided into two main groups: benign tumors and malignant tumors. Histologically benign is a term referring to a lesion that does not match any criteria of malignancy – e.g., marked cellular atypia, mitosis, disruption of basement membranes, metastasize, etc. Normally, benign tumors are relatively “innocents”, presents slow growing and remains localized. Malignant tumor is a synonym for cancer: lesion can invade and destroy adjacent structures (locally invasive) and spread to distant sites (metastasize) to cause death.</p>
+<p>In current version, samples present in dataset were collected by SOB method, also named partial mastectomy or excisional biopsy. This type of procedure, compared to any methods of needle biopsy, removes the larger size of tissue sample and is done in a hospital with general anesthetic.</p>
+<p>The BreaKHis 1.0 is structured as follows:</p>
+<table class="listing">
+<tbody>
+<tr>
+<th>Magnification</th>
+<th>Benign</th>
+<th>Malignant</th>
+<th>Total</th>
+</tr>
+<tr>
+<td>40X</td>
+<td>652</td>
+<td>1,370</td>
+<td>1,995</td>
+</tr>
+<tr>
+<td>100X</td>
+<td>644</td>
+<td>1,437</td>
+<td>2,081</td>
+</tr>
+<tr>
+<td>200X</td>
+<td>623</td>
+<td>1,390</td>
+<td>2,013</td>
+</tr>
+<tr>
+<td>400X</td>
+<td>588</td>
+<td>1,232</td>
+<td>1,820</td>
+</tr>
+<tr>
+<td>Total of Images</td>
+<td>2,480</td>
+<td>5,429</td>
+<td>7,909</td>
+</tr>
+</tbody>
+</table>
+<p>Both breast tumors benign and malignant can be sorted into different types based on the way the tumoral cells look under the microscope. Various types/subtypes of breast tumors can have different prognoses and treatment implications. The dataset currently contains four histological distinct types of benign breast tumors: adenosis (A), fibroadenoma (F), phyllodes tumor (PT), and tubular adenona (TA);  and four malignant tumors (breast cancer): carcinoma (DC), lobular carcinoma (LC), mucinous carcinoma (MC) and papillary carcinoma (PC).</p>
+<p>Each image filename stores information about the image itself: method of procedure biopsy, tumor class, tumor type, patient identification, and magnification factor. For example, SOB_B_TA-14-4659-40-001.png is the image 1, at magnification factor 40X, of a benign tumor of type tubular adenoma, original from the slide 14-4659, which was collected by procedure SOB. More formally, the format of image file name is given by the following BNF notation:</p>
+<p>&lt;BIOPSY_PROCEDURE&gt;_&lt;TUMOR_CLASS&gt;_&lt;TUMOR_TYPE&gt;-&lt;YEAR&gt;-&lt;SLIDE_ID&gt;-&lt;MAG&gt;-&lt;SEQ&gt;<br />
+&lt;BIOPSY_PROCEDURE&gt;::=SOB<br />
+&lt;TUMOR_CLASS&gt;::=M|B<br />
+&lt;TUMOR_TYPE&gt;::=&lt;BENIGN_TYPE&gt;|&lt;MALIGNANT_TYPE&gt;<br />
+&lt;BENIGN_TYPE&gt;::=A|F|PT|TA<br />
+&lt;MALIGNANT_TYPE&gt;::=DC|LC|MC|PC<br />
+&lt;YEAR&gt;::=&lt;DIGIT&gt;&lt;DIGIT&gt;<br />
+&lt;PATIENT_ID&gt;::=&lt;NUMBER&gt;&lt;SEC&gt;<br />
+&lt;SEQ&gt;::=&lt;NUMBER&gt;<br />
+&lt;MAG&gt;::=40|100|200|400<br />
+&lt;NUMBER&gt;::=&lt;NUMBER&gt;&lt;DIGIT&gt;|&lt;DIGIT&gt;<br />
+&lt;SEC&gt;::=&lt;SEC&gt;::&lt;LETTER&gt;|&lt;LETTER&gt;<br />
+&lt;DIGIT&gt;::=0|1|&#8230;|9<br />
+&lt;LETTER&gt;::=A|B|&#8230;|Z</p>
+<figure id="attachment_102" aria-describedby="caption-attachment-102" style="width: 422px" class="wp-caption alignnone"><img fetchpriority="high" decoding="async" class="wp-image-102 size-full" src="http://web.inf.ufpr.br/vri2/wp-content/uploads/sites/7/2017/06/Screen-Shot-2017-06-20-at-09.58.29.png" alt="" width="422" height="384" srcset="https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2017/06/Screen-Shot-2017-06-20-at-09.58.29.png 422w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2017/06/Screen-Shot-2017-06-20-at-09.58.29-300x273.png 300w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2017/06/Screen-Shot-2017-06-20-at-09.58.29-297x270.png 297w" sizes="(max-width: 422px) 100vw, 422px" /><figcaption id="caption-attachment-102" class="wp-caption-text">A slide of breast malignant tumor (stained with HE) seen in different magnification factors:  (a) 40X, (b) 100X, (c) 200X, and (d) 400X.</figcaption></figure>
+<h3>How to obtain access to the images</h3>
+<p>The BreakHis Database may be used for non-commercial research provided you acknowledge the source of the image by citing the following paper in publications about your research:</p>
+<div class="page" title="Page 1">[1] Spanhol, F., Oliveira, L. S., Petitjean, C., Heutte, L., <b>A Dataset for Breast Cancer Histopathological Image Classification,</b> IEEE Transactions on Biomedical Engineering (TBME), 63(7):1455-1462, 2016. [<span class="link-external"><a class="external-link" href="http://www.inf.ufpr.br/lesoliveira/download/TBME-00608-2015-R2-preprint.pdf">pdf</a></span>]</div>
+<div class="page" title="Page 1"></div>
+<div class="page" title="Page 1">
+<p>You may download the BreaKHis database using this link:</p>
+<p><a href="http://www.inf.ufpr.br/vri/databases/BreaKHis_v1.tar.gz" target="_blank" rel="noreferrer noopener">http://www.inf.ufpr.br/vri/databases/BreaKHis_v1.tar.gz</a></p>
+<p><strong>We kindly ask you to fill the following form after downloading the dataset.</strong></p>
+</div>
+<div title="Page 1"></div>
+<div title="Page 1">
+<div class="caldera-grid" id="caldera_form_1" data-cf-ver="1.9.6" data-cf-form-id="CF596f6b4f2e33c"><div id="caldera_notices_1" data-spinner="https://web.inf.ufpr.br/vri/wp-admin/images/spinner.gif"></div><form data-instance="1" class="CF596f6b4f2e33c caldera_forms_form cfajax-trigger" method="POST" enctype="multipart/form-data" id="CF596f6b4f2e33c_1" data-form-id="CF596f6b4f2e33c" aria-label="BreakHis" data-target="#caldera_notices_1" data-template="#cfajax_CF596f6b4f2e33c-tmpl" data-cfajax="CF596f6b4f2e33c" data-load-element="_parent" data-load-class="cf_processing" data-post-disable="0" data-action="cf_process_ajax_submit" data-request="https://web.inf.ufpr.br/vri/cf-api/CF596f6b4f2e33c" data-hiderows="true">
+<input type="hidden" id="_cf_verify_CF596f6b4f2e33c" name="_cf_verify" value="afbdcf9338"  data-nonce-time="1792140192" /><input type="hidden" name="_wp_http_referer" value="/vri/databases/breast-cancer-histopathological-database-BreakHis/" /><div id="cf2-CF596f6b4f2e33c_1"></div><input type="hidden" name="_cf_frm_id" value="CF596f6b4f2e33c">
+<input type="hidden" name="_cf_frm_ct" value="1">
+<input type="hidden" name="cfajax" value="CF596f6b4f2e33c">
+<input type="hidden" name="_cf_cr_pst" value="101">
+<div class="hide" style="display:none; overflow:hidden;height:0;width:0;">
+<label>Twitter</label><input type="text" name="twitter" value="" autocomplete="off">
+</div><div id="CF596f6b4f2e33c_1-row-1"  class="row  first_row"><div  class="col-sm-4  first_col"><div data-field-wrapper="fld_8768091" class="form-group" id="fld_8768091_1-wrap">
+	<label id="fld_8768091Label" for="fld_8768091_1" class="control-label">First name <span aria-hidden="true" role="presentation" class="field_required" style="color:#ee0000;">*</span></label>
+	<div class="">
+		<input   required type="text" data-field="fld_8768091" class=" form-control" id="fld_8768091_1" name="fld_8768091" value="" data-type="text" aria-required="true"   aria-labelledby="fld_8768091Label" >			</div>
+</div>
+</div><div  class="col-sm-4 "><div data-field-wrapper="fld_9970286" class="form-group" id="fld_9970286_1-wrap">
+	<label id="fld_9970286Label" for="fld_9970286_1" class="control-label">Last name <span aria-hidden="true" role="presentation" class="field_required" style="color:#ee0000;">*</span></label>
+	<div class="">
+		<input   required type="text" data-field="fld_9970286" class=" form-control" id="fld_9970286_1" name="fld_9970286" value="" data-type="text" aria-required="true"   aria-labelledby="fld_9970286Label" >			</div>
+</div>
+</div><div  class="col-sm-4  last_col"><div data-field-wrapper="fld_6009157" class="form-group" id="fld_6009157_1-wrap">
+	<label id="fld_6009157Label" for="fld_6009157_1" class="control-label">Email Address <span aria-hidden="true" role="presentation" class="field_required" style="color:#ee0000;">*</span></label>
+	<div class="">
+		<input   required type="email" data-field="fld_6009157" class=" form-control" id="fld_6009157_1" name="fld_6009157" value="" data-type="email" aria-required="true"   aria-labelledby="fld_6009157Label" >			</div>
+</div>
+</div></div><div id="CF596f6b4f2e33c_1-row-2"  class="row "><div  class="col-sm-12  single"><div data-field-wrapper="fld_719558" class="form-group" id="fld_719558_1-wrap">
+	<label id="fld_719558Label" for="fld_719558_1" class="control-label">Organization <span aria-hidden="true" role="presentation" class="field_required" style="color:#ee0000;">*</span></label>
+	<div class="">
+		<input   required type="text" data-field="fld_719558" class=" form-control" id="fld_719558_1" name="fld_719558" value="" data-type="text" aria-required="true"   aria-labelledby="fld_719558Label" >			</div>
+</div>
+</div></div><div id="CF596f6b4f2e33c_1-row-3"  class="row "><div  class="col-sm-12  single"><div data-field-wrapper="fld_5326521" class="form-group" id="fld_5326521_1-wrap">
+	<label id="fld_5326521Label" for="fld_5326521_1" class="control-label">Country <span aria-hidden="true" role="presentation" class="field_required" style="color:#ee0000;">*</span></label>
+	<div class="">
+		<input   required type="text" data-field="fld_5326521" class=" form-control" id="fld_5326521_1" name="fld_5326521" value="" data-type="text" aria-required="true"   aria-labelledby="fld_5326521Label" >			</div>
+</div>
+</div></div><div id="CF596f6b4f2e33c_1-row-4"  class="row "><div  class="col-sm-12  single"><div data-field-wrapper="fld_7683514" class="form-group" id="fld_7683514_1-wrap">
+	<label id="fld_7683514Label" for="fld_7683514_1" class="control-label">Comments / Questions</label>
+	<div class="">
+		<textarea name="fld_7683514" value="" data-field="fld_7683514" class="form-control" id="fld_7683514_1" rows="7"    aria-labelledby="fld_7683514Label" ></textarea>
+			</div>
+</div>
+</div></div><div id="CF596f6b4f2e33c_1-row-5"  class="row  last_row"><div  class="col-sm-12  single"><div data-field-wrapper="fld_7908577" class="form-group" id="fld_7908577_1-wrap">
+<div class="">
+	<input  class="btn btn-default" type="submit" name="fld_7908577" id="fld_7908577_1" value="Send Message" data-field="fld_7908577"  >
+</div>
+</div>
+	<input class="button_trigger_1" type="hidden" name="fld_7908577" id="fld_7908577_1_btn" value="" data-field="fld_7908577"  />
+</div></div></form>
+</div>
+
+</div>
+<div class="page" title="Page 1"></div>
+<div class="page" title="Page 1">If you want to use the same 5-fold structure we have used in [1], you can download <span class="link-external"><a class="external-link" title="" href="http://www.inf.ufpr.br/lesoliveira/download/mkfold.tar.gz" target="_self" rel="noopener noreferrer">this python script</a></span>.Then follows these steps:</div>
+<div class="page" title="Page 1">
+<ol>
+<li>decompress the file mkfold.tag.gz</li>
+<li>copy the file BreakHis_v1.tar.gz into the mkfold directory</li>
+<li>decompress the BreakHis_v1.tar.gz file</li>
+<li>run the script &lt;python mkfold.py&gt;</li>
+</ol>
+<p>It will create five directories inside the mkfold directory containing the structure used in [1].</p>
+</div>
+<h3>References:</h3>
+<ul>
+<li>[2] Spanhol, F., Oliveira, L. S., Petitjean, C., and Heutte, L., <span class="link-external"><a class="external-link" href="http://www.inf.ufpr.br/lesoliveira/download/IJCNN2016-BC.pdf">Breast Cancer Histopathological Image Classification using Convolutional Neural Network</a></span>, International Joint Conference on Neural Networks (IJCNN 2016), Vancouver, Canada, 2016.
+<ul>
+<li><span class="link-external"><a class="external-link" title="" href="http://www.inf.ufpr.br/lesoliveira/download/Caffe_models.tar.gz" target="_self" rel="noopener noreferrer">Caffe_models.tar.gz</a></span> &#8211; It contains two Caffe model definition files (protobuf model format), a solver file and a trained Caffe model. This model is snapshot of iteration 80,000, considering  the strategy #4, fold 1 magnification factor 40x, as described in [1]. Please, edit the files and adjust the paths properly.</li>
+</ul>
+</li>
+<li>[3] Spanhol, F., Cavalin, P.,  Oliveira, L. S., Petitjean, C., Heutte, L., <a href="http://www.inf.ufpr.br/lesoliveira/download/SpanholSMC2017.pdf">Deep Features for Breast Cancer Histopathological Image Classification</a>, 2017 IEEE International Conference on Systems, Man, and Cybernetics (IEEE SMC 2017), Banff, Canada, 2017</li>
+</ul>
+<h2>Some Statistics (updated Nov 30, 2022)</h2>
+<p>This dataset has been downloaded 7726 times from 141 different countries</p>
+<p><img decoding="async" class="alignnone size-large wp-image-2019" src="http://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.52.15-1024x515.png" alt="" width="847" height="426" srcset="https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.52.15-1024x515.png 1024w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.52.15-300x151.png 300w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.52.15-768x386.png 768w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.52.15-1536x772.png 1536w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.52.15-360x181.png 360w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.52.15.png 1564w" sizes="(max-width: 847px) 100vw, 847px" /></p>
+<p>Countries with more than 30 downloads:</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-large wp-image-2020" src="http://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.57.07-1024x568.png" alt="" width="847" height="470" srcset="https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.57.07-1024x568.png 1024w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.57.07-300x166.png 300w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.57.07-768x426.png 768w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.57.07-1536x852.png 1536w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.57.07-360x200.png 360w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.57.07.png 1782w" sizes="(max-width: 847px) 100vw, 847px" /></p>
+<p>Downloads per year (since 2017)</p>
+<p><img loading="lazy" decoding="async" class="alignnone  wp-image-2021" src="http://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.59.02.png" alt="" width="543" height="372" srcset="https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.59.02.png 814w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.59.02-300x206.png 300w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.59.02-768x526.png 768w, https://web.inf.ufpr.br/vri/wp-content/uploads/sites/7/2022/11/Screenshot-2022-11-30-at-15.59.02-360x247.png 360w" sizes="(max-width: 543px) 100vw, 543px" /></p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img decoding="async" src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons License" /></a><br />
+BreaKHis &#8211; Breast Cancer Histopathological Database by <span class="link-external"><a href="http://dx.doi.org/10.1109/TBME.2015.2496264" rel="cc:attributionURL">Spanhol, F., Oliveira, L. S., Petitjean, C. and Heutte, L.</a></span> is licensed under a <span class="link-external"><a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a></span>.</p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+				
+			
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+<div id="sidebar-primary" class="widget-area" role="complementary">
+	    
+		<aside id="recent-posts-2" class="widget widget_recent_entries">
+		<h2 class="widget-title">News</h2>
+		<ul>
+											<li>
+					<a href="https://web.inf.ufpr.br/vri/2024/04/22/defesa-doutorado-rayson-laroca/">Defesa doutorado Rayson Laroca</a>
+									</li>
+											<li>
+					<a href="https://web.inf.ufpr.br/vri/2024/04/12/papers-accepted-brasero-2024/">Papers accepted: Brasero 2024</a>
+									</li>
+											<li>
+					<a href="https://web.inf.ufpr.br/vri/2019/10/01/artigo-premiado-com-3o-lugar-no-sblp-2019/">Artigo premiado com 3º Lugar no SBLP 2019</a>
+									</li>
+											<li>
+					<a href="https://web.inf.ufpr.br/vri/2019/09/14/defesa-de-dissertacao-caroline-quadros-cordeiro-30-09-2019/">Defesa de Dissertação – Caroline Quadros Cordeiro (30/09/2019)</a>
+									</li>
+											<li>
+					<a href="https://web.inf.ufpr.br/vri/2019/09/14/defesa-de-dissertacao-evair-borges-severo/">Defesa de Dissertação – Evair Borges Severo (23/09/2019)</a>
+									</li>
+					</ul>
+
+		</aside><aside id="meta-2" class="widget widget_meta"><h2 class="widget-title">Meta</h2>
+		<ul>
+						<li><a href="https://web.inf.ufpr.br/vri/wp-login.php">Log in</a></li>
+			<li><a href="https://web.inf.ufpr.br/vri/feed/">Entries feed</a></li>
+			<li><a href="https://web.inf.ufpr.br/vri/comments/feed/">Comments feed</a></li>
+
+			<li><a href="https://wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</aside>	</div><!-- #sidebar-primary -->
+
+
+</div><!-- .inner-wrapper --></div><!-- .container --></div><!-- #content -->
+	<footer id="colophon" class="site-footer" role="contentinfo"><div class="container">    
+	    	    	      <div class="copyright">
+	        Copyright. All rights reserved.	      </div><!-- .copyright -->
+	    	    <div class="site-info">
+	      <a href="https://wordpress.org/">Proudly powered by WordPress</a>
+	      <span class="sep"> | </span>
+			Education Hub by <a href="https://wenthemes.com/" rel="designer" target="_blank">WEN Themes</a>	    </div><!-- .site-info -->
+	    	</div><!-- .container --></footer><!-- #colophon -->
+</div><!-- #page --><a href="#page" class="scrollup" id="btn-scrollup"><i class="fa fa-chevron-up"></i></a>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/vri/*"},{"not":{"href_matches":["/vri/wp-*.php","/vri/wp-admin/*","/vri/wp-content/uploads/sites/7/*","/vri/wp-content/*","/vri/wp-content/plugins/*","/vri/wp-content/themes/education-hub/*","/vri/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<link rel='stylesheet' id='cf-render-css' href='https://web.inf.ufpr.br/vri/wp-content/plugins/caldera-forms/clients/render/build/style.min.css?ver=1.9.6' type='text/css' media='all' />
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-content/themes/education-hub/js/skip-link-focus-fix.min.js?ver=20130115" id="education-hub-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-content/themes/education-hub/third-party/cycle2/js/jquery.cycle2.min.js?ver=2.1.6" id="cycle2-js"></script>
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-content/themes/education-hub/js/custom.min.js?ver=1.0" id="education-hub-custom-js"></script>
+<script type="text/javascript" id="education-hub-navigation-js-extra">
+/* <![CDATA[ */
+var EducationHubScreenReaderText = {"expand":"\u003Cspan class=\"screen-reader-text\"\u003Eexpand child menu\u003C/span\u003E","collapse":"\u003Cspan class=\"screen-reader-text\"\u003Ecollapse child menu\u003C/span\u003E"};
+//# sourceURL=education-hub-navigation-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-content/themes/education-hub/js/navigation.min.js?ver=20120206" id="education-hub-navigation-js"></script>
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-content/plugins/caldera-forms/assets/build/js/jquery-baldrick.min.js?ver=1.9.6" id="cf-baldrick-js"></script>
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-content/plugins/caldera-forms/assets/build/js/parsley.min.js?ver=1.9.6" id="cf-validator-js"></script>
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1" id="react-js"></script>
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1" id="react-dom-js"></script>
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-content/plugins/caldera-forms/clients/render/build/index.min.js?ver=1.9.6" id="cf-render-js"></script>
+<script type="text/javascript" id="cf-form-front-js-extra">
+/* <![CDATA[ */
+var CF_API_DATA = {"rest":{"root":"https://web.inf.ufpr.br/vri/wp-json/cf-api/v2/","rootV3":"https://web.inf.ufpr.br/vri/wp-json/cf-api/v3/","fileUpload":"https://web.inf.ufpr.br/vri/wp-json/cf-api/v3/file","tokens":{"nonce":"https://web.inf.ufpr.br/vri/wp-json/cf-api/v2/tokens/form"},"nonce":"3b7d828b91"},"strings":{"cf2FileField":{"removeFile":"Remove file","defaultButtonText":"Drop files or click to select files to Upload","fileUploadError1":"Error: ","fileUploadError2":" could not be processed","invalidFiles":"These Files have been rejected : ","checkMessage":"Please check files type and size","invalidFileResponse":"Unknown File Process Error","fieldIsRequired":"Field is required","filesUnit":"bytes","maxSizeAlert":"This file is too large. Maximum size is ","wrongTypeAlert":"This file type is not allowed. Allowed types are "}},"nonce":{"field":"_cf_verify"}};
+//# sourceURL=cf-form-front-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://web.inf.ufpr.br/vri/wp-content/plugins/caldera-forms/assets/build/js/caldera-forms-front.min.js?ver=1.9.6" id="cf-form-front-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://web.inf.ufpr.br/vri/wp-includes/js/wp-emoji-release.min.js?ver=6.9.10"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://web.inf.ufpr.br/vri/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+<script type="text/javascript" id="cf-form-front-js-extra">
+/* <![CDATA[ */
+var CF_API_DATA = {"rest":{"root":"https://web.inf.ufpr.br/vri/wp-json/cf-api/v2/","rootV3":"https://web.inf.ufpr.br/vri/wp-json/cf-api/v3/","fileUpload":"https://web.inf.ufpr.br/vri/wp-json/cf-api/v3/file","tokens":{"nonce":"https://web.inf.ufpr.br/vri/wp-json/cf-api/v2/tokens/form"},"nonce":"3b7d828b91"},"strings":{"cf2FileField":{"removeFile":"Remove file","defaultButtonText":"Drop files or click to select files to Upload","fileUploadError1":"Error: ","fileUploadError2":" could not be processed","invalidFiles":"These Files have been rejected : ","checkMessage":"Please check files type and size","invalidFileResponse":"Unknown File Process Error","fieldIsRequired":"Field is required","filesUnit":"bytes","maxSizeAlert":"This file is too large. Maximum size is ","wrongTypeAlert":"This file type is not allowed. Allowed types are "}},"nonce":{"field":"_cf_verify"}};
+var CFFIELD_CONFIG = {"1":{"configs":{"fld_7908577":{"type":"button","id":"fld_7908577_1","default":"","form_id":"CF596f6b4f2e33c","form_id_attr":"caldera_form_1"}},"fields":{"ids":["fld_8768091_1","fld_9970286_1","fld_6009157_1","fld_719558_1","fld_5326521_1","fld_7683514_1","fld_7908577_1"],"inputs":[{"type":"text","fieldId":"fld_8768091","id":"fld_8768091_1","options":[],"default":""},{"type":"text","fieldId":"fld_9970286","id":"fld_9970286_1","options":[],"default":""},{"type":"email","fieldId":"fld_6009157","id":"fld_6009157_1","options":[],"default":""},{"type":"text","fieldId":"fld_719558","id":"fld_719558_1","options":[],"default":""},{"type":"text","fieldId":"fld_5326521","id":"fld_5326521_1","options":[],"default":""},{"type":"paragraph","fieldId":"fld_7683514","id":"fld_7683514_1","options":[],"default":""},{"type":"button","fieldId":"fld_7908577","id":"fld_7908577_1","options":[],"default":""}],"groups":[],"defaults":{"fld_8768091_1":"","fld_9970286_1":"","fld_6009157_1":"","fld_719558_1":"","fld_5326521_1":"","fld_7683514_1":"","fld_7908577_1":""},"calcDefaults":{"fld_8768091_1":0,"fld_9970286_1":0,"fld_6009157_1":0,"fld_719558_1":0,"fld_5326521_1":0,"fld_7683514_1":0,"fld_7908577_1":0}},"error_strings":{"mixed_protocol":"Submission URL and current URL protocols do not match. Form may not function properly."}}};
+//# sourceURL=cf-form-front-js-extra
+/* ]]> */
+</script>
+<script>	
+	window.addEventListener("load", function(){
+
+		jQuery(document).on('click dblclick', '#fld_7908577_1', function( e ){
+			jQuery('#fld_7908577_1_btn').val( e.type ).trigger('change');
+		});
+
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+{
+  "classes": {
+    "0": {
+      "name": "lung_normal",
+      "display_name": "Phổi lành tính / bình thường",
+      "organ": "Lung",
+      "type": "Benign/Normal"
+    },
+    "1": {
+      "name": "lung_aca",
+      "display_name": "Ung thư biểu mô tuyến phổi (Adenocarcinoma)",
+      "organ": "Lung",
+      "type": "Malignant"
+    },
+    "2": {
+      "name": "lung_scc",
+      "display_name": "Ung thư biểu mô tế bào vảy phổi (Squamous Cell Carcinoma)",
+      "organ": "Lung",
+      "type": "Malignant"
+    },
+    "3": {
+      "name": "colon_normal",
+      "display_name": "Đại tràng lành tính / bình thường",
+      "organ": "Colon",
+      "type": "Benign/Normal"
+    },
+    "4": {
+      "name": "colon_aca",
+      "display_name": "Ung thư biểu mô tuyến đại tràng (Adenocarcinoma)",
+      "organ": "Colon",
+      "type": "Malignant"
+    },
+    "5": {
+      "name": "breast_benign",
+      "display_name": "Tuyến vú lành tính / bình thường",
+      "organ": "Breast",
+      "type": "Benign/Normal"
+    },
+    "6": {
+      "name": "breast_malignant",
+      "display_name": "Tuyến vú ác tính (Invasive / InSitu)",
+      "organ": "Breast",
+      "type": "Malignant"
+    }
+  },
+  "dataset_mappings": {
+    "LC25000": {
+      "description": "Lung and Colon Cancer Histopathological Images (25,000 images, 768x768)",
+      "mappings": {
+        "lung_n": 0,
+        "lung_aca": 1,
+        "lung_scc": 2,
+        "colon_n": 3,
+        "colon_aca": 4
+      }
+    },
+    "LungHist700": {
+      "description": "High-resolution lung cancer histopathology dataset (Scientific Data 2024)",
+      "mappings": {
+        "nor": 0,
+        "normal": 0,
+        "benign": 0,
+        "aca": 1,
+        "aca_bd": 1,
+        "aca_md": 1,
+        "aca_pd": 1,
+        "scc": 2,
+        "scc_bd": 2,
+        "scc_md": 2,
+        "scc_pd": 2
+      }
+    },
+    "BACH": {
+      "description": "Grand Challenge on BreAst Cancer Histology (ICIAR 2018)",
+      "mappings": {
+        "Normal": 5,
+        "Benign": 5,
+        "InSitu": 6,
+        "Invasive": 6
+      }
+    },
+    "BreakHis": {
+      "description": "Breast Cancer Histopathological Image Classification (Alternative/Benchmark)",
+      "mappings": {
+        "benign": 5,
+        "malignant": 6
+      }
+    },
+    "TCGA_OOD": {
+      "description": "The Cancer Genome Atlas - Out of Distribution Validation Set",
+      "mappings": {
+        "TCGA-LUAD": 1,
+        "TCGA-LUSC": 2,
+        "TCGA-COAD": 4,
+        "TCGA-BRCA": 6
+      }
+    }
+  }
+}

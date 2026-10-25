@@ -19,6 +19,8 @@ from PIL import Image, ImageEnhance
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+from src.data.paths import resolve_data_root
+DATA_ROOT = resolve_data_root(ROOT)
 from src.train.models import build_model, norm_stats  # noqa: E402
 
 ORGAN = np.array([0, 0, 0, 1, 1, 2, 2])
@@ -44,11 +46,13 @@ def summary(pred, y):
 
 
 def main():
+    global DATA_ROOT
     parser = argparse.ArgumentParser()
     parser.add_argument('config')
     parser.add_argument('--per-class', type=int, default=100, help='số ảnh val LC25000 mỗi lớp')
     args = parser.parse_args()
     cfg = yaml.safe_load(open(args.config, encoding='utf-8'))
+    DATA_ROOT = resolve_data_root(ROOT, cfg.get('data_root'))
     ckpt = torch.load(ROOT / 'outputs/checkpoints' / f"{cfg['run_name']}.pt", map_location='cpu', weights_only=False)
     model = build_model(cfg['model'], cfg['num_classes'], pretrained=False)
     model.load_state_dict(ckpt['model'])
@@ -67,8 +71,8 @@ def main():
     lc = full[(full.source == 'LC25000') & (full.split == 'val')]
     lc = pd.concat([lc[lc.label == k].sample(args.per_class, random_state=0) for k in range(5)])
     bh = full[(full.source == 'BreakHis') & (full.split == 'val')]
-    lc_raw = [Image.open(ROOT / 'data' / p).convert('RGB') for p in lc.source_image_path]
-    bh_raw = [Image.open(ROOT / 'data' / p).convert('RGB') for p in bh.source_image_path]
+    lc_raw = [Image.open(DATA_ROOT / p).convert('RGB') for p in lc.source_image_path]
+    bh_raw = [Image.open(DATA_ROOT / p).convert('RGB') for p in bh.source_image_path]
     lc_mpp, bh_mpp = lc.native_mpp.iloc[0] / cfg.get('target_mpp', 0.5), bh.native_mpp.iloc[0] / cfg.get('target_mpp', 0.5)
     out = {'run_name': cfg['run_name'], 'n_lc_val': len(lc), 'n_breakhis_val': len(bh), 'tests': {}}
 
@@ -83,17 +87,17 @@ def main():
     for s in [1.0, 0.6, 0.3, 0.0]:
         record('lc_val_saturation', s, predict([ImageEnhance.Color(center_crop(im, lc_mpp)).enhance(s) for im in lc_raw]),
                lc.label.values)
-    bh_proc = [Image.open(ROOT / 'data' / p).convert('RGB') for p in manifest.loc[bh.index, 'image_path']]
+    bh_proc = [Image.open(DATA_ROOT / p).convert('RGB') for p in manifest.loc[bh.index, 'image_path']]
     for q in [None, 95, 75, 50]:
         record('breakhis_val_jpeg', q, predict(bh_proc if q is None else [jpeg(im, q) for im in bh_proc]), bh.label.values)
 
     # Chuyển màu: khớp mean/std từng kênh RGB của LC25000 val sang thống kê ảnh TRAIN BreakHis.
     def stats(paths):
-        a = np.stack([np.asarray(Image.open(ROOT / 'data' / p).convert('RGB'), dtype=np.float32) for p in paths])
+        a = np.stack([np.asarray(Image.open(DATA_ROOT / p).convert('RGB'), dtype=np.float32) for p in paths])
         return a.mean((0, 1, 2)), a.std((0, 1, 2))
     train = manifest[manifest.split == 'train']
     lc_stats = stats(train[train.source == 'LC25000'].sample(300, random_state=0).image_path)
-    lc_val = [np.asarray(Image.open(ROOT / 'data' / p).convert('RGB'), dtype=np.float32) for p in manifest.loc[lc.index, 'image_path']]
+    lc_val = [np.asarray(Image.open(DATA_ROOT / p).convert('RGB'), dtype=np.float32) for p in manifest.loc[lc.index, 'image_path']]
     for name, label in [('breakhis_benign', 5), ('breakhis_malignant', 6)]:
         dst = stats(train[(train.source == 'BreakHis') & (train.label == label)].sample(300, random_state=0).image_path)
         moved = [np.clip((a - lc_stats[0]) / lc_stats[1] * dst[1] + dst[0], 0, 255) for a in lc_val]

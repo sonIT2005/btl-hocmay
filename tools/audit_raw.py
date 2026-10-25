@@ -9,17 +9,19 @@ from PIL import Image
 import yaml
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
+from src.data.paths import resolve_data_root
+DATA_ROOT = resolve_data_root(ROOT)
 from src.data.catalog import collect
 from tools.prepare import write_csv
 
 def main():
- cfg=yaml.safe_load((ROOT/'configs/preparation.yaml').read_text());rows=collect(ROOT/'data',cfg)
+ cfg=yaml.safe_load((ROOT/'configs/preparation.yaml').read_text());rows=collect(DATA_ROOT,cfg)
  counts=Counter(r['source'] for r in rows)
  expected={'LC25000':25000,'BreakHis':7909,'LungHist700':691,'CRC-VAL-HE-7K':7180,'BACH':400}
  if counts!=expected:raise ValueError(dict(counts))
  errors=[];checksums=[];dimensions=defaultdict(Counter)
  def one(row):
-  p=ROOT/'data'/row['source_image_path']
+  p=DATA_ROOT/row['source_image_path']
   try:
    with Image.open(p) as im:
     im.load();w,h=im.size;mode=im.mode

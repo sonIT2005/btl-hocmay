@@ -1,5 +1,7 @@
 # Chuẩn bị đo MPP và chạy kiểm tra — giữ dữ liệu 16/10
 
+Bố trí mới: code, split/metadata và bằng chứng ở repo; FrameView chỉ giữ dataset. Data root tự đọc từ `configs/paths.local.json`/`BTL_DATA_ROOT`. Xem [WORKSPACE_LAYOUT.md](WORKSPACE_LAYOUT.md).
+
 Code mới nằm trong repo `C:\Users\Admin\Documents\GitHub\btl-hocmay`. Dữ liệu canonical tiếp tục nằm ở `C:\Users\Admin\Documents\FrameView\btl-histo\data`; đọc bằng đường dẫn, không copy hoặc tạo junction. Các split, nhãn, group, ảnh và FROZEN hiện tại không được sinh lại trong đợt này.
 
 Các sửa code không biến dữ liệu cũ thành dữ liệu đã hiệu chuẩn. `FROZEN.json` cũ là bằng chứng lịch sử của code/data 16/10; code mới có thể khác hash source cũ. Không chạy `--freeze` để che khác biệt đó. Preflight training kiểm tra hash manifest/label map theo FROZEN và lưu phiên bản code riêng.
@@ -15,7 +17,7 @@ Các sửa code không biến dữ liệu cũ thành dữ liệu đã hiệu chu
 
 ## 2. Bộ đo đã chuẩn bị
 
-Bộ đang dùng: `C:\Users\Admin\Documents\FrameView\btl-histo\outputs\maintenance_2026-10-25\mpp_kit`.
+Bộ đang dùng: `C:\Users\Admin\Documents\GitHub\btl-hocmay\outputs\maintenance_2026-10-25\mpp_kit`.
 
 - `candidates.csv`: 420 ảnh ứng viên, 60 mỗi hàng đợi: CRC, BACH, BreakHis 40×, LC25000 phổi, LC25000 đại tràng, LungHist700 20×, LungHist700 40×. Đây là số ứng viên để tìm tế bào phù hợp, không yêu cầu đo đủ 420 ảnh.
 - LC25000 chỉ train, tối đa một ảnh mỗi group. Các ảnh quarantine không được chọn.
@@ -42,7 +44,7 @@ Chạy analyze lần đầu để nhận danh sách `review_measurement_ids`; ng
 
 ```powershell
 Set-Location C:\Users\Admin\Documents\GitHub\btl-hocmay
-$kit = 'C:\Users\Admin\Documents\FrameView\btl-histo\outputs\maintenance_2026-10-25\mpp_kit'
+$kit = 'C:\Users\Admin\Documents\GitHub\btl-hocmay\outputs\maintenance_2026-10-25\mpp_kit'
 $data = 'C:\Users\Admin\Documents\FrameView\btl-histo\data'
 python tools/measure_mpp.py analyze --kit $kit --cell-type rbc --out "$kit/analysis_v1.json"
 python tools/measure_mpp.py render --kit $kit --cell-type rbc --data-root $data --out "$kit/annotations_v1"
@@ -64,7 +66,7 @@ Dùng Python có các thư viện trong environment của C4. Môi trường CPU
 
 ```powershell
 $data = 'C:\Users\Admin\Documents\FrameView\btl-histo\data'
-$splits = 'C:\Users\Admin\Documents\FrameView\btl-histo\splits'
+$splits = 'C:\Users\Admin\Documents\GitHub\btl-hocmay\splits'
 $cfg = 'configs/runs/e2_convnext_group_none_s0.yaml'
 python tools/check_training.py $cfg --data-root $data --splits-dir $splits --tensor-check --forward --device cpu
 ```

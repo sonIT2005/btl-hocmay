@@ -17,7 +17,7 @@ SOURCES={
  'lunghist_paper':'https://pmc.ncbi.nlm.nih.gov/articles/PMC11455975/',
 }
 def main():
- out=ROOT/'data/downloads/provenance';out.mkdir(parents=True,exist_ok=True)
+ out=ROOT/'docs/provenance';out.mkdir(parents=True,exist_ok=True)
  results=[]
  for name,url in SOURCES.items():
   try:

@@ -35,7 +35,7 @@ def main():
 
 Trạng thái kiểm tra: **{validation['status']}**. Đã chuẩn bị dữ liệu và file bàn
 giao local; kết quả này không phải kết quả huấn luyện/đánh giá các model E1–E4.
-Bộ bàn giao độc lập trong `btl-histo/`: cả 5 dataset nằm thật trong `data/raw/`.
+Code/metadata nằm trong `btl-hocmay`; cả 5 dataset nằm tại data_root cấu hình riêng. Xem README.md và docs/WORKSPACE_LAYOUT.md.
 LC25000/LungHist700 được di chuyển từ bản cũ, không sao chép thêm tài nguyên.
 File nén đã giải nén, cache trung gian, môi trường cục bộ và bản xử lý cũ đã
 được dọn theo yêu cầu. Giữ ảnh gốc để truy vết và hai nhánh none/Macenko cho
@@ -138,8 +138,8 @@ ghi rõ ảnh hưởng/giới hạn và trao đổi với cả nhóm theo scope.
    từng xử lý màu. Phải nêu giới hạn upstream stain khi diễn giải CRC.
 6. Dữ liệu/ảnh biến đổi không đưa lên Git. BACH CC BY-NC-ND 4.0 và điều kiện
    phi thương mại của Phikon được lưu trong `C1_DECISIONS.md` và provenance.
-7. Bàn giao nguyên thư mục `btl-histo/`, gồm dữ liệu và metadata với cấu trúc
-   hiện tại. Không cần thư mục dữ liệu cũ hoặc junction bên ngoài. Môi trường
+7. Bàn giao repo `btl-hocmay` và dataset tại data_root riêng. Đặt BTL_DATA_ROOT
+   hoặc configs/paths.local.json; không cần junction hay copy thêm dataset. Môi trường
    Python phải tạo lại từ các file cấu hình đã giữ, cache sẽ sinh lại khi cần.
 '''
  (ROOT/'results/HANDOFF.md').write_text(text,encoding='utf-8')

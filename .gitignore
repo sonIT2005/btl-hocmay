@@ -18,3 +18,17 @@ __pycache__/
 /outputs/trials/
 /outputs/precalibration/
 /snapshots/
+
+# Machine-local dataset location; real images stay outside this repository.
+/configs/paths.local.json
+/outputs/maintenance_2026-10-25/
+/outputs/mpp_pilot_2026-10-25/
+/outputs/reorganization_2026-10-25/
+/outputs/handoff_2026-10-25/review_pack/
+/outputs/**/*.png
+/outputs/**/*.jpg
+/outputs/**/*.jpeg
+/outputs/**/*.tif
+/outputs/**/*.tiff
+/docs/provenance/**/*.png
+/docs/provenance/**/*.jpg

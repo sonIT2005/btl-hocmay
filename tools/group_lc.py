@@ -19,6 +19,8 @@ import threading
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+from src.data.paths import resolve_data_root
+DATA_ROOT = resolve_data_root(ROOT)
 os.environ.setdefault("TORCH_HOME", str(ROOT/".cache/torch"))
 os.environ.setdefault("OMP_NUM_THREADS", "4")
 import cv2
@@ -128,7 +130,7 @@ def verify(a,b,cfg):
 
 def embeddings(paths,out):
     cache=out/'features.npy';names=out/'feature_paths.json'
-    listed=[str(x.relative_to(ROOT/'data')) for x in paths]
+    listed=[str(x.relative_to(DATA_ROOT)) for x in paths]
     if cache.exists() and names.exists() and json.loads(names.read_text())==listed:
         return np.load(cache)
     torch.set_num_threads(4)
@@ -163,12 +165,12 @@ def main():
         suffix='' if args.representatives==1 else f'_r{args.representatives}'
         if args.rescue_small:suffix+='_highres'
         return out/f'sift_candidates_{label}{suffix}.npz'
-    paths=sorted((ROOT/'data/raw/LC25000').rglob('*.jpeg'))
+    paths=sorted((DATA_ROOT/'raw/LC25000').rglob('*.jpeg'))
     if len(paths)!=25000:raise ValueError(f'LC25000 count: {len(paths)}')
     labels=[p.parent.name for p in paths]
     feats=embeddings(paths,out)
     uf=UnionFind(len(paths));accepted=[];candidates=[]
-    old=ROOT/'data/downloads/provenance/legacy_phash_groups.csv'
+    old=ROOT/'docs/provenance/legacy_phash_groups.csv'
     byname={p.name:i for i,p in enumerate(paths)}
     checkpoint=out/'accepted_checkpoint.jsonl'
     if checkpoint.exists():
@@ -303,7 +305,7 @@ def main():
     with (ROOT/'splits/lc_groups.csv').open('w',newline='',encoding='utf-8') as f:
         writer=csv.DictWriter(f,fieldnames=['source_image_path','original_label','group_id','group_size'])
         writer.writeheader()
-        for i,p in enumerate(paths):writer.writerow({'source_image_path':p.relative_to(ROOT/'data').as_posix(),
+        for i,p in enumerate(paths):writer.writerow({'source_image_path':p.relative_to(DATA_ROOT).as_posix(),
             'original_label':labels[i],'group_id':idmap[uf.find(i)],'group_size':len(families[uf.find(i)])})
     with (out/'accepted_edges.csv').open('w',newline='',encoding='utf-8') as f:
         if accepted:

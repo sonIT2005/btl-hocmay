@@ -1,0 +1,152 @@
+{
+  "predictions": {
+    "test": {
+      "n": 4044,
+      "unique_raw_images": 4044,
+      "correct_7class": 3722,
+      "accuracy_7class": 0.920375865479723,
+      "organ_confusion_count": 0,
+      "organ_confusion_rate": 0.0,
+      "predict_breast_rate": 0.07443125618199802,
+      "predicted_organ_counts": {
+        "breast": 301,
+        "colon": 1496,
+        "lung": 2247
+      },
+      "within_true_organ_accuracy_from_rounded_csv": 0.920375865479723,
+      "within_true_organ_correct_from_rounded_csv": 3722,
+      "within_true_organ_accuracy_conservative_rounding_bounds": [
+        0.920375865479723,
+        0.9208704253214639
+      ],
+      "restricted_top2_margin_le_1e_minus6": 2,
+      "probability_argmax_disagrees_with_pred_label": 0,
+      "max_probability_sum_error": 2.000000000279556e-06,
+      "manifest_missing_predictions": 0,
+      "unexpected_predictions": 0,
+      "duplicate_predictions": 0,
+      "label_group_raw_mapping_errors": [],
+      "true_label_counts": {
+        "5": 96,
+        "6": 205,
+        "4": 749,
+        "3": 747,
+        "1": 749,
+        "0": 749,
+        "2": 749
+      }
+    },
+    "LungHist700": {
+      "n": 14557,
+      "unique_raw_images": 691,
+      "correct_7class": 5587,
+      "accuracy_7class": 0.38380160747406744,
+      "organ_confusion_count": 4273,
+      "organ_confusion_rate": 0.29353575599368004,
+      "predict_breast_rate": 0.27127842275194064,
+      "predicted_organ_counts": {
+        "breast": 3949,
+        "lung": 10284,
+        "colon": 324
+      },
+      "within_true_organ_accuracy_from_rounded_csv": 0.4893865494263928,
+      "within_true_organ_correct_from_rounded_csv": 7124,
+      "within_true_organ_accuracy_conservative_rounding_bounds": [
+        0.48911176753451946,
+        0.48973002679123445
+      ],
+      "restricted_top2_margin_le_1e_minus6": 13,
+      "probability_argmax_disagrees_with_pred_label": 0,
+      "max_probability_sum_error": 3.000000000086267e-06,
+      "manifest_missing_predictions": 0,
+      "unexpected_predictions": 0,
+      "duplicate_predictions": 0,
+      "label_group_raw_mapping_errors": [],
+      "true_label_counts": {
+        "1": 5914,
+        "0": 3371,
+        "2": 5272
+      }
+    },
+    "CRC-VAL-HE-7K": {
+      "n": 1974,
+      "unique_raw_images": 1974,
+      "correct_7class": 49,
+      "accuracy_7class": 0.024822695035460994,
+      "organ_confusion_count": 1914,
+      "organ_confusion_rate": 0.9696048632218845,
+      "predict_breast_rate": 0.9660587639311043,
+      "predicted_organ_counts": {
+        "colon": 60,
+        "breast": 1907,
+        "lung": 7
+      },
+      "within_true_organ_accuracy_from_rounded_csv": 0.7340425531914894,
+      "within_true_organ_correct_from_rounded_csv": 1449,
+      "within_true_organ_accuracy_conservative_rounding_bounds": [
+        0.7284701114488349,
+        0.7472137791286727
+      ],
+      "restricted_top2_margin_le_1e_minus6": 61,
+      "probability_argmax_disagrees_with_pred_label": 0,
+      "max_probability_sum_error": 2.0000000000575113e-06,
+      "manifest_missing_predictions": 0,
+      "unexpected_predictions": 0,
+      "duplicate_predictions": 0,
+      "label_group_raw_mapping_errors": [],
+      "true_label_counts": {
+        "3": 741,
+        "4": 1233
+      }
+    },
+    "BACH": {
+      "n": 13581,
+      "unique_raw_images": 400,
+      "correct_7class": 847,
+      "accuracy_7class": 0.06236654149179,
+      "organ_confusion_count": 11452,
+      "organ_confusion_rate": 0.8432368750460202,
+      "predict_breast_rate": 0.15676312495397982,
+      "predicted_organ_counts": {
+        "lung": 6911,
+        "breast": 2129,
+        "colon": 4541
+      },
+      "within_true_organ_accuracy_from_rounded_csv": 0.5019512554303807,
+      "within_true_organ_correct_from_rounded_csv": 6817,
+      "within_true_organ_accuracy_conservative_rounding_bounds": [
+        0.4998159192990207,
+        0.5039393270009572
+      ],
+      "restricted_top2_margin_le_1e_minus6": 68,
+      "probability_argmax_disagrees_with_pred_label": 0,
+      "max_probability_sum_error": 2.000000000279556e-06,
+      "manifest_missing_predictions": 0,
+      "unexpected_predictions": 0,
+      "duplicate_predictions": 0,
+      "label_group_raw_mapping_errors": [],
+      "true_label_counts": {
+        "5": 6755,
+        "6": 6826
+      }
+    }
+  },
+  "input_sha256": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\btl-hocmay\\outputs\\predictions\\e2_convnext_group_none_s0__test.csv": "6b37168bda18e7e639453de804b83c7dbd19a0afd474945c9186091200f12b1f",
+    "C:\\Users\\Admin\\Documents\\GitHub\\btl-hocmay\\outputs\\predictions\\e2_convnext_group_none_s0__LungHist700.csv": "171cdb09dd469c2121a582c2fc8b910655e79b967063e10ed15f84e02351bf57",
+    "C:\\Users\\Admin\\Documents\\GitHub\\btl-hocmay\\outputs\\predictions\\e2_convnext_group_none_s0__CRC-VAL-HE-7K.csv": "a2facd2ec79f7315c3d7642a70eace7b31a3edb93963843c53158d27a69987b6",
+    "C:\\Users\\Admin\\Documents\\GitHub\\btl-hocmay\\outputs\\predictions\\e2_convnext_group_none_s0__BACH.csv": "24d27173e4f6de33e5b10934173abebdd938612e4399701f9f7a7df57d1ec286"
+  },
+  "protected_files_checked": 64,
+  "protected_files_changed": [],
+  "patched_files_checked": 19,
+  "patched_files_drifted": [],
+  "canonical_frozen_files_checked": 17,
+  "canonical_frozen_files_drifted": [],
+  "legacy_checkpoint_available": false,
+  "limitations": [
+    "Restricted argmax on rounded probabilities is not exact original-score verification.",
+    "No old checkpoint forward or diagnostic perturbation experiments rerun.",
+    "Image aggregation and patient-level statistics remain C5 decisions."
+  ]
+}

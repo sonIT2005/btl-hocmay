@@ -1,0 +1,18 @@
+{
+  "total_images": 25000,
+  "total_clusters": 20443,
+  "clusters_per_class": {
+    "colon_aca": 4077,
+    "colon_n": 4123,
+    "lung_aca": 4074,
+    "lung_n": 4088,
+    "lung_scc": 4081
+  },
+  "split_counts": {
+    "train": 17531,
+    "val": 3744,
+    "test": 3725
+  },
+  "leakage_count": 0,
+  "split_file": "outputs/splits.csv"
+}

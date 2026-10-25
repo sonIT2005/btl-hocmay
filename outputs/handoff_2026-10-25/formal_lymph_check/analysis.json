@@ -1,0 +1,43 @@
+{
+  "status": "incomplete",
+  "cell_type": "lymph_nucleus",
+  "stage": "initial",
+  "counts": {
+    "BACH": {
+      "n_cells": 0,
+      "n_images": 0,
+      "median_px": null,
+      "diameter_iqr_px": null
+    },
+    "BreakHis": {
+      "n_cells": 0,
+      "n_images": 0,
+      "median_px": null,
+      "diameter_iqr_px": null
+    },
+    "CRC-VAL-HE-7K": {
+      "n_cells": 0,
+      "n_images": 0,
+      "median_px": null,
+      "diameter_iqr_px": null
+    }
+  },
+  "needs": [
+    "BACH: insufficient cells/images",
+    "BreakHis: insufficient cells/images",
+    "CRC-VAL-HE-7K: insufficient cells/images"
+  ],
+  "review_measurement_ids": [],
+  "applies_config_changes": false,
+  "physical_calibration_claimed": false,
+  "protocol_sha256": "d6f54849879ae40d57c23a1e6240591f96b467507f18403c2ec51ec48e772653",
+  "measurements_sha256": "ac6c71ec7cfc102499ec75731f092762c370479c555cbbcc336316643341ecf0",
+  "export_wrapper": {
+    "requires_h_v_axes": true,
+    "measurements_missing_axes": [],
+    "engine_path": "C:\\Users\\Admin\\Documents\\GitHub\\btl-hocmay\\tools\\measure_mpp.py",
+    "engine_sha256": "b2d982dee96eb94b0dfe1ce57178b48ab49ab7bb4f9e5b3fa84815982215e476",
+    "does_not_approve_group_or_human_identity": true,
+    "calibration_table_exported": false
+  }
+}

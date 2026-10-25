@@ -1,0 +1,50 @@
+{
+  "total_images": 25000,
+  "dataset_distribution": {
+    "LC25000": 25000
+  },
+  "class_distribution": {
+    "0": {
+      "count": 5000,
+      "name": "lung_normal",
+      "display_name": "Phổi lành tính / bình thường",
+      "organ": "Lung"
+    },
+    "1": {
+      "count": 5000,
+      "name": "lung_aca",
+      "display_name": "Ung thư biểu mô tuyến phổi (Adenocarcinoma)",
+      "organ": "Lung"
+    },
+    "2": {
+      "count": 5000,
+      "name": "lung_scc",
+      "display_name": "Ung thư biểu mô tế bào vảy phổi (Squamous Cell Carcinoma)",
+      "organ": "Lung"
+    },
+    "3": {
+      "count": 5000,
+      "name": "colon_normal",
+      "display_name": "Đại tràng lành tính / bình thường",
+      "organ": "Colon"
+    },
+    "4": {
+      "count": 5000,
+      "name": "colon_aca",
+      "display_name": "Ung thư biểu mô tuyến đại tràng (Adenocarcinoma)",
+      "organ": "Colon"
+    },
+    "5": {
+      "count": 0,
+      "name": "breast_benign",
+      "display_name": "Tuyến vú lành tính / bình thường",
+      "organ": "Breast"
+    },
+    "6": {
+      "count": 0,
+      "name": "breast_malignant",
+      "display_name": "Tuyến vú ác tính (Invasive / InSitu)",
+      "organ": "Breast"
+    }
+  }
+}

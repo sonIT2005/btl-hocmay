@@ -15,6 +15,8 @@ from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
+from src.data.paths import resolve_data_root
+DATA_ROOT = resolve_data_root(ROOT)
 from src.data.scale import scale_limitations
 
 def read_csv(path):
@@ -24,7 +26,9 @@ def sha(path):
     with path.open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--freeze',action='store_true');args=parser.parse_args()
+    global DATA_ROOT
+    parser=argparse.ArgumentParser();parser.add_argument('--freeze',action='store_true');parser.add_argument('--data-root', help='Existing raw/processed image directory');args=parser.parse_args()
+    DATA_ROOT=resolve_data_root(ROOT,args.data_root)
     rows=read_csv(ROOT/'splits/splits.csv');inventory=read_csv(ROOT/'splits/inventory.csv')
     cfg=yaml.safe_load((ROOT/'configs/preparation.yaml').read_text(encoding='utf-8'))
     errors=[];warnings=[]
@@ -61,7 +65,7 @@ def main():
     audit_path=ROOT/'results/raw_audit.json'
     if not audit_path.exists() or json.loads(audit_path.read_text())['status']!='passed':
         errors.append('Full raw-data audit is missing or failed')
-    targets=[(ROOT/'data'/r['image_path'], 'none') for r in rows]+[(ROOT/'data'/r['image_path_macenko'],'macenko') for r in rows]
+    targets=[(DATA_ROOT/r['image_path'], 'none') for r in rows]+[(DATA_ROOT/r['image_path_macenko'],'macenko') for r in rows]
     def inspect(item):
         path,branch=item
         try:
@@ -69,7 +73,7 @@ def main():
                 im.load()
                 if im.size!=(224,224) or im.mode!='RGB':return {'path':str(path),'error':'Wrong dimensions/mode'}
                 a=np.asarray(im)
-                return branch,float(np.mean(np.all(a<10,axis=2))),float(np.mean(np.all(a>245,axis=2))),sha(path),path.relative_to(ROOT/'data').as_posix()
+                return branch,float(np.mean(np.all(a<10,axis=2))),float(np.mean(np.all(a>245,axis=2))),sha(path),path.relative_to(DATA_ROOT).as_posix()
         except Exception as e:return {'path':str(path),'error':repr(e)}
     stats=defaultdict(Counter);image_checksums=[]
     with ThreadPoolExecutor(max_workers=4) as pool:

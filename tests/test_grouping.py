@@ -1,3 +1,4 @@
+from src.data.paths import resolve_data_root
 import tempfile
 import os
 import unittest
@@ -10,7 +11,7 @@ from threadpoolctl import threadpool_limits
 from tools.group_lc import verify
 
 ROOT=Path(__file__).resolve().parents[1]
-DATA=Path(os.environ.get('BTL_TEST_DATA_ROOT',ROOT/'data'))
+DATA=Path(os.environ.get('BTL_TEST_DATA_ROOT',resolve_data_root(ROOT)))
 
 class GroupingTests(unittest.TestCase):
     def test_real_augmentation_can_resize_axes_differently(self):

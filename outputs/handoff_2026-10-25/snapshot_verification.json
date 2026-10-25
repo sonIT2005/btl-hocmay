@@ -1,0 +1,23 @@
+{
+  "captured_at_utc": "2026-10-25T13:51:15.871246+00:00",
+  "represents": "canonical C1-C3 frozen state 2026-10-16; copied on 2026-10-25, not a claim of a snapshot captured on 16 Oct",
+  "source_root": "C:\\Users\\Admin\\Documents\\FrameView\\btl-histo",
+  "files_copied": 50,
+  "bytes_copied": 65533092,
+  "contains": [
+    "splits",
+    "configs",
+    "results",
+    "src",
+    "tools"
+  ],
+  "excluded": [
+    "__pycache__",
+    "*.pyc",
+    "data/raw",
+    "data/processed",
+    "C4 patched training checkout"
+  ],
+  "old_processed_retained_in_place": "data/processed/f5c641abf5b155b1",
+  "old_outputs_preserved_in_place": true
+}

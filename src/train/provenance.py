@@ -53,6 +53,9 @@ def make_provenance(cfg, root=ROOT):
         path = root / 'src/train' / name
         if path.exists():
             code[name] = hashlib.sha256(path.read_text(encoding='utf-8').encode()).hexdigest()
+    paths_module = root / 'src/data/paths.py'
+    if paths_module.is_file():
+        code['data_paths.py'] = sha256(paths_module)
     return {'schema': 1, 'data_fingerprint': next(iter(fingerprints)),
             'frozen_sha256': sha256(frozen_path), 'manifest_sha256': manifest_sha,
             'label_map_sha256': label_sha, 'recipe_sha256': recipe_sha,
