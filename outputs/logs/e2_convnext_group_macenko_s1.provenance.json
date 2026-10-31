@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "data_fingerprint": "f5c641abf5b155b1",
+  "frozen_sha256": "1d777e01cc4f30a860458e85e998d2f44698450bfa419b1ec0b9c8c9d59693c1",
+  "manifest_sha256": "78108c759713d78d3e83a3823b8fe095312adb3b60d2946d1384ecbede2e17e0",
+  "label_map_sha256": "b8c5e301c9a85e6af975f27fe641120df0a7f1bab5c1ca228efde089fba247ef",
+  "recipe_sha256": "df303c2f0970d026b64b0a39a436878ad575f0a92ba7f8b712791a4a6b99a1d5",
+  "training_code_sha256": {
+    "data.py": "5736c3e2b40b10e85f1902f3ce97d4d4d869ddde0f58f7b0e1a029782b686966",
+    "models.py": "31b7aefd7082e9c5dfdd0a2bc15888b44fbf4ba374ccb58c797ca306fae31fb0",
+    "train.py": "5ba1d12ac418c27cf3f0bad72f8ab1c6adb0c8d2d5e59566592825c7e1b71c00",
+    "predict.py": "81983347925aed5e7b2dd0a15c6f58c3a3d166eb6253a5b86de008ad28f9b0b1",
+    "provenance.py": "935a68d17bc64ddf42789bfc4094cb713e3c26f70e1f8807e8ef3a60c6a65a92",
+    "data_paths.py": "36d80ccc440f27bb24ff7065ec98f79d9b005cbae47780e236f1a2e3cbdc65e2"
+  }
+}
