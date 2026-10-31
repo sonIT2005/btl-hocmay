@@ -16,7 +16,6 @@ __pycache__/
 /.runtime/
 /measurements/
 /outputs/trials/
-/outputs/precalibration/
 /snapshots/
 
 # Machine-local dataset location; real images stay outside this repository.
