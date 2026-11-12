@@ -1,0 +1,16 @@
+run,experiment,model,split,stain,seed,epochs_run,best_epoch,best_val_macro_f1,mean_epoch_sec,peak_vram_gb
+e1_convnext_random_none_s0,e1,convnext,random,none,0,17,12,0.9928736946479882,39.129411764705885,2.42
+e1_convnext_random_none_s1,e1,convnext,random,none,1,11,6,0.9899409637420648,38.92727272727273,2.42
+e1_convnext_random_none_s2,e1,convnext,random,none,2,24,19,0.99536906819181,38.8875,2.42
+e2_convnext_group_macenko_s0,e2,convnext,group,macenko,0,15,10,0.9286012592583138,38.40666666666667,2.42
+e2_convnext_group_macenko_s1,e2,convnext,group,macenko,1,11,6,0.9317357468273177,37.95454545454545,2.42
+e2_convnext_group_macenko_s2,e2,convnext,group,macenko,2,10,5,0.9210680843896064,38.010000000000005,2.42
+e2_convnext_group_none_s0,e2,convnext,group,none,0,12,7,0.9313691691013692,37.966666666666676,2.42
+e2_convnext_group_none_s1,e2,convnext,group,none,1,8,3,0.9382705839216422,38.1375,2.42
+e2_convnext_group_none_s2,e2,convnext,group,none,2,7,2,0.9289680758482882,38.199999999999996,2.42
+e2_swin_group_macenko_s0,e2,swin,group,macenko,0,15,10,0.9136973885463668,46.76000000000001,2.66
+e2_swin_group_macenko_s1,e2,swin,group,macenko,1,14,9,0.9253602082633214,47.221428571428575,2.66
+e2_swin_group_macenko_s2,e2,swin,group,macenko,2,6,1,0.9062421641550742,48.46666666666666,2.66
+e2_swin_group_none_s0,e2,swin,group,none,0,8,3,0.9219309282138445,48.5875,2.66
+e2_swin_group_none_s1,e2,swin,group,none,1,7,2,0.9254609000451187,48.128571428571426,2.66
+e2_swin_group_none_s2,e2,swin,group,none,2,12,7,0.9368938748182399,49.15,2.66

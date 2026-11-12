@@ -29,5 +29,7 @@ __pycache__/
 /outputs/**/*.jpeg
 /outputs/**/*.tif
 /outputs/**/*.tiff
+# Biểu đồ do script đánh giá vẽ (không chứa ảnh mô) thì được đưa lên Git
+!/outputs/eval/figures/**/*.png
 /docs/provenance/**/*.png
 /docs/provenance/**/*.jpg
