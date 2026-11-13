@@ -1,0 +1,2434 @@
+[
+  {
+    "candidate_id": "2d17323b848b3ae2",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 1,
+    "red_locator_points": [
+      [
+        7.189516129032258,
+        16.633064516129032
+      ],
+      [
+        66.92307692307692,
+        112.15384615384616
+      ]
+    ]
+  },
+  {
+    "candidate_id": "2498aa06a83fcad7",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 2,
+    "red_locator_points": [
+      [
+        61.84615384615385,
+        103.53846153846153
+      ],
+      [
+        35.15384615384615,
+        43.38461538461539
+      ]
+    ]
+  },
+  {
+    "candidate_id": "bc0682393cd7849d",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 3,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "7c3408f326c72c0c",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 4,
+    "red_locator_points": [
+      [
+        51.0,
+        221.10526315789474
+      ],
+      [
+        13.307692307692308,
+        104.46153846153847
+      ]
+    ]
+  },
+  {
+    "candidate_id": "7a3fbd0f2cde3724",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 5,
+    "red_locator_points": [
+      [
+        177.0655737704918,
+        72.67213114754098
+      ],
+      [
+        126.9076923076923,
+        80.93846153846154
+      ]
+    ]
+  },
+  {
+    "candidate_id": "a7e26a85b05063ae",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 6,
+    "red_locator_points": [
+      [
+        217.54782608695652,
+        4.860869565217391
+      ]
+    ]
+  },
+  {
+    "candidate_id": "f1a171d71e20b098",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 7,
+    "red_locator_points": [
+      [
+        61.53333333333333,
+        177.03333333333333
+      ],
+      [
+        215.71428571428572,
+        24.714285714285715
+      ]
+    ]
+  },
+  {
+    "candidate_id": "a0d38c994271852f",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 8,
+    "red_locator_points": [
+      [
+        38.170212765957444,
+        13.361702127659575
+      ],
+      [
+        215.84615384615384,
+        150.23076923076923
+      ]
+    ]
+  },
+  {
+    "candidate_id": "2e7be60af390f616",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 9,
+    "red_locator_points": [
+      [
+        148.70967741935485,
+        93.29032258064517
+      ]
+    ]
+  },
+  {
+    "candidate_id": "7f6c9b1b9296c8f5",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 10,
+    "red_locator_points": [
+      [
+        23.666666666666668,
+        162.5
+      ],
+      [
+        124.92592592592592,
+        33.48148148148148
+      ]
+    ]
+  },
+  {
+    "candidate_id": "c28aa20fe178171d",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 11,
+    "red_locator_points": [
+      [
+        39.25454545454546,
+        12.418181818181818
+      ],
+      [
+        99.85714285714286,
+        219.85714285714286
+      ]
+    ]
+  },
+  {
+    "candidate_id": "ada6f163e7664d17",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 12,
+    "red_locator_points": [
+      [
+        221.3846153846154,
+        190.53846153846155
+      ]
+    ]
+  },
+  {
+    "candidate_id": "b7653dcd74f1e08a",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 13,
+    "red_locator_points": [
+      [
+        163.53333333333333,
+        26.0
+      ],
+      [
+        108.33333333333333,
+        208.91666666666666
+      ]
+    ]
+  },
+  {
+    "candidate_id": "55f7a93916474a5e",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 14,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "7f1006449c6a8fc8",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 15,
+    "red_locator_points": [
+      [
+        150.89473684210526,
+        75.36842105263158
+      ],
+      [
+        32.57142857142857,
+        167.9047619047619
+      ]
+    ]
+  },
+  {
+    "candidate_id": "7ae339f2924f3a52",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 16,
+    "red_locator_points": [
+      [
+        136.05128205128204,
+        2.1025641025641026
+      ],
+      [
+        216.2,
+        198.4
+      ]
+    ]
+  },
+  {
+    "candidate_id": "90db979fef837fcf",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 17,
+    "red_locator_points": [
+      [
+        199.1875,
+        66.125
+      ]
+    ]
+  },
+  {
+    "candidate_id": "959536019f2ad4bb",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 18,
+    "red_locator_points": [
+      [
+        172.5,
+        138.625
+      ]
+    ]
+  },
+  {
+    "candidate_id": "acaed78c6bf76d26",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 19,
+    "red_locator_points": [
+      [
+        207.64705882352942,
+        147.05882352941177
+      ],
+      [
+        42.70967741935484,
+        110.48387096774194
+      ]
+    ]
+  },
+  {
+    "candidate_id": "a857503e3ce33be1",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 20,
+    "red_locator_points": [
+      [
+        121.78070175438596,
+        184.7017543859649
+      ]
+    ]
+  },
+  {
+    "candidate_id": "de318d323a85aec2",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 21,
+    "red_locator_points": [
+      [
+        41.65714285714286,
+        169.65714285714284
+      ],
+      [
+        150.88888888888889,
+        180.38888888888889
+      ]
+    ]
+  },
+  {
+    "candidate_id": "a1449485295b0571",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 22,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "545313351608fa2a",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 23,
+    "red_locator_points": [
+      [
+        118.0,
+        66.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "6da09147bf1875bb",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 24,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "1065bf83b7234724",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 25,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "1c428ef4808943f5",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 26,
+    "red_locator_points": [
+      [
+        208.5,
+        116.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "7442403eaf844ba0",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 27,
+    "red_locator_points": [
+      [
+        218.95488721804512,
+        106.59398496240601
+      ]
+    ]
+  },
+  {
+    "candidate_id": "2941f4224fd5dcae",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 28,
+    "red_locator_points": [
+      [
+        141.07692307692307,
+        193.23076923076923
+      ],
+      [
+        202.94736842105263,
+        35.63157894736842
+      ]
+    ]
+  },
+  {
+    "candidate_id": "ed7ad19d02736229",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 29,
+    "red_locator_points": [
+      [
+        148.25,
+        105.95
+      ],
+      [
+        199.92857142857142,
+        98.71428571428571
+      ]
+    ]
+  },
+  {
+    "candidate_id": "1186274982e086b6",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 30,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "e82f8fcb4a800747",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 31,
+    "red_locator_points": [
+      [
+        52.5,
+        12.0
+      ],
+      [
+        86.42857142857143,
+        81.14285714285714
+      ]
+    ]
+  },
+  {
+    "candidate_id": "213119efc4b4abdf",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 32,
+    "red_locator_points": [
+      [
+        13.25,
+        51.15
+      ],
+      [
+        76.5,
+        74.66666666666667
+      ]
+    ]
+  },
+  {
+    "candidate_id": "4e9e13cd52a946c1",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 33,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "eb25f06f2598c88b",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 34,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "91a6408c1fdf5717",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 35,
+    "red_locator_points": [
+      [
+        189.22222222222223,
+        5.37037037037037
+      ],
+      [
+        83.2,
+        15.0
+      ]
+    ]
+  },
+  {
+    "candidate_id": "94c4cc220a1e6a32",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 36,
+    "red_locator_points": [
+      [
+        220.1818181818182,
+        202.22727272727272
+      ]
+    ]
+  },
+  {
+    "candidate_id": "59fb020ba08decd3",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 37,
+    "red_locator_points": [
+      [
+        11.583333333333334,
+        1.25
+      ],
+      [
+        27.857142857142858,
+        151.42857142857142
+      ]
+    ]
+  },
+  {
+    "candidate_id": "68c855120e094660",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 38,
+    "red_locator_points": [
+      [
+        150.07407407407408,
+        220.37037037037038
+      ],
+      [
+        37.12621359223301,
+        5.252427184466019
+      ]
+    ]
+  },
+  {
+    "candidate_id": "82e34ccc039ec8ce",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 39,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "a61d723e36520122",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 40,
+    "red_locator_points": [
+      [
+        96.25,
+        199.9375
+      ],
+      [
+        150.05,
+        115.05
+      ]
+    ]
+  },
+  {
+    "candidate_id": "a512df957537ea9e",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 41,
+    "red_locator_points": [
+      [
+        197.7037037037037,
+        10.333333333333334
+      ],
+      [
+        99.61111111111111,
+        207.55555555555554
+      ]
+    ]
+  },
+  {
+    "candidate_id": "24ab390c94b8b502",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 42,
+    "red_locator_points": [
+      [
+        141.15,
+        56.25
+      ],
+      [
+        217.35714285714286,
+        217.61688311688312
+      ]
+    ]
+  },
+  {
+    "candidate_id": "ce8039d0e6264d96",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 43,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "82489239c7744ad8",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 44,
+    "red_locator_points": [
+      [
+        135.71428571428572,
+        186.5
+      ],
+      [
+        207.8235294117647,
+        147.05882352941177
+      ]
+    ]
+  },
+  {
+    "candidate_id": "f2e15390ab6b4de7",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 45,
+    "red_locator_points": [
+      [
+        15.948275862068966,
+        219.89655172413794
+      ],
+      [
+        216.14814814814815,
+        32.925925925925924
+      ]
+    ]
+  },
+  {
+    "candidate_id": "2e9e6fb782b3e318",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 46,
+    "red_locator_points": [
+      [
+        46.42857142857143,
+        157.07142857142858
+      ],
+      [
+        179.4375,
+        149.25
+      ]
+    ]
+  },
+  {
+    "candidate_id": "b747568d30ba2eb1",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 47,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "c803d085a46c694a",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 48,
+    "red_locator_points": [
+      [
+        163.2,
+        28.066666666666666
+      ],
+      [
+        198.67741935483872,
+        217.1290322580645
+      ]
+    ]
+  },
+  {
+    "candidate_id": "6cb5c7601c1b7a63",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 49,
+    "red_locator_points": [
+      [
+        206.8125,
+        69.1875
+      ],
+      [
+        80.5,
+        186.66666666666666
+      ]
+    ]
+  },
+  {
+    "candidate_id": "81040fce3a516343",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 50,
+    "red_locator_points": [
+      [
+        162.3846153846154,
+        183.07692307692307
+      ],
+      [
+        3.3076923076923075,
+        220.07692307692307
+      ]
+    ]
+  },
+  {
+    "candidate_id": "650b36fcbeb43224",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 51,
+    "red_locator_points": [
+      [
+        16.5,
+        149.83333333333334
+      ],
+      [
+        3.9135802469135803,
+        68.38271604938272
+      ]
+    ]
+  },
+  {
+    "candidate_id": "927e45e4e0be46b7",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 52,
+    "red_locator_points": [
+      [
+        170.88,
+        146.96
+      ],
+      [
+        200.0,
+        194.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "8225dc6848d7ae05",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 53,
+    "red_locator_points": [
+      [
+        221.4375,
+        220.125
+      ],
+      [
+        87.25,
+        85.875
+      ]
+    ]
+  },
+  {
+    "candidate_id": "4d39ac176dbcc2bf",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 54,
+    "red_locator_points": [
+      [
+        103.6875,
+        167.8125
+      ],
+      [
+        148.7058823529412,
+        172.76470588235293
+      ]
+    ]
+  },
+  {
+    "candidate_id": "b474848ae19bd590",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 55,
+    "red_locator_points": [
+      [
+        163.6153846153846,
+        127.76923076923077
+      ],
+      [
+        9.263157894736842,
+        2.5789473684210527
+      ]
+    ]
+  },
+  {
+    "candidate_id": "a28b25892a9d0312",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 56,
+    "red_locator_points": [
+      [
+        220.75,
+        211.609375
+      ],
+      [
+        94.93333333333334,
+        102.86666666666666
+      ]
+    ]
+  },
+  {
+    "candidate_id": "9186887bf5d3a618",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 57,
+    "red_locator_points": [
+      [
+        219.07142857142858,
+        217.60204081632654
+      ],
+      [
+        18.228915662650603,
+        218.18072289156626
+      ]
+    ]
+  },
+  {
+    "candidate_id": "0b8888d9046cc3cd",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 58,
+    "red_locator_points": [
+      [
+        111.05,
+        220.75
+      ],
+      [
+        215.29032258064515,
+        139.83870967741936
+      ]
+    ]
+  },
+  {
+    "candidate_id": "50c5dfaaf00bf704",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 59,
+    "red_locator_points": [
+      [
+        73.63636363636364,
+        196.0909090909091
+      ]
+    ]
+  },
+  {
+    "candidate_id": "ab053241dbcd8789",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 60,
+    "red_locator_points": [
+      [
+        158.66666666666666,
+        38.46666666666667
+      ],
+      [
+        80.53846153846153,
+        148.46153846153845
+      ]
+    ]
+  },
+  {
+    "candidate_id": "62ac3bfb0b292b7d",
+    "source": "BACH",
+    "queue_order": 1,
+    "red_locator_points": [
+      [
+        25.5,
+        1090.5
+      ],
+      [
+        175.46153846153845,
+        356.61538461538464
+      ]
+    ]
+  },
+  {
+    "candidate_id": "b2d3a70ea05b701b",
+    "source": "BACH",
+    "queue_order": 2,
+    "red_locator_points": [
+      [
+        581.4,
+        1497.4
+      ],
+      [
+        379.6,
+        997.6
+      ]
+    ]
+  },
+  {
+    "candidate_id": "726b6f8e843b4766",
+    "source": "BACH",
+    "queue_order": 3,
+    "red_locator_points": [
+      [
+        217.5,
+        135.5
+      ],
+      [
+        1543.1052631578948,
+        979.421052631579
+      ]
+    ]
+  },
+  {
+    "candidate_id": "92c56c9228174d88",
+    "source": "BACH",
+    "queue_order": 4,
+    "red_locator_points": [
+      [
+        697.6666666666666,
+        1362.1666666666667
+      ],
+      [
+        1149.4285714285713,
+        994.3809523809524
+      ]
+    ]
+  },
+  {
+    "candidate_id": "bc359e0ca2d85f9b",
+    "source": "BACH",
+    "queue_order": 5,
+    "red_locator_points": [
+      [
+        881.0526315789474,
+        1521.421052631579
+      ],
+      [
+        2008.6818181818182,
+        245.36363636363637
+      ]
+    ]
+  },
+  {
+    "candidate_id": "3ff76063f92c977a",
+    "source": "BACH",
+    "queue_order": 6,
+    "red_locator_points": [
+      [
+        1205.7142857142858,
+        1387.642857142857
+      ],
+      [
+        964.9411764705883,
+        228.41176470588235
+      ]
+    ]
+  },
+  {
+    "candidate_id": "f4e51b642d163311",
+    "source": "BACH",
+    "queue_order": 7,
+    "red_locator_points": [
+      [
+        2027.5,
+        789.5
+      ],
+      [
+        1895.5,
+        1037.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "20b300fa13c2279d",
+    "source": "BACH",
+    "queue_order": 8,
+    "red_locator_points": [
+      [
+        1297.590909090909,
+        1461.7272727272727
+      ],
+      [
+        5.0,
+        844.3333333333334
+      ]
+    ]
+  },
+  {
+    "candidate_id": "acec3fb11232f296",
+    "source": "BACH",
+    "queue_order": 9,
+    "red_locator_points": [
+      [
+        586.1052631578947,
+        1209.421052631579
+      ],
+      [
+        2005.2222222222222,
+        489.6111111111111
+      ]
+    ]
+  },
+  {
+    "candidate_id": "edd2affa6cbcbaa4",
+    "source": "BACH",
+    "queue_order": 10,
+    "red_locator_points": [
+      [
+        1241.5,
+        41.5
+      ],
+      [
+        727.5,
+        426.0
+      ]
+    ]
+  },
+  {
+    "candidate_id": "3e6da81feebdd9cc",
+    "source": "BACH",
+    "queue_order": 11,
+    "red_locator_points": [
+      [
+        2021.578947368421,
+        125.10526315789474
+      ],
+      [
+        1933.1052631578948,
+        38.578947368421055
+      ]
+    ]
+  },
+  {
+    "candidate_id": "4479f0fc8d34f397",
+    "source": "BACH",
+    "queue_order": 12,
+    "red_locator_points": [
+      [
+        1889.7916666666667,
+        1460.5833333333333
+      ],
+      [
+        1718.7058823529412,
+        830.5882352941177
+      ]
+    ]
+  },
+  {
+    "candidate_id": "4e3a05142ff9bf07",
+    "source": "BACH",
+    "queue_order": 13,
+    "red_locator_points": [
+      [
+        2042.2222222222222,
+        709.5
+      ],
+      [
+        1449.7142857142858,
+        417.35714285714283
+      ]
+    ]
+  },
+  {
+    "candidate_id": "373021aaee22a5a5",
+    "source": "BACH",
+    "queue_order": 14,
+    "red_locator_points": [
+      [
+        971.5,
+        525.5
+      ],
+      [
+        935.7142857142857,
+        1125.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "d51742d8bd524cbf",
+    "source": "BACH",
+    "queue_order": 15,
+    "red_locator_points": [
+      [
+        569.1666666666666,
+        996.8333333333334
+      ],
+      [
+        1249.5,
+        685.0
+      ]
+    ]
+  },
+  {
+    "candidate_id": "7d675c181b9f6a0c",
+    "source": "BACH",
+    "queue_order": 16,
+    "red_locator_points": [
+      [
+        2040.6315789473683,
+        825.8421052631579
+      ],
+      [
+        267.4074074074074,
+        1245.4814814814815
+      ]
+    ]
+  },
+  {
+    "candidate_id": "897729d3e42314ee",
+    "source": "BACH",
+    "queue_order": 17,
+    "red_locator_points": [
+      [
+        1451.2857142857142,
+        465.64285714285717
+      ],
+      [
+        195.35714285714286,
+        1451.2857142857142
+      ]
+    ]
+  },
+  {
+    "candidate_id": "b098317c8f0cce49",
+    "source": "BACH",
+    "queue_order": 18,
+    "red_locator_points": [
+      [
+        1622.5,
+        1145.5
+      ],
+      [
+        1028.4,
+        1365.6
+      ]
+    ]
+  },
+  {
+    "candidate_id": "40a1038dd541f8af",
+    "source": "BACH",
+    "queue_order": 19,
+    "red_locator_points": [
+      [
+        1137.5,
+        43.5
+      ],
+      [
+        762.7142857142857,
+        497.64285714285717
+      ]
+    ]
+  },
+  {
+    "candidate_id": "3bd2585178d0ac9b",
+    "source": "BACH",
+    "queue_order": 20,
+    "red_locator_points": [
+      [
+        1034.25,
+        1455.25
+      ],
+      [
+        1135.827868852459,
+        1381.2704918032787
+      ]
+    ]
+  },
+  {
+    "candidate_id": "c5c7810b80e8e744",
+    "source": "BACH",
+    "queue_order": 21,
+    "red_locator_points": [
+      [
+        70.625,
+        907.0
+      ],
+      [
+        164.6551724137931,
+        52.6551724137931
+      ]
+    ]
+  },
+  {
+    "candidate_id": "7759213ccf0e4494",
+    "source": "BACH",
+    "queue_order": 22,
+    "red_locator_points": [
+      [
+        87.56521739130434,
+        124.52173913043478
+      ],
+      [
+        1883.6,
+        322.4
+      ]
+    ]
+  },
+  {
+    "candidate_id": "fd5fb9faa5baa469",
+    "source": "BACH",
+    "queue_order": 23,
+    "red_locator_points": [
+      [
+        537.1527777777778,
+        195.13888888888889
+      ],
+      [
+        2001.5,
+        206.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "efa85fb6eb00d101",
+    "source": "BACH",
+    "queue_order": 24,
+    "red_locator_points": [
+      [
+        410.3333333333333,
+        789.1666666666666
+      ],
+      [
+        1845.2857142857142,
+        289.57142857142856
+      ]
+    ]
+  },
+  {
+    "candidate_id": "39cc2c1cfe7748ce",
+    "source": "BACH",
+    "queue_order": 25,
+    "red_locator_points": [
+      [
+        1775.111111111111,
+        97.5
+      ],
+      [
+        659.5,
+        1289.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "e5491ff1c9a65ffb",
+    "source": "BACH",
+    "queue_order": 26,
+    "red_locator_points": [
+      [
+        1607.5,
+        593.5
+      ],
+      [
+        51.6,
+        1293.6
+      ]
+    ]
+  },
+  {
+    "candidate_id": "81391a41a9b837b9",
+    "source": "BACH",
+    "queue_order": 27,
+    "red_locator_points": [
+      [
+        73.48,
+        709.88
+      ],
+      [
+        1385.7142857142858,
+        697.3571428571429
+      ]
+    ]
+  },
+  {
+    "candidate_id": "947c61ae0bdd3f39",
+    "source": "BACH",
+    "queue_order": 28,
+    "red_locator_points": [
+      [
+        1405.6,
+        641.4
+      ],
+      [
+        2043.642857142857,
+        367.7142857142857
+      ]
+    ]
+  },
+  {
+    "candidate_id": "461fd3a656143d57",
+    "source": "BACH",
+    "queue_order": 29,
+    "red_locator_points": [
+      [
+        1830.2875,
+        581.9125
+      ],
+      [
+        889.3125,
+        1481.6875
+      ]
+    ]
+  },
+  {
+    "candidate_id": "383e07736604162e",
+    "source": "BACH",
+    "queue_order": 30,
+    "red_locator_points": [
+      [
+        787.5,
+        902.5
+      ],
+      [
+        954.8947368421053,
+        901.421052631579
+      ]
+    ]
+  },
+  {
+    "candidate_id": "5f68c87e0f066b04",
+    "source": "BACH",
+    "queue_order": 31,
+    "red_locator_points": [
+      [
+        885.0,
+        677.5
+      ],
+      [
+        888.4,
+        501.6
+      ]
+    ]
+  },
+  {
+    "candidate_id": "cc88574d3ea3536c",
+    "source": "BACH",
+    "queue_order": 32,
+    "red_locator_points": [
+      [
+        1561.611111111111,
+        659.7777777777778
+      ],
+      [
+        905.5,
+        5.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "f441c7357bf0b2b6",
+    "source": "BACH",
+    "queue_order": 33,
+    "red_locator_points": [
+      [
+        385.5652173913044,
+        1143.608695652174
+      ],
+      [
+        21.6,
+        813.6
+      ]
+    ]
+  },
+  {
+    "candidate_id": "4889f6523e6f2d27",
+    "source": "BACH",
+    "queue_order": 34,
+    "red_locator_points": [
+      [
+        365.5,
+        679.5
+      ],
+      [
+        131.71428571428572,
+        1395.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "ad5dc7378c098bf6",
+    "source": "BACH",
+    "queue_order": 35,
+    "red_locator_points": [
+      [
+        2045.7142857142858,
+        1491.5
+      ],
+      [
+        2045.7142857142858,
+        473.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "46d58b35be6c47f0",
+    "source": "BACH",
+    "queue_order": 36,
+    "red_locator_points": [
+      [
+        1730.608695652174,
+        387.4347826086956
+      ],
+      [
+        1697.6,
+        1113.4666666666667
+      ]
+    ]
+  },
+  {
+    "candidate_id": "c83f0564bec4981e",
+    "source": "BACH",
+    "queue_order": 37,
+    "red_locator_points": [
+      [
+        1158.4901960784314,
+        959.2352941176471
+      ],
+      [
+        1376.4583333333333,
+        841.0833333333334
+      ]
+    ]
+  },
+  {
+    "candidate_id": "dac480d6582d5ac8",
+    "source": "BACH",
+    "queue_order": 38,
+    "red_locator_points": [
+      [
+        326.4,
+        1115.4
+      ],
+      [
+        852.0,
+        1293.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "756c0f85b8e5d102",
+    "source": "BACH",
+    "queue_order": 39,
+    "red_locator_points": [
+      [
+        1725.0,
+        1237.611111111111
+      ],
+      [
+        1433.7407407407406,
+        996.925925925926
+      ]
+    ]
+  },
+  {
+    "candidate_id": "4315763233df2782",
+    "source": "BACH",
+    "queue_order": 40,
+    "red_locator_points": [
+      [
+        1866.962962962963,
+        1532.7777777777778
+      ],
+      [
+        1301.7142857142858,
+        225.35714285714286
+      ]
+    ]
+  },
+  {
+    "candidate_id": "cce23021f2b573ea",
+    "source": "BACH",
+    "queue_order": 41,
+    "red_locator_points": [
+      [
+        1433.578947368421,
+        1397.1052631578948
+      ],
+      [
+        1348.6,
+        393.6
+      ]
+    ]
+  },
+  {
+    "candidate_id": "6cc60dd82fd913da",
+    "source": "BACH",
+    "queue_order": 42,
+    "red_locator_points": [
+      [
+        772.5,
+        43.5
+      ],
+      [
+        572.3030303030303,
+        31.303030303030305
+      ]
+    ]
+  },
+  {
+    "candidate_id": "eb68a6f07cd67326",
+    "source": "BACH",
+    "queue_order": 43,
+    "red_locator_points": [
+      [
+        481.2857142857143,
+        13.5
+      ],
+      [
+        974.4186046511628,
+        1312.2790697674418
+      ]
+    ]
+  },
+  {
+    "candidate_id": "ba2396b89ba77ddf",
+    "source": "BACH",
+    "queue_order": 44,
+    "red_locator_points": [
+      [
+        1165.576923076923,
+        1519.2307692307693
+      ],
+      [
+        244.6818181818182,
+        1203.3636363636363
+      ]
+    ]
+  },
+  {
+    "candidate_id": "30fdd80e7569d12c",
+    "source": "BACH",
+    "queue_order": 45,
+    "red_locator_points": [
+      [
+        1480.3846153846155,
+        1349.7692307692307
+      ],
+      [
+        355.4375,
+        741.6875
+      ]
+    ]
+  },
+  {
+    "candidate_id": "ea898ad97469eca0",
+    "source": "BACH",
+    "queue_order": 46,
+    "red_locator_points": [
+      [
+        1609.1052631578948,
+        379.57894736842104
+      ],
+      [
+        1004.4,
+        37.6
+      ]
+    ]
+  },
+  {
+    "candidate_id": "a9108272b1b46646",
+    "source": "BACH",
+    "queue_order": 47,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "c4ee6e3e15294c35",
+    "source": "BACH",
+    "queue_order": 48,
+    "red_locator_points": [
+      [
+        1289.64,
+        432.32
+      ],
+      [
+        675.375,
+        986.0416666666666
+      ]
+    ]
+  },
+  {
+    "candidate_id": "65817cd32ed40287",
+    "source": "BACH",
+    "queue_order": 49,
+    "red_locator_points": [
+      [
+        1859.5,
+        131.5
+      ],
+      [
+        273.35714285714283,
+        892.7142857142857
+      ]
+    ]
+  },
+  {
+    "candidate_id": "b79fe66963dff5f2",
+    "source": "BACH",
+    "queue_order": 50,
+    "red_locator_points": [
+      [
+        1843.0,
+        1.5
+      ],
+      [
+        509.09090909090907,
+        921.9090909090909
+      ]
+    ]
+  },
+  {
+    "candidate_id": "9d256170c0dddee0",
+    "source": "BACH",
+    "queue_order": 51,
+    "red_locator_points": [
+      [
+        103.5,
+        515.5
+      ],
+      [
+        1.5,
+        123.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "b221812486b2bc7b",
+    "source": "BACH",
+    "queue_order": 52,
+    "red_locator_points": [
+      [
+        616.9411764705883,
+        1017.2352941176471
+      ],
+      [
+        1320.9473684210527,
+        29.789473684210527
+      ]
+    ]
+  },
+  {
+    "candidate_id": "10b3d0c46031288e",
+    "source": "BACH",
+    "queue_order": 53,
+    "red_locator_points": [
+      [
+        1733.0982142857142,
+        1151.6785714285713
+      ],
+      [
+        1747.089552238806,
+        1190.3432835820895
+      ]
+    ]
+  },
+  {
+    "candidate_id": "525551d3ac2f0088",
+    "source": "BACH",
+    "queue_order": 54,
+    "red_locator_points": [
+      [
+        35.8125,
+        897.8125
+      ],
+      [
+        349.0228310502283,
+        1518.4703196347032
+      ]
+    ]
+  },
+  {
+    "candidate_id": "59a50a0885c05e41",
+    "source": "BACH",
+    "queue_order": 55,
+    "red_locator_points": [
+      [
+        833.6,
+        7.6
+      ],
+      [
+        359.3333333333333,
+        690.0
+      ]
+    ]
+  },
+  {
+    "candidate_id": "d7cdf02d8611cf58",
+    "source": "BACH",
+    "queue_order": 56,
+    "red_locator_points": [
+      [
+        2005.6666666666667,
+        1474.0
+      ],
+      [
+        1542.3846153846155,
+        882.6153846153846
+      ]
+    ]
+  },
+  {
+    "candidate_id": "39a33d676d081a1a",
+    "source": "BACH",
+    "queue_order": 57,
+    "red_locator_points": [
+      [
+        1415.421052631579,
+        1035.8947368421052
+      ],
+      [
+        2039.6,
+        411.6
+      ]
+    ]
+  },
+  {
+    "candidate_id": "6d00b3ff9f26c729",
+    "source": "BACH",
+    "queue_order": 58,
+    "red_locator_points": [
+      [
+        1771.6,
+        1147.6
+      ],
+      [
+        1415.5,
+        353.7142857142857
+      ]
+    ]
+  },
+  {
+    "candidate_id": "b3bd78fd943134ea",
+    "source": "BACH",
+    "queue_order": 59,
+    "red_locator_points": [
+      [
+        781.1052631578947,
+        315.42105263157896
+      ],
+      [
+        1889.0,
+        451.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "dde21946a519cf18",
+    "source": "BACH",
+    "queue_order": 60,
+    "red_locator_points": [
+      [
+        899.4,
+        713.6
+      ],
+      [
+        287.6,
+        1281.6
+      ]
+    ]
+  },
+  {
+    "candidate_id": "a5712176e36ca637",
+    "source": "BreakHis",
+    "queue_order": 1,
+    "red_locator_points": [
+      [
+        400.61538461538464,
+        319.61538461538464
+      ],
+      [
+        429.125,
+        266.3333333333333
+      ]
+    ]
+  },
+  {
+    "candidate_id": "c9a3ca81cb3be9d2",
+    "source": "BreakHis",
+    "queue_order": 2,
+    "red_locator_points": [
+      [
+        257.5833333333333,
+        283.4166666666667
+      ],
+      [
+        160.3448275862069,
+        161.20689655172413
+      ]
+    ]
+  },
+  {
+    "candidate_id": "659616e815442a1f",
+    "source": "BreakHis",
+    "queue_order": 3,
+    "red_locator_points": [
+      [
+        251.5,
+        261.0
+      ],
+      [
+        187.5,
+        315.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "1f041497dbf5a150",
+    "source": "BreakHis",
+    "queue_order": 4,
+    "red_locator_points": [
+      [
+        620.6111111111111,
+        444.72222222222223
+      ],
+      [
+        691.625,
+        455.0416666666667
+      ]
+    ]
+  },
+  {
+    "candidate_id": "0ee6025904b77493",
+    "source": "BreakHis",
+    "queue_order": 5,
+    "red_locator_points": [
+      [
+        516.4871794871794,
+        269.61538461538464
+      ],
+      [
+        568.8125,
+        54.8125
+      ]
+    ]
+  },
+  {
+    "candidate_id": "37d8ebfa11f22543",
+    "source": "BreakHis",
+    "queue_order": 6,
+    "red_locator_points": [
+      [
+        632.2857142857143,
+        8.5
+      ],
+      [
+        485.80645161290323,
+        202.70967741935485
+      ]
+    ]
+  },
+  {
+    "candidate_id": "5cb3f7f60d61fced",
+    "source": "BreakHis",
+    "queue_order": 7,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "d63636d2163b9052",
+    "source": "BreakHis",
+    "queue_order": 8,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "af35ad1bdb39720b",
+    "source": "BreakHis",
+    "queue_order": 9,
+    "red_locator_points": [
+      [
+        18.57894736842105,
+        317.10526315789474
+      ],
+      [
+        484.375,
+        193.4375
+      ]
+    ]
+  },
+  {
+    "candidate_id": "b0003f5c93eeef05",
+    "source": "BreakHis",
+    "queue_order": 10,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "00d8bdd9ca1f156f",
+    "source": "BreakHis",
+    "queue_order": 11,
+    "red_locator_points": [
+      [
+        208.5,
+        457.7142857142857
+      ],
+      [
+        459.03333333333336,
+        320.26666666666665
+      ]
+    ]
+  },
+  {
+    "candidate_id": "62578effa029ed67",
+    "source": "BreakHis",
+    "queue_order": 12,
+    "red_locator_points": [
+      [
+        503.22222222222223,
+        322.5
+      ],
+      [
+        136.11764705882354,
+        133.52941176470588
+      ]
+    ]
+  },
+  {
+    "candidate_id": "8f9f53cccfc7b2ba",
+    "source": "BreakHis",
+    "queue_order": 13,
+    "red_locator_points": [
+      [
+        619.0,
+        297.5
+      ],
+      [
+        513.12,
+        241.44
+      ]
+    ]
+  },
+  {
+    "candidate_id": "80675a11da839763",
+    "source": "BreakHis",
+    "queue_order": 14,
+    "red_locator_points": [
+      [
+        78.33333333333333,
+        138.875
+      ],
+      [
+        131.03097345132744,
+        94.34955752212389
+      ]
+    ]
+  },
+  {
+    "candidate_id": "81bd4376fa0b454b",
+    "source": "BreakHis",
+    "queue_order": 15,
+    "red_locator_points": [
+      [
+        681.5,
+        356.375
+      ],
+      [
+        596.6153846153846,
+        20.46153846153846
+      ]
+    ]
+  },
+  {
+    "candidate_id": "98c714115c37c36e",
+    "source": "BreakHis",
+    "queue_order": 16,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "59d4c3efc19c6abc",
+    "source": "BreakHis",
+    "queue_order": 17,
+    "red_locator_points": [
+      [
+        209.0,
+        261.82608695652175
+      ],
+      [
+        141.0,
+        58.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "2dd3df811d8756e7",
+    "source": "BreakHis",
+    "queue_order": 18,
+    "red_locator_points": [
+      [
+        577.578947368421,
+        285.89473684210526
+      ],
+      [
+        248.5,
+        284.0
+      ]
+    ]
+  },
+  {
+    "candidate_id": "009103a3d1ab7eb8",
+    "source": "BreakHis",
+    "queue_order": 19,
+    "red_locator_points": [
+      [
+        126.68055555555556,
+        127.86111111111111
+      ],
+      [
+        142.9375,
+        65.1875
+      ]
+    ]
+  },
+  {
+    "candidate_id": "67108d681495b2d0",
+    "source": "BreakHis",
+    "queue_order": 20,
+    "red_locator_points": [
+      [
+        514.047619047619,
+        133.1904761904762
+      ],
+      [
+        532.0666666666667,
+        52.13333333333333
+      ]
+    ]
+  },
+  {
+    "candidate_id": "b74cc4bba2763e5b",
+    "source": "BreakHis",
+    "queue_order": 21,
+    "red_locator_points": [
+      [
+        575.6,
+        39.6
+      ],
+      [
+        657.3571428571429,
+        454.7142857142857
+      ]
+    ]
+  },
+  {
+    "candidate_id": "11684cd0a582b8f7",
+    "source": "BreakHis",
+    "queue_order": 22,
+    "red_locator_points": [
+      [
+        181.6,
+        374.3
+      ],
+      [
+        171.20833333333334,
+        125.66666666666667
+      ]
+    ]
+  },
+  {
+    "candidate_id": "78925d05b8ed0f51",
+    "source": "BreakHis",
+    "queue_order": 23,
+    "red_locator_points": [
+      [
+        385.4,
+        307.1333333333333
+      ],
+      [
+        539.3529411764706,
+        305.7647058823529
+      ]
+    ]
+  },
+  {
+    "candidate_id": "3f6dfecea276d246",
+    "source": "BreakHis",
+    "queue_order": 24,
+    "red_locator_points": [
+      [
+        142.64285714285714,
+        78.28571428571429
+      ],
+      [
+        509.4117647058824,
+        173.94117647058823
+      ]
+    ]
+  },
+  {
+    "candidate_id": "bdbec015dc6f279c",
+    "source": "BreakHis",
+    "queue_order": 25,
+    "red_locator_points": [
+      [
+        314.42105263157896,
+        237.89473684210526
+      ],
+      [
+        622.5,
+        336.22222222222223
+      ]
+    ]
+  },
+  {
+    "candidate_id": "4a96a65eaebf6e90",
+    "source": "BreakHis",
+    "queue_order": 26,
+    "red_locator_points": [
+      [
+        352.5,
+        197.42857142857142
+      ],
+      [
+        44.714285714285715,
+        429.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "dc80064b8ac4aa68",
+    "source": "BreakHis",
+    "queue_order": 27,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "9bf3f0d8f6659f86",
+    "source": "BreakHis",
+    "queue_order": 28,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "255122a952169206",
+    "source": "BreakHis",
+    "queue_order": 29,
+    "red_locator_points": [
+      [
+        588.578947368421,
+        181.89473684210526
+      ],
+      [
+        538.5,
+        151.23076923076923
+      ]
+    ]
+  },
+  {
+    "candidate_id": "201f3873a0a7d8a7",
+    "source": "BreakHis",
+    "queue_order": 30,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "8b70aadd42cfb505",
+    "source": "BreakHis",
+    "queue_order": 31,
+    "red_locator_points": [
+      [
+        98.4,
+        59.6
+      ],
+      [
+        285.93333333333334,
+        2.1333333333333333
+      ]
+    ]
+  },
+  {
+    "candidate_id": "005192436334fb25",
+    "source": "BreakHis",
+    "queue_order": 32,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "2b82149f85135830",
+    "source": "BreakHis",
+    "queue_order": 33,
+    "red_locator_points": [
+      [
+        640.578947368421,
+        157.89473684210526
+      ],
+      [
+        494.6,
+        87.6
+      ]
+    ]
+  },
+  {
+    "candidate_id": "bc2603a0b0133ae5",
+    "source": "BreakHis",
+    "queue_order": 34,
+    "red_locator_points": [
+      [
+        37.61904761904762,
+        51.523809523809526
+      ],
+      [
+        249.76470588235293,
+        335.8235294117647
+      ]
+    ]
+  },
+  {
+    "candidate_id": "959523c3d8bdd072",
+    "source": "BreakHis",
+    "queue_order": 35,
+    "red_locator_points": [
+      [
+        282.92105263157896,
+        3.3157894736842106
+      ],
+      [
+        491.48148148148147,
+        236.33333333333334
+      ]
+    ]
+  },
+  {
+    "candidate_id": "8d0aec199dffbb66",
+    "source": "BreakHis",
+    "queue_order": 36,
+    "red_locator_points": [
+      [
+        293.44,
+        300.88
+      ],
+      [
+        304.70588235294116,
+        222.88235294117646
+      ]
+    ]
+  },
+  {
+    "candidate_id": "ef09e533fa86330d",
+    "source": "BreakHis",
+    "queue_order": 37,
+    "red_locator_points": [
+      [
+        650.539603960396,
+        255.5742574257426
+      ]
+    ]
+  },
+  {
+    "candidate_id": "506f363dbbb452b9",
+    "source": "BreakHis",
+    "queue_order": 38,
+    "red_locator_points": [
+      [
+        96.33333333333333,
+        234.83333333333334
+      ],
+      [
+        686.7058823529412,
+        347.88235294117646
+      ]
+    ]
+  },
+  {
+    "candidate_id": "bc27a70b311affcc",
+    "source": "BreakHis",
+    "queue_order": 39,
+    "red_locator_points": [
+      [
+        28.125,
+        397.625
+      ],
+      [
+        7.25,
+        277.890625
+      ]
+    ]
+  },
+  {
+    "candidate_id": "6a59e4cce61f9038",
+    "source": "BreakHis",
+    "queue_order": 40,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "d2875a7278e288d4",
+    "source": "BreakHis",
+    "queue_order": 41,
+    "red_locator_points": [
+      [
+        200.42857142857142,
+        206.42857142857142
+      ],
+      [
+        7.105263157894737,
+        227.21052631578948
+      ]
+    ]
+  },
+  {
+    "candidate_id": "2caa3dacc6ee84e2",
+    "source": "BreakHis",
+    "queue_order": 42,
+    "red_locator_points": [
+      [
+        558.1875,
+        453.3125
+      ],
+      [
+        138.375,
+        385.7916666666667
+      ]
+    ]
+  },
+  {
+    "candidate_id": "03596048d68ce494",
+    "source": "BreakHis",
+    "queue_order": 43,
+    "red_locator_points": [
+      [
+        450.9428571428571,
+        337.2857142857143
+      ],
+      [
+        572.75,
+        326.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "1e3e8b3d2f34e4c2",
+    "source": "BreakHis",
+    "queue_order": 44,
+    "red_locator_points": [
+      [
+        662.0,
+        409.6666666666667
+      ],
+      [
+        20.357142857142858,
+        342.2857142857143
+      ]
+    ]
+  },
+  {
+    "candidate_id": "4b3044b85d1220d2",
+    "source": "BreakHis",
+    "queue_order": 45,
+    "red_locator_points": [
+      [
+        695.452380952381,
+        456.3809523809524
+      ],
+      [
+        651.4262295081967,
+        436.0655737704918
+      ]
+    ]
+  },
+  {
+    "candidate_id": "91c7a40d874bdefe",
+    "source": "BreakHis",
+    "queue_order": 46,
+    "red_locator_points": [
+      [
+        334.57142857142856,
+        341.57142857142856
+      ],
+      [
+        685.4583333333334,
+        421.4583333333333
+      ]
+    ]
+  },
+  {
+    "candidate_id": "ce77c0e6f8e52987",
+    "source": "BreakHis",
+    "queue_order": 47,
+    "red_locator_points": [
+      [
+        551.5,
+        155.14285714285714
+      ],
+      [
+        441.40816326530614,
+        107.3265306122449
+      ]
+    ]
+  },
+  {
+    "candidate_id": "c6f9391c831a8922",
+    "source": "BreakHis",
+    "queue_order": 48,
+    "red_locator_points": [
+      [
+        432.5,
+        438.5
+      ],
+      [
+        368.35714285714283,
+        278.2857142857143
+      ]
+    ]
+  },
+  {
+    "candidate_id": "30a07ba3d76cbfab",
+    "source": "BreakHis",
+    "queue_order": 49,
+    "red_locator_points": [
+      [
+        556.8932584269663,
+        327.85393258426967
+      ]
+    ]
+  },
+  {
+    "candidate_id": "988c2688af5b4b1f",
+    "source": "BreakHis",
+    "queue_order": 50,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "65f0cae2e1855b3e",
+    "source": "BreakHis",
+    "queue_order": 51,
+    "red_locator_points": [
+      [
+        50.5,
+        215.28571428571428
+      ],
+      [
+        84.9090909090909,
+        449.5
+      ]
+    ]
+  },
+  {
+    "candidate_id": "889686eada98bf8c",
+    "source": "BreakHis",
+    "queue_order": 52,
+    "red_locator_points": [
+      [
+        533.7142857142857,
+        215.35714285714286
+      ],
+      [
+        547.2307692307693,
+        457.7692307692308
+      ]
+    ]
+  },
+  {
+    "candidate_id": "43bef1bd4ed310fb",
+    "source": "BreakHis",
+    "queue_order": 53,
+    "red_locator_points": [
+      [
+        392.55,
+        2.25
+      ],
+      [
+        456.63157894736844,
+        312.7368421052632
+      ]
+    ]
+  },
+  {
+    "candidate_id": "990c88feb87c1742",
+    "source": "BreakHis",
+    "queue_order": 54,
+    "red_locator_points": [
+      [
+        300.38461538461536,
+        420.38461538461536
+      ],
+      [
+        189.46153846153845,
+        315.61538461538464
+      ]
+    ]
+  },
+  {
+    "candidate_id": "6de3aec889435739",
+    "source": "BreakHis",
+    "queue_order": 55,
+    "red_locator_points": [
+      [
+        505.5,
+        299.5
+      ],
+      [
+        493.57894736842104,
+        409.57894736842104
+      ]
+    ]
+  },
+  {
+    "candidate_id": "b09f43d57d57af24",
+    "source": "BreakHis",
+    "queue_order": 56,
+    "red_locator_points": [
+      [
+        69.69565217391305,
+        391.6521739130435
+      ],
+      [
+        197.73958333333334,
+        258.09375
+      ]
+    ]
+  },
+  {
+    "candidate_id": "cccf6c6782165b7c",
+    "source": "BreakHis",
+    "queue_order": 57,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "18cbc7ca53379ae6",
+    "source": "BreakHis",
+    "queue_order": 58,
+    "red_locator_points": []
+  },
+  {
+    "candidate_id": "f639dddde2ca50f3",
+    "source": "BreakHis",
+    "queue_order": 59,
+    "red_locator_points": [
+      [
+        167.28571428571428,
+        322.04761904761904
+      ],
+      [
+        164.93333333333334,
+        191.73333333333332
+      ]
+    ]
+  },
+  {
+    "candidate_id": "c13f20254d189e91",
+    "source": "BreakHis",
+    "queue_order": 60,
+    "red_locator_points": [
+      [
+        176.93103448275863,
+        456.58620689655174
+      ],
+      [
+        264.5,
+        398.5
+      ]
+    ]
+  }
+]

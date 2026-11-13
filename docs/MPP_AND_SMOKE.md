@@ -17,6 +17,10 @@ Các sửa code không biến dữ liệu cũ thành dữ liệu đã hiệu chu
 
 ## 2. Bộ đo đã chuẩn bị
 
+Đã có **bộ dự thảo để rà**, tách khỏi kit chính thức: `outputs/mpp_measurements_followup_2026-10-26/draft_v4/index.html`. Có 60 dòng nhân nghi lympho (CRC 30/16 ảnh, BACH 30/18 ảnh, BreakHis 0), 43 đối tượng/vùng bị tách riêng, chưa review độc lập. Xem mục 12 trong [BAN_GIAO_INSTRUCT2.md](BAN_GIAO_INSTRUCT2.md) để biết số thiếu và danh sách review seed 43. LOO chưa đủ điều kiện, MPP giữ nguyên.
+
+`tools/draft_mpp.py` tái xuất ảnh/CSV từ `annotations_input.json` sang output mới. Tool này chỉ xem trước dự thảo và từ chối trạng thái phê duyệt; không thay chức năng chính thức bên dưới. 53/53 tests đạt sau khi bổ sung 11 test cho nhánh dự thảo.
+
 Bộ đang dùng: `C:\Users\Admin\Documents\GitHub\btl-hocmay\outputs\maintenance_2026-10-25\mpp_kit`.
 
 - `candidates.csv`: 420 ảnh ứng viên, 60 mỗi hàng đợi: CRC, BACH, BreakHis 40×, LC25000 phổi, LC25000 đại tràng, LungHist700 20×, LungHist700 40×. Đây là số ứng viên để tìm tế bào phù hợp, không yêu cầu đo đủ 420 ảnh.

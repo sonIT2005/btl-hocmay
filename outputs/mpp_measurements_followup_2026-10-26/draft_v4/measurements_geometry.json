@@ -1,0 +1,8230 @@
+[
+  {
+    "measurement_id": "D1_CRC_q03_1",
+    "candidate_id": "bc0682393cd7849d",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        204,
+        103
+      ],
+      [
+        210,
+        103
+      ],
+      [
+        215,
+        107
+      ],
+      [
+        214,
+        112
+      ],
+      [
+        210,
+        116
+      ],
+      [
+        203,
+        116
+      ],
+      [
+        199,
+        112
+      ],
+      [
+        199,
+        108
+      ]
+    ],
+    "location": [
+      207,
+      109
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q03_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 3,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-ICPSVQMS.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-ICPSVQMS",
+    "raw_sha256": "6a79747ec0d3c841b6e2bb21028862e138ff41acd3acc9666ded727339f4431b",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          215.0,
+          107.0
+        ],
+        [
+          199.0,
+          112.0
+        ]
+      ],
+      "diameter_px": 16.76305461424021,
+      "h": [
+        [
+          199.0,
+          108.0
+        ],
+        [
+          214.8,
+          108.0
+        ]
+      ],
+      "axis_h_px": 15.800000000000011,
+      "v": [
+        [
+          204.0,
+          103.0
+        ],
+        [
+          204.0,
+          116.0
+        ]
+      ],
+      "axis_v_px": 13.0
+    },
+    "diameter_px": 16.76305461424021,
+    "axis_h_px": 15.800000000000011,
+    "axis_v_px": 13.0,
+    "roi_bounds": [
+      185,
+      89,
+      224,
+      131
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q03_2",
+    "candidate_id": "bc0682393cd7849d",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        28,
+        30
+      ],
+      [
+        32,
+        30
+      ],
+      [
+        35,
+        33
+      ],
+      [
+        35,
+        36
+      ],
+      [
+        32,
+        38
+      ],
+      [
+        28,
+        38
+      ],
+      [
+        25,
+        35
+      ],
+      [
+        25,
+        32
+      ]
+    ],
+    "location": [
+      30,
+      35
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q03_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 3,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-ICPSVQMS.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-ICPSVQMS",
+    "raw_sha256": "6a79747ec0d3c841b6e2bb21028862e138ff41acd3acc9666ded727339f4431b",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          35.0,
+          36.0
+        ],
+        [
+          25.0,
+          32.0
+        ]
+      ],
+      "diameter_px": 10.770329614269007,
+      "h": [
+        [
+          25.0,
+          33.0
+        ],
+        [
+          35.0,
+          33.0
+        ]
+      ],
+      "axis_h_px": 10.0,
+      "v": [
+        [
+          28.0,
+          30.0
+        ],
+        [
+          28.0,
+          38.0
+        ]
+      ],
+      "axis_v_px": 8.0
+    },
+    "diameter_px": 10.770329614269007,
+    "axis_h_px": 10.0,
+    "axis_v_px": 8.0,
+    "roi_bounds": [
+      11,
+      16,
+      50,
+      53
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q03_3",
+    "candidate_id": "bc0682393cd7849d",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        195,
+        93
+      ],
+      [
+        199,
+        93
+      ],
+      [
+        202,
+        96
+      ],
+      [
+        202,
+        99
+      ],
+      [
+        199,
+        102
+      ],
+      [
+        194,
+        102
+      ],
+      [
+        191,
+        99
+      ],
+      [
+        191,
+        96
+      ]
+    ],
+    "location": [
+      207,
+      109
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q03_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 3,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-ICPSVQMS.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-ICPSVQMS",
+    "raw_sha256": "6a79747ec0d3c841b6e2bb21028862e138ff41acd3acc9666ded727339f4431b",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          202.0,
+          96.0
+        ],
+        [
+          191.0,
+          99.0
+        ]
+      ],
+      "diameter_px": 11.40175425099138,
+      "h": [
+        [
+          191.0,
+          96.0
+        ],
+        [
+          202.0,
+          96.0
+        ]
+      ],
+      "axis_h_px": 11.0,
+      "v": [
+        [
+          195.0,
+          93.0
+        ],
+        [
+          195.0,
+          102.0
+        ]
+      ],
+      "axis_v_px": 9.0
+    },
+    "diameter_px": 11.40175425099138,
+    "axis_h_px": 11.0,
+    "axis_v_px": 9.0,
+    "roi_bounds": [
+      177,
+      79,
+      217,
+      117
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q06_1",
+    "candidate_id": "a7e26a85b05063ae",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        70,
+        145
+      ],
+      [
+        75,
+        145
+      ],
+      [
+        79,
+        148
+      ],
+      [
+        80,
+        152
+      ],
+      [
+        76,
+        156
+      ],
+      [
+        70,
+        156
+      ],
+      [
+        66,
+        153
+      ],
+      [
+        66,
+        149
+      ]
+    ],
+    "location": [
+      72,
+      150
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q06_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 6,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-FSFANNYT.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-FSFANNYT",
+    "raw_sha256": "5a9934c620567d0eacc74e2f6d154a5df65d842f74bb9f7599b04713e03b7824",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          80.0,
+          152.0
+        ],
+        [
+          66.0,
+          149.0
+        ]
+      ],
+      "diameter_px": 14.317821063276353,
+      "h": [
+        [
+          66.0,
+          152.0
+        ],
+        [
+          80.0,
+          152.0
+        ]
+      ],
+      "axis_h_px": 14.0,
+      "v": [
+        [
+          70.0,
+          145.0
+        ],
+        [
+          70.0,
+          156.0
+        ]
+      ],
+      "axis_v_px": 11.0
+    },
+    "diameter_px": 14.317821063276353,
+    "axis_h_px": 14.0,
+    "axis_v_px": 11.0,
+    "roi_bounds": [
+      52,
+      131,
+      95,
+      171
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q06_2",
+    "candidate_id": "a7e26a85b05063ae",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        46,
+        160
+      ],
+      [
+        50,
+        160
+      ],
+      [
+        54,
+        163
+      ],
+      [
+        53,
+        167
+      ],
+      [
+        49,
+        170
+      ],
+      [
+        45,
+        169
+      ],
+      [
+        43,
+        166
+      ],
+      [
+        43,
+        163
+      ]
+    ],
+    "location": [
+      47,
+      165
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q06_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 6,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-FSFANNYT.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-FSFANNYT",
+    "raw_sha256": "5a9934c620567d0eacc74e2f6d154a5df65d842f74bb9f7599b04713e03b7824",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          54.0,
+          163.0
+        ],
+        [
+          43.0,
+          166.0
+        ]
+      ],
+      "diameter_px": 11.40175425099138,
+      "h": [
+        [
+          43.0,
+          163.0
+        ],
+        [
+          54.0,
+          163.0
+        ]
+      ],
+      "axis_h_px": 11.0,
+      "v": [
+        [
+          49.0,
+          160.0
+        ],
+        [
+          49.0,
+          170.0
+        ]
+      ],
+      "axis_v_px": 10.0
+    },
+    "diameter_px": 11.40175425099138,
+    "axis_h_px": 11.0,
+    "axis_v_px": 10.0,
+    "roi_bounds": [
+      29,
+      146,
+      69,
+      185
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q07_1",
+    "candidate_id": "f1a171d71e20b098",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        187,
+        67
+      ],
+      [
+        192,
+        67
+      ],
+      [
+        195,
+        70
+      ],
+      [
+        195,
+        75
+      ],
+      [
+        192,
+        79
+      ],
+      [
+        188,
+        78
+      ],
+      [
+        185,
+        74
+      ],
+      [
+        184,
+        70
+      ]
+    ],
+    "location": [
+      190,
+      73
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q07_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 7,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-QTLPSEPL.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-QTLPSEPL",
+    "raw_sha256": "2780bf42e03591e0212ffca4228bb8035effa734b16c8e96962cbf0ff1aa1023",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          187.0,
+          67.0
+        ],
+        [
+          192.0,
+          79.0
+        ]
+      ],
+      "diameter_px": 13.0,
+      "h": [
+        [
+          184.0,
+          70.0
+        ],
+        [
+          195.0,
+          70.0
+        ]
+      ],
+      "axis_h_px": 11.0,
+      "v": [
+        [
+          192.0,
+          67.0
+        ],
+        [
+          192.0,
+          79.0
+        ]
+      ],
+      "axis_v_px": 12.0
+    },
+    "diameter_px": 13.0,
+    "axis_h_px": 11.0,
+    "axis_v_px": 12.0,
+    "roi_bounds": [
+      170,
+      53,
+      210,
+      94
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q16_1",
+    "candidate_id": "7ae339f2924f3a52",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        124,
+        99
+      ],
+      [
+        128,
+        99
+      ],
+      [
+        130,
+        102
+      ],
+      [
+        130,
+        105
+      ],
+      [
+        128,
+        108
+      ],
+      [
+        124,
+        108
+      ],
+      [
+        122,
+        105
+      ],
+      [
+        122,
+        102
+      ]
+    ],
+    "location": [
+      126,
+      103
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q16_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 16,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-NKVHDQPQ.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-NKVHDQPQ",
+    "raw_sha256": "3cd9ceefc240582e9bc0f4b8be37462c91d2ca8ccf1ed98e1e9a284e32a4bb8d",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          124.0,
+          99.0
+        ],
+        [
+          128.0,
+          108.0
+        ]
+      ],
+      "diameter_px": 9.848857801796104,
+      "h": [
+        [
+          122.0,
+          102.0
+        ],
+        [
+          130.0,
+          102.0
+        ]
+      ],
+      "axis_h_px": 8.0,
+      "v": [
+        [
+          124.0,
+          99.0
+        ],
+        [
+          124.0,
+          108.0
+        ]
+      ],
+      "axis_v_px": 9.0
+    },
+    "diameter_px": 9.848857801796104,
+    "axis_h_px": 8.0,
+    "axis_v_px": 9.0,
+    "roi_bounds": [
+      108,
+      85,
+      145,
+      123
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q16_2",
+    "candidate_id": "7ae339f2924f3a52",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        130,
+        35
+      ],
+      [
+        134,
+        35
+      ],
+      [
+        137,
+        38
+      ],
+      [
+        137,
+        42
+      ],
+      [
+        134,
+        44
+      ],
+      [
+        130,
+        44
+      ],
+      [
+        128,
+        41
+      ],
+      [
+        128,
+        38
+      ]
+    ],
+    "location": [
+      132,
+      38
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q16_3",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 16,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-NKVHDQPQ.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-NKVHDQPQ",
+    "raw_sha256": "3cd9ceefc240582e9bc0f4b8be37462c91d2ca8ccf1ed98e1e9a284e32a4bb8d",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          130.0,
+          35.0
+        ],
+        [
+          137.0,
+          42.0
+        ]
+      ],
+      "diameter_px": 9.899494936611665,
+      "h": [
+        [
+          128.0,
+          38.0
+        ],
+        [
+          137.0,
+          38.0
+        ]
+      ],
+      "axis_h_px": 9.0,
+      "v": [
+        [
+          130.0,
+          35.0
+        ],
+        [
+          130.0,
+          44.0
+        ]
+      ],
+      "axis_v_px": 9.0
+    },
+    "diameter_px": 9.899494936611665,
+    "axis_h_px": 9.0,
+    "axis_v_px": 9.0,
+    "roi_bounds": [
+      114,
+      21,
+      152,
+      59
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q16_3",
+    "candidate_id": "7ae339f2924f3a52",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        125,
+        45
+      ],
+      [
+        129,
+        45
+      ],
+      [
+        132,
+        48
+      ],
+      [
+        131,
+        51
+      ],
+      [
+        128,
+        53
+      ],
+      [
+        124,
+        52
+      ],
+      [
+        122,
+        49
+      ],
+      [
+        123,
+        47
+      ]
+    ],
+    "location": [
+      132,
+      38
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q16_3",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 16,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-NKVHDQPQ.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-NKVHDQPQ",
+    "raw_sha256": "3cd9ceefc240582e9bc0f4b8be37462c91d2ca8ccf1ed98e1e9a284e32a4bb8d",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          132.0,
+          48.0
+        ],
+        [
+          122.0,
+          49.0
+        ]
+      ],
+      "diameter_px": 10.04987562112089,
+      "h": [
+        [
+          122.0,
+          49.0
+        ],
+        [
+          131.66666666666666,
+          49.0
+        ]
+      ],
+      "axis_h_px": 9.666666666666657,
+      "v": [
+        [
+          128.0,
+          45.0
+        ],
+        [
+          128.0,
+          53.0
+        ]
+      ],
+      "axis_v_px": 8.0
+    },
+    "diameter_px": 10.04987562112089,
+    "axis_h_px": 9.666666666666657,
+    "axis_v_px": 8.0,
+    "roi_bounds": [
+      108,
+      31,
+      147,
+      68
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q18_1",
+    "candidate_id": "959536019f2ad4bb",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [
+      [
+        151,
+        34
+      ],
+      [
+        155,
+        34
+      ],
+      [
+        159,
+        37
+      ],
+      [
+        162,
+        41
+      ],
+      [
+        159,
+        44
+      ],
+      [
+        154,
+        45
+      ],
+      [
+        150,
+        42
+      ],
+      [
+        148,
+        38
+      ]
+    ],
+    "location": [
+      145,
+      45
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q18_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Final overlay QA: angular nucleus with dark continuation below; round identity and independent lower boundary not secure. Excluded before LOO.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 18,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-CDWMTSLF.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-CDWMTSLF",
+    "raw_sha256": "e5db71be04688d0bfdbbb802cde96e2db7481fb397fd28b2d00914424fc3c9d4",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          162.0,
+          41.0
+        ],
+        [
+          148.0,
+          38.0
+        ]
+      ],
+      "diameter_px": 14.317821063276353,
+      "h": [
+        [
+          149.5,
+          41.0
+        ],
+        [
+          162.0,
+          41.0
+        ]
+      ],
+      "axis_h_px": 12.5,
+      "v": [
+        [
+          154.0,
+          34.0
+        ],
+        [
+          154.0,
+          45.0
+        ]
+      ],
+      "axis_v_px": 11.0
+    },
+    "diameter_px": 14.317821063276353,
+    "axis_h_px": 12.5,
+    "axis_v_px": 11.0,
+    "roi_bounds": [
+      134,
+      20,
+      177,
+      60
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q20_1",
+    "candidate_id": "a857503e3ce33be1",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        66,
+        45
+      ],
+      [
+        70,
+        45
+      ],
+      [
+        73,
+        48
+      ],
+      [
+        73,
+        51
+      ],
+      [
+        70,
+        54
+      ],
+      [
+        66,
+        54
+      ],
+      [
+        63,
+        51
+      ],
+      [
+        63,
+        48
+      ]
+    ],
+    "location": [
+      68,
+      49
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q20_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 20,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-LAFTECYD.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-LAFTECYD",
+    "raw_sha256": "21fc48a63e8cd0b14b98f8a180c286b69f296786ff769671d140f0836d59a6e7",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          73.0,
+          48.0
+        ],
+        [
+          63.0,
+          51.0
+        ]
+      ],
+      "diameter_px": 10.44030650891055,
+      "h": [
+        [
+          63.0,
+          48.0
+        ],
+        [
+          73.0,
+          48.0
+        ]
+      ],
+      "axis_h_px": 10.0,
+      "v": [
+        [
+          66.0,
+          45.0
+        ],
+        [
+          66.0,
+          54.0
+        ]
+      ],
+      "axis_v_px": 9.0
+    },
+    "diameter_px": 10.44030650891055,
+    "axis_h_px": 10.0,
+    "axis_v_px": 9.0,
+    "roi_bounds": [
+      49,
+      31,
+      88,
+      69
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q20_2",
+    "candidate_id": "a857503e3ce33be1",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        138,
+        27
+      ],
+      [
+        142,
+        27
+      ],
+      [
+        144,
+        30
+      ],
+      [
+        144,
+        33
+      ],
+      [
+        141,
+        36
+      ],
+      [
+        137,
+        35
+      ],
+      [
+        135,
+        32
+      ],
+      [
+        135,
+        29
+      ]
+    ],
+    "location": [
+      140,
+      32
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q20_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 20,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-LAFTECYD.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-LAFTECYD",
+    "raw_sha256": "21fc48a63e8cd0b14b98f8a180c286b69f296786ff769671d140f0836d59a6e7",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          144.0,
+          33.0
+        ],
+        [
+          135.0,
+          29.0
+        ]
+      ],
+      "diameter_px": 9.848857801796104,
+      "h": [
+        [
+          135.0,
+          30.0
+        ],
+        [
+          144.0,
+          30.0
+        ]
+      ],
+      "axis_h_px": 9.0,
+      "v": [
+        [
+          141.0,
+          27.0
+        ],
+        [
+          141.0,
+          36.0
+        ]
+      ],
+      "axis_v_px": 9.0
+    },
+    "diameter_px": 9.848857801796104,
+    "axis_h_px": 9.0,
+    "axis_v_px": 9.0,
+    "roi_bounds": [
+      121,
+      13,
+      159,
+      51
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q20_3",
+    "candidate_id": "a857503e3ce33be1",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        180,
+        140
+      ],
+      [
+        184,
+        140
+      ],
+      [
+        187,
+        143
+      ],
+      [
+        187,
+        147
+      ],
+      [
+        185,
+        150
+      ],
+      [
+        180,
+        150
+      ],
+      [
+        176,
+        147
+      ],
+      [
+        176,
+        143
+      ]
+    ],
+    "location": [
+      182,
+      145
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q20_3",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 20,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-LAFTECYD.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-LAFTECYD",
+    "raw_sha256": "21fc48a63e8cd0b14b98f8a180c286b69f296786ff769671d140f0836d59a6e7",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          187.0,
+          143.0
+        ],
+        [
+          176.0,
+          147.0
+        ]
+      ],
+      "diameter_px": 11.704699910719626,
+      "h": [
+        [
+          176.0,
+          143.0
+        ],
+        [
+          187.0,
+          143.0
+        ]
+      ],
+      "axis_h_px": 11.0,
+      "v": [
+        [
+          180.0,
+          140.0
+        ],
+        [
+          180.0,
+          150.0
+        ]
+      ],
+      "axis_v_px": 10.0
+    },
+    "diameter_px": 11.704699910719626,
+    "axis_h_px": 11.0,
+    "axis_v_px": 10.0,
+    "roi_bounds": [
+      162,
+      126,
+      202,
+      165
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q21_1",
+    "candidate_id": "de318d323a85aec2",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        76,
+        157
+      ],
+      [
+        80,
+        157
+      ],
+      [
+        84,
+        160
+      ],
+      [
+        84,
+        164
+      ],
+      [
+        81,
+        168
+      ],
+      [
+        76,
+        168
+      ],
+      [
+        73,
+        165
+      ],
+      [
+        73,
+        161
+      ]
+    ],
+    "location": [
+      78,
+      163
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q21_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 21,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-ETEYNTQS.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-ETEYNTQS",
+    "raw_sha256": "780eb5c3b680a7f10430c6d6f906024106a4c4de2dce02d0b2a817d6a1c858cc",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          76.0,
+          157.0
+        ],
+        [
+          81.0,
+          168.0
+        ]
+      ],
+      "diameter_px": 12.083045973594572,
+      "h": [
+        [
+          73.0,
+          161.0
+        ],
+        [
+          84.0,
+          161.0
+        ]
+      ],
+      "axis_h_px": 11.0,
+      "v": [
+        [
+          76.0,
+          157.0
+        ],
+        [
+          76.0,
+          168.0
+        ]
+      ],
+      "axis_v_px": 11.0
+    },
+    "diameter_px": 12.083045973594572,
+    "axis_h_px": 11.0,
+    "axis_v_px": 11.0,
+    "roi_bounds": [
+      59,
+      143,
+      99,
+      183
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q21_2",
+    "candidate_id": "de318d323a85aec2",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        131,
+        137
+      ],
+      [
+        134,
+        138
+      ],
+      [
+        136,
+        141
+      ],
+      [
+        136,
+        144
+      ],
+      [
+        133,
+        147
+      ],
+      [
+        130,
+        146
+      ],
+      [
+        128,
+        143
+      ],
+      [
+        128,
+        140
+      ]
+    ],
+    "location": [
+      133,
+      142
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q21_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 21,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-ETEYNTQS.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-ETEYNTQS",
+    "raw_sha256": "780eb5c3b680a7f10430c6d6f906024106a4c4de2dce02d0b2a817d6a1c858cc",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          131.0,
+          137.0
+        ],
+        [
+          133.0,
+          147.0
+        ]
+      ],
+      "diameter_px": 10.198039027185569,
+      "h": [
+        [
+          128.0,
+          141.0
+        ],
+        [
+          136.0,
+          141.0
+        ]
+      ],
+      "axis_h_px": 8.0,
+      "v": [
+        [
+          131.0,
+          137.0
+        ],
+        [
+          131.0,
+          146.33333333333334
+        ]
+      ],
+      "axis_v_px": 9.333333333333343
+    },
+    "diameter_px": 10.198039027185569,
+    "axis_h_px": 8.0,
+    "axis_v_px": 9.333333333333343,
+    "roi_bounds": [
+      114,
+      123,
+      151,
+      162
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q24_1",
+    "candidate_id": "6da09147bf1875bb",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        66,
+        61
+      ],
+      [
+        69,
+        61
+      ],
+      [
+        72,
+        64
+      ],
+      [
+        72,
+        67
+      ],
+      [
+        69,
+        69
+      ],
+      [
+        66,
+        69
+      ],
+      [
+        63,
+        66
+      ],
+      [
+        63,
+        63
+      ]
+    ],
+    "location": [
+      68,
+      65
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q24_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 24,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-PPCGNHII.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-PPCGNHII",
+    "raw_sha256": "37cc4155ad2fea55a29537cc8df38bbc9543882e1b69dc389887744050c33385",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          72.0,
+          67.0
+        ],
+        [
+          63.0,
+          63.0
+        ]
+      ],
+      "diameter_px": 9.848857801796104,
+      "h": [
+        [
+          63.0,
+          64.0
+        ],
+        [
+          72.0,
+          64.0
+        ]
+      ],
+      "axis_h_px": 9.0,
+      "v": [
+        [
+          66.0,
+          61.0
+        ],
+        [
+          66.0,
+          69.0
+        ]
+      ],
+      "axis_v_px": 8.0
+    },
+    "diameter_px": 9.848857801796104,
+    "axis_h_px": 9.0,
+    "axis_v_px": 8.0,
+    "roi_bounds": [
+      49,
+      47,
+      87,
+      84
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q24_2",
+    "candidate_id": "6da09147bf1875bb",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        172,
+        133
+      ],
+      [
+        176,
+        133
+      ],
+      [
+        179,
+        136
+      ],
+      [
+        178,
+        139
+      ],
+      [
+        175,
+        141
+      ],
+      [
+        171,
+        139
+      ],
+      [
+        169,
+        136
+      ],
+      [
+        170,
+        134
+      ]
+    ],
+    "location": [
+      174,
+      137
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q24_3",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 24,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-PPCGNHII.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-PPCGNHII",
+    "raw_sha256": "37cc4155ad2fea55a29537cc8df38bbc9543882e1b69dc389887744050c33385",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          179.0,
+          136.0
+        ],
+        [
+          169.0,
+          136.0
+        ]
+      ],
+      "diameter_px": 10.0,
+      "h": [
+        [
+          169.0,
+          136.0
+        ],
+        [
+          179.0,
+          136.0
+        ]
+      ],
+      "axis_h_px": 10.0,
+      "v": [
+        [
+          175.0,
+          133.0
+        ],
+        [
+          175.0,
+          141.0
+        ]
+      ],
+      "axis_v_px": 8.0
+    },
+    "diameter_px": 10.0,
+    "axis_h_px": 10.0,
+    "axis_v_px": 8.0,
+    "roi_bounds": [
+      155,
+      119,
+      194,
+      156
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q28_1",
+    "candidate_id": "2941f4224fd5dcae",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        203,
+        76
+      ],
+      [
+        207,
+        77
+      ],
+      [
+        210,
+        80
+      ],
+      [
+        210,
+        83
+      ],
+      [
+        207,
+        86
+      ],
+      [
+        203,
+        85
+      ],
+      [
+        200,
+        82
+      ],
+      [
+        199,
+        79
+      ]
+    ],
+    "location": [
+      206,
+      81
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q28_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 28,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-FLYIEMCP.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-FLYIEMCP",
+    "raw_sha256": "09a2dbce3147eb8c7bd851c714468125ec82323eb8f68153eb6bdeeebb8ea18d",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          210.0,
+          83.0
+        ],
+        [
+          199.0,
+          79.0
+        ]
+      ],
+      "diameter_px": 11.704699910719626,
+      "h": [
+        [
+          199.33333333333334,
+          80.0
+        ],
+        [
+          210.0,
+          80.0
+        ]
+      ],
+      "axis_h_px": 10.666666666666657,
+      "v": [
+        [
+          203.0,
+          76.0
+        ],
+        [
+          203.0,
+          85.0
+        ]
+      ],
+      "axis_v_px": 9.0
+    },
+    "diameter_px": 11.704699910719626,
+    "axis_h_px": 10.666666666666657,
+    "axis_v_px": 9.0,
+    "roi_bounds": [
+      185,
+      62,
+      224,
+      101
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q28_2",
+    "candidate_id": "2941f4224fd5dcae",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        95,
+        9
+      ],
+      [
+        99,
+        9
+      ],
+      [
+        102,
+        12
+      ],
+      [
+        101,
+        16
+      ],
+      [
+        98,
+        18
+      ],
+      [
+        94,
+        17
+      ],
+      [
+        92,
+        14
+      ],
+      [
+        92,
+        11
+      ]
+    ],
+    "location": [
+      97,
+      13
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q28_3",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 28,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-FLYIEMCP.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-FLYIEMCP",
+    "raw_sha256": "09a2dbce3147eb8c7bd851c714468125ec82323eb8f68153eb6bdeeebb8ea18d",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          101.0,
+          16.0
+        ],
+        [
+          92.0,
+          11.0
+        ]
+      ],
+      "diameter_px": 10.295630140987,
+      "h": [
+        [
+          92.0,
+          12.0
+        ],
+        [
+          102.0,
+          12.0
+        ]
+      ],
+      "axis_h_px": 10.0,
+      "v": [
+        [
+          98.0,
+          9.0
+        ],
+        [
+          98.0,
+          18.0
+        ]
+      ],
+      "axis_v_px": 9.0
+    },
+    "diameter_px": 10.295630140987,
+    "axis_h_px": 10.0,
+    "axis_v_px": 9.0,
+    "roi_bounds": [
+      78,
+      0,
+      117,
+      33
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q28_3",
+    "candidate_id": "2941f4224fd5dcae",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        169,
+        43
+      ],
+      [
+        172,
+        43
+      ],
+      [
+        176,
+        46
+      ],
+      [
+        175,
+        49
+      ],
+      [
+        172,
+        51
+      ],
+      [
+        168,
+        50
+      ],
+      [
+        166,
+        47
+      ],
+      [
+        167,
+        44
+      ]
+    ],
+    "location": [
+      162,
+      36
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q28_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 28,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-FLYIEMCP.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-FLYIEMCP",
+    "raw_sha256": "09a2dbce3147eb8c7bd851c714468125ec82323eb8f68153eb6bdeeebb8ea18d",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          176.0,
+          46.0
+        ],
+        [
+          166.0,
+          47.0
+        ]
+      ],
+      "diameter_px": 10.04987562112089,
+      "h": [
+        [
+          166.33333333333334,
+          46.0
+        ],
+        [
+          176.0,
+          46.0
+        ]
+      ],
+      "axis_h_px": 9.666666666666657,
+      "v": [
+        [
+          172.0,
+          43.0
+        ],
+        [
+          172.0,
+          51.0
+        ]
+      ],
+      "axis_v_px": 8.0
+    },
+    "diameter_px": 10.04987562112089,
+    "axis_h_px": 9.666666666666657,
+    "axis_v_px": 8.0,
+    "roi_bounds": [
+      152,
+      29,
+      191,
+      66
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q33_1",
+    "candidate_id": "4e9e13cd52a946c1",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        31,
+        193
+      ],
+      [
+        35,
+        194
+      ],
+      [
+        38,
+        198
+      ],
+      [
+        37,
+        202
+      ],
+      [
+        34,
+        205
+      ],
+      [
+        30,
+        204
+      ],
+      [
+        27,
+        201
+      ],
+      [
+        27,
+        196
+      ]
+    ],
+    "location": [
+      33,
+      198
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q33_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 33,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-CTALSVMW.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-CTALSVMW",
+    "raw_sha256": "48ebb5d86c6c804b8d0940a2ab96e6a5afd7a8f46f98a35f353d73e8d5410d50",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          31.0,
+          193.0
+        ],
+        [
+          34.0,
+          205.0
+        ]
+      ],
+      "diameter_px": 12.36931687685298,
+      "h": [
+        [
+          27.0,
+          198.0
+        ],
+        [
+          38.0,
+          198.0
+        ]
+      ],
+      "axis_h_px": 11.0,
+      "v": [
+        [
+          31.0,
+          193.0
+        ],
+        [
+          31.0,
+          204.25
+        ]
+      ],
+      "axis_v_px": 11.25
+    },
+    "diameter_px": 12.36931687685298,
+    "axis_h_px": 11.0,
+    "axis_v_px": 11.25,
+    "roi_bounds": [
+      13,
+      179,
+      53,
+      220
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q33_2",
+    "candidate_id": "4e9e13cd52a946c1",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [
+      [
+        140,
+        200
+      ],
+      [
+        144,
+        200
+      ],
+      [
+        147,
+        202
+      ],
+      [
+        147,
+        205
+      ],
+      [
+        144,
+        207
+      ],
+      [
+        140,
+        206
+      ],
+      [
+        138,
+        204
+      ],
+      [
+        138,
+        202
+      ]
+    ],
+    "location": [
+      142,
+      203
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q33_3",
+    "boundary_uncertainty_px": 1,
+    "note": "Final overlay QA: pale blurred nuclear boundary and a dark internal focus; whole-boundary estimate insufficient. Excluded before LOO.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 33,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-CTALSVMW.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-CTALSVMW",
+    "raw_sha256": "48ebb5d86c6c804b8d0940a2ab96e6a5afd7a8f46f98a35f353d73e8d5410d50",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          147.0,
+          205.0
+        ],
+        [
+          138.0,
+          202.0
+        ]
+      ],
+      "diameter_px": 9.486832980505138,
+      "h": [
+        [
+          138.0,
+          202.0
+        ],
+        [
+          147.0,
+          202.0
+        ]
+      ],
+      "axis_h_px": 9.0,
+      "v": [
+        [
+          144.0,
+          200.0
+        ],
+        [
+          144.0,
+          207.0
+        ]
+      ],
+      "axis_v_px": 7.0
+    },
+    "diameter_px": 9.486832980505138,
+    "axis_h_px": 9.0,
+    "axis_v_px": 7.0,
+    "roi_bounds": [
+      124,
+      186,
+      162,
+      222
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q33_3",
+    "candidate_id": "4e9e13cd52a946c1",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        43,
+        180
+      ],
+      [
+        47,
+        180
+      ],
+      [
+        50,
+        183
+      ],
+      [
+        50,
+        186
+      ],
+      [
+        47,
+        189
+      ],
+      [
+        43,
+        189
+      ],
+      [
+        40,
+        186
+      ],
+      [
+        40,
+        183
+      ]
+    ],
+    "location": [
+      33,
+      198
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q33_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 33,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-CTALSVMW.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-CTALSVMW",
+    "raw_sha256": "48ebb5d86c6c804b8d0940a2ab96e6a5afd7a8f46f98a35f353d73e8d5410d50",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          50.0,
+          183.0
+        ],
+        [
+          40.0,
+          186.0
+        ]
+      ],
+      "diameter_px": 10.44030650891055,
+      "h": [
+        [
+          40.0,
+          183.0
+        ],
+        [
+          50.0,
+          183.0
+        ]
+      ],
+      "axis_h_px": 10.0,
+      "v": [
+        [
+          43.0,
+          180.0
+        ],
+        [
+          43.0,
+          189.0
+        ]
+      ],
+      "axis_v_px": 9.0
+    },
+    "diameter_px": 10.44030650891055,
+    "axis_h_px": 10.0,
+    "axis_v_px": 9.0,
+    "roi_bounds": [
+      26,
+      166,
+      65,
+      204
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q36_1",
+    "candidate_id": "94c4cc220a1e6a32",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        95,
+        181
+      ],
+      [
+        98,
+        181
+      ],
+      [
+        101,
+        184
+      ],
+      [
+        101,
+        188
+      ],
+      [
+        98,
+        191
+      ],
+      [
+        94,
+        190
+      ],
+      [
+        92,
+        187
+      ],
+      [
+        92,
+        184
+      ]
+    ],
+    "location": [
+      97,
+      186
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q36_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 36,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-HHVWDHHE.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-HHVWDHHE",
+    "raw_sha256": "db1def870584541116f7306f4e623b724f8a648838136bd1b75e253635555fb2",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          95.0,
+          181.0
+        ],
+        [
+          98.0,
+          191.0
+        ]
+      ],
+      "diameter_px": 10.44030650891055,
+      "h": [
+        [
+          92.0,
+          184.0
+        ],
+        [
+          101.0,
+          184.0
+        ]
+      ],
+      "axis_h_px": 9.0,
+      "v": [
+        [
+          98.0,
+          181.0
+        ],
+        [
+          98.0,
+          191.0
+        ]
+      ],
+      "axis_v_px": 10.0
+    },
+    "diameter_px": 10.44030650891055,
+    "axis_h_px": 9.0,
+    "axis_v_px": 10.0,
+    "roi_bounds": [
+      78,
+      167,
+      116,
+      206
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q39_1",
+    "candidate_id": "82e34ccc039ec8ce",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        110,
+        131
+      ],
+      [
+        113,
+        131
+      ],
+      [
+        116,
+        134
+      ],
+      [
+        116,
+        137
+      ],
+      [
+        113,
+        141
+      ],
+      [
+        109,
+        140
+      ],
+      [
+        107,
+        137
+      ],
+      [
+        107,
+        134
+      ]
+    ],
+    "location": [
+      112,
+      136
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q39_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 39,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/TUM/TUM-TCGA-DRCLCVLY.tif",
+    "group_id": "CRC-VAL-HE-7K:TUM-TCGA-DRCLCVLY",
+    "raw_sha256": "e82681f843cfaa4e6c764bb0810d88c9fab52f16f2868f6f7cc4a0b129bd59f1",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          110.0,
+          131.0
+        ],
+        [
+          113.0,
+          141.0
+        ]
+      ],
+      "diameter_px": 10.44030650891055,
+      "h": [
+        [
+          107.0,
+          134.0
+        ],
+        [
+          116.0,
+          134.0
+        ]
+      ],
+      "axis_h_px": 9.0,
+      "v": [
+        [
+          113.0,
+          131.0
+        ],
+        [
+          113.0,
+          141.0
+        ]
+      ],
+      "axis_v_px": 10.0
+    },
+    "diameter_px": 10.44030650891055,
+    "axis_h_px": 9.0,
+    "axis_v_px": 10.0,
+    "roi_bounds": [
+      93,
+      117,
+      131,
+      156
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q47_1",
+    "candidate_id": "b747568d30ba2eb1",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        79,
+        171
+      ],
+      [
+        83,
+        171
+      ],
+      [
+        86,
+        175
+      ],
+      [
+        85,
+        179
+      ],
+      [
+        82,
+        181
+      ],
+      [
+        78,
+        180
+      ],
+      [
+        76,
+        177
+      ],
+      [
+        76,
+        174
+      ]
+    ],
+    "location": [
+      81,
+      176
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q47_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 47,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-HEEMGFNV.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-HEEMGFNV",
+    "raw_sha256": "82affa0ad80c0e1c26275201619a183a9ee22b3bdbff970e3ed8596316c9a184",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          79.0,
+          171.0
+        ],
+        [
+          82.0,
+          181.0
+        ]
+      ],
+      "diameter_px": 10.44030650891055,
+      "h": [
+        [
+          76.0,
+          175.0
+        ],
+        [
+          86.0,
+          175.0
+        ]
+      ],
+      "axis_h_px": 10.0,
+      "v": [
+        [
+          82.0,
+          171.0
+        ],
+        [
+          82.0,
+          181.0
+        ]
+      ],
+      "axis_v_px": 10.0
+    },
+    "diameter_px": 10.44030650891055,
+    "axis_h_px": 10.0,
+    "axis_v_px": 10.0,
+    "roi_bounds": [
+      62,
+      157,
+      101,
+      196
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q48_1",
+    "candidate_id": "c803d085a46c694a",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        91,
+        61
+      ],
+      [
+        95,
+        61
+      ],
+      [
+        98,
+        64
+      ],
+      [
+        98,
+        68
+      ],
+      [
+        95,
+        71
+      ],
+      [
+        91,
+        70
+      ],
+      [
+        88,
+        67
+      ],
+      [
+        88,
+        64
+      ]
+    ],
+    "location": [
+      93,
+      66
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q48_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 48,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-VLGCQLEG.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-VLGCQLEG",
+    "raw_sha256": "1f7bf807d36b7bb7132c1cccd8b91a60bab57e8da5d6fef5e10ed0ba517fd01e",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          91.0,
+          61.0
+        ],
+        [
+          95.0,
+          71.0
+        ]
+      ],
+      "diameter_px": 10.770329614269007,
+      "h": [
+        [
+          88.0,
+          64.0
+        ],
+        [
+          98.0,
+          64.0
+        ]
+      ],
+      "axis_h_px": 10.0,
+      "v": [
+        [
+          95.0,
+          61.0
+        ],
+        [
+          95.0,
+          71.0
+        ]
+      ],
+      "axis_v_px": 10.0
+    },
+    "diameter_px": 10.770329614269007,
+    "axis_h_px": 10.0,
+    "axis_v_px": 10.0,
+    "roi_bounds": [
+      74,
+      47,
+      113,
+      86
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q60_1",
+    "candidate_id": "ab053241dbcd8789",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        160,
+        71
+      ],
+      [
+        164,
+        72
+      ],
+      [
+        167,
+        75
+      ],
+      [
+        167,
+        79
+      ],
+      [
+        164,
+        82
+      ],
+      [
+        159,
+        81
+      ],
+      [
+        156,
+        78
+      ],
+      [
+        156,
+        74
+      ]
+    ],
+    "location": [
+      162,
+      76
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q60_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 60,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-RNDHPFKA.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-RNDHPFKA",
+    "raw_sha256": "4f4b13cde8ad3e855e4ec8148cdef9e3d67e8dd21e5e1b55ff5ed85fb3c8150d",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          167.0,
+          79.0
+        ],
+        [
+          156.0,
+          74.0
+        ]
+      ],
+      "diameter_px": 12.083045973594572,
+      "h": [
+        [
+          156.0,
+          75.0
+        ],
+        [
+          167.0,
+          75.0
+        ]
+      ],
+      "axis_h_px": 11.0,
+      "v": [
+        [
+          160.0,
+          71.0
+        ],
+        [
+          160.0,
+          81.2
+        ]
+      ],
+      "axis_v_px": 10.200000000000003
+    },
+    "diameter_px": 12.083045973594572,
+    "axis_h_px": 11.0,
+    "axis_v_px": 10.200000000000003,
+    "roi_bounds": [
+      142,
+      57,
+      182,
+      97
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q60_2",
+    "candidate_id": "ab053241dbcd8789",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        194,
+        112
+      ],
+      [
+        199,
+        113
+      ],
+      [
+        202,
+        117
+      ],
+      [
+        201,
+        121
+      ],
+      [
+        198,
+        125
+      ],
+      [
+        192,
+        125
+      ],
+      [
+        189,
+        121
+      ],
+      [
+        189,
+        116
+      ]
+    ],
+    "location": [
+      196,
+      119
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q60_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 60,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-RNDHPFKA.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-RNDHPFKA",
+    "raw_sha256": "4f4b13cde8ad3e855e4ec8148cdef9e3d67e8dd21e5e1b55ff5ed85fb3c8150d",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          199.0,
+          113.0
+        ],
+        [
+          192.0,
+          125.0
+        ]
+      ],
+      "diameter_px": 13.892443989449804,
+      "h": [
+        [
+          189.0,
+          117.0
+        ],
+        [
+          202.0,
+          117.0
+        ]
+      ],
+      "axis_h_px": 13.0,
+      "v": [
+        [
+          194.0,
+          112.0
+        ],
+        [
+          194.0,
+          125.0
+        ]
+      ],
+      "axis_v_px": 13.0
+    },
+    "diameter_px": 13.892443989449804,
+    "axis_h_px": 13.0,
+    "axis_v_px": 13.0,
+    "roi_bounds": [
+      175,
+      98,
+      217,
+      140
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q60_3",
+    "candidate_id": "ab053241dbcd8789",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [
+      [
+        146,
+        147
+      ],
+      [
+        149,
+        147
+      ],
+      [
+        151,
+        150
+      ],
+      [
+        151,
+        153
+      ],
+      [
+        148,
+        155
+      ],
+      [
+        144,
+        154
+      ],
+      [
+        142,
+        151
+      ],
+      [
+        143,
+        148
+      ]
+    ],
+    "location": [
+      147,
+      151
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q60_3",
+    "boundary_uncertainty_px": 1,
+    "note": "Final overlay QA: blurred small dark object touches surrounding staining; identity/boundary uncertain. Excluded before LOO.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 60,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-RNDHPFKA.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-RNDHPFKA",
+    "raw_sha256": "4f4b13cde8ad3e855e4ec8148cdef9e3d67e8dd21e5e1b55ff5ed85fb3c8150d",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          151.0,
+          153.0
+        ],
+        [
+          143.0,
+          148.0
+        ]
+      ],
+      "diameter_px": 9.433981132056603,
+      "h": [
+        [
+          142.0,
+          151.0
+        ],
+        [
+          151.0,
+          151.0
+        ]
+      ],
+      "axis_h_px": 9.0,
+      "v": [
+        [
+          148.0,
+          147.0
+        ],
+        [
+          148.0,
+          155.0
+        ]
+      ],
+      "axis_v_px": 8.0
+    },
+    "diameter_px": 9.433981132056603,
+    "axis_h_px": 9.0,
+    "axis_v_px": 8.0,
+    "roi_bounds": [
+      128,
+      133,
+      166,
+      170
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q09_1",
+    "candidate_id": "acec3fb11232f296",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1677,
+        34
+      ],
+      [
+        1683,
+        34
+      ],
+      [
+        1687,
+        38
+      ],
+      [
+        1687,
+        44
+      ],
+      [
+        1684,
+        49
+      ],
+      [
+        1679,
+        50
+      ],
+      [
+        1675,
+        46
+      ],
+      [
+        1674,
+        40
+      ]
+    ],
+    "location": [
+      1681,
+      42
+    ],
+    "evidence_grid_target": "BACH_q09_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 9,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Invasive/iv058.tif",
+    "group_id": "BACH:iv058",
+    "raw_sha256": "4d2e4875f85770d08db506fe617abab268a00441673fa1722e5d48ded5b9707e",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1677.0,
+          34.0
+        ],
+        [
+          1684.0,
+          49.0
+        ]
+      ],
+      "diameter_px": 16.55294535724685,
+      "h": [
+        [
+          1674.0,
+          40.0
+        ],
+        [
+          1687.0,
+          40.0
+        ]
+      ],
+      "axis_h_px": 13.0,
+      "v": [
+        [
+          1679.0,
+          34.0
+        ],
+        [
+          1679.0,
+          50.0
+        ]
+      ],
+      "axis_v_px": 16.0
+    },
+    "diameter_px": 16.55294535724685,
+    "axis_h_px": 13.0,
+    "axis_v_px": 16.0,
+    "roi_bounds": [
+      1660,
+      20,
+      1702,
+      65
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q15_1",
+    "candidate_id": "d51742d8bd524cbf",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1010,
+        598
+      ],
+      [
+        1017,
+        598
+      ],
+      [
+        1022,
+        601
+      ],
+      [
+        1023,
+        605
+      ],
+      [
+        1020,
+        610
+      ],
+      [
+        1013,
+        611
+      ],
+      [
+        1005,
+        608
+      ],
+      [
+        1004,
+        603
+      ]
+    ],
+    "location": [
+      1014,
+      605
+    ],
+    "evidence_grid_target": "BACH_q15_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 15,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Normal/n048.tif",
+    "group_id": "BACH:n048",
+    "raw_sha256": "2c156221788e8b8088660af133be918cc83154beb0c5fb9cda8761e8bcc892a6",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1023.0,
+          605.0
+        ],
+        [
+          1004.0,
+          603.0
+        ]
+      ],
+      "diameter_px": 19.1049731745428,
+      "h": [
+        [
+          1004.4,
+          605.0
+        ],
+        [
+          1023.0,
+          605.0
+        ]
+      ],
+      "axis_h_px": 18.600000000000023,
+      "v": [
+        [
+          1013.0,
+          598.0
+        ],
+        [
+          1013.0,
+          611.0
+        ]
+      ],
+      "axis_v_px": 13.0
+    },
+    "diameter_px": 19.1049731745428,
+    "axis_h_px": 18.600000000000023,
+    "axis_v_px": 13.0,
+    "roi_bounds": [
+      990,
+      584,
+      1038,
+      626
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q16_1",
+    "candidate_id": "7d675c181b9f6a0c",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1494,
+        558
+      ],
+      [
+        1501,
+        558
+      ],
+      [
+        1508,
+        563
+      ],
+      [
+        1509,
+        570
+      ],
+      [
+        1505,
+        576
+      ],
+      [
+        1497,
+        578
+      ],
+      [
+        1490,
+        573
+      ],
+      [
+        1489,
+        565
+      ]
+    ],
+    "location": [
+      1500,
+      567
+    ],
+    "evidence_grid_target": "BACH_q16_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 16,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Normal/n065.tif",
+    "group_id": "BACH:n065",
+    "raw_sha256": "5b8255e9965033fc3e2121f36903a4d07fc691b526d0af4737a15e9423473d00",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1494.0,
+          558.0
+        ],
+        [
+          1505.0,
+          576.0
+        ]
+      ],
+      "diameter_px": 21.095023109728988,
+      "h": [
+        [
+          1489.625,
+          570.0
+        ],
+        [
+          1509.0,
+          570.0
+        ]
+      ],
+      "axis_h_px": 19.375,
+      "v": [
+        [
+          1497.0,
+          558.0
+        ],
+        [
+          1497.0,
+          578.0
+        ]
+      ],
+      "axis_v_px": 20.0
+    },
+    "diameter_px": 21.095023109728988,
+    "axis_h_px": 19.375,
+    "axis_v_px": 20.0,
+    "roi_bounds": [
+      1475,
+      544,
+      1524,
+      593
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q16_2",
+    "candidate_id": "7d675c181b9f6a0c",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        530,
+        1208
+      ],
+      [
+        534,
+        1209
+      ],
+      [
+        537,
+        1213
+      ],
+      [
+        537,
+        1219
+      ],
+      [
+        534,
+        1224
+      ],
+      [
+        529,
+        1224
+      ],
+      [
+        525,
+        1220
+      ],
+      [
+        525,
+        1214
+      ]
+    ],
+    "location": [
+      532,
+      1217
+    ],
+    "evidence_grid_target": "BACH_q16_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 16,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Normal/n065.tif",
+    "group_id": "BACH:n065",
+    "raw_sha256": "5b8255e9965033fc3e2121f36903a4d07fc691b526d0af4737a15e9423473d00",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          530.0,
+          1208.0
+        ],
+        [
+          534.0,
+          1224.0
+        ]
+      ],
+      "diameter_px": 16.492422502470642,
+      "h": [
+        [
+          525.0,
+          1214.0
+        ],
+        [
+          537.0,
+          1214.0
+        ]
+      ],
+      "axis_h_px": 12.0,
+      "v": [
+        [
+          530.0,
+          1208.0
+        ],
+        [
+          530.0,
+          1224.0
+        ]
+      ],
+      "axis_v_px": 16.0
+    },
+    "diameter_px": 16.492422502470642,
+    "axis_h_px": 12.0,
+    "axis_v_px": 16.0,
+    "roi_bounds": [
+      511,
+      1194,
+      552,
+      1239
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q20_1",
+    "candidate_id": "3bd2585178d0ac9b",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1124,
+        610
+      ],
+      [
+        1129,
+        610
+      ],
+      [
+        1133,
+        614
+      ],
+      [
+        1133,
+        618
+      ],
+      [
+        1129,
+        621
+      ],
+      [
+        1123,
+        621
+      ],
+      [
+        1120,
+        618
+      ],
+      [
+        1120,
+        614
+      ]
+    ],
+    "location": [
+      1127,
+      616
+    ],
+    "evidence_grid_target": "BACH_q20_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 20,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b054.tif",
+    "group_id": "BACH:b054",
+    "raw_sha256": "61acf2e2c23ad0f49cdb7f545b2b7eaee3e111b3e581f994bb2c7d57e1816c91",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1133.0,
+          614.0
+        ],
+        [
+          1120.0,
+          618.0
+        ]
+      ],
+      "diameter_px": 13.601470508735444,
+      "h": [
+        [
+          1120.0,
+          614.0
+        ],
+        [
+          1133.0,
+          614.0
+        ]
+      ],
+      "axis_h_px": 13.0,
+      "v": [
+        [
+          1124.0,
+          610.0
+        ],
+        [
+          1124.0,
+          621.0
+        ]
+      ],
+      "axis_v_px": 11.0
+    },
+    "diameter_px": 13.601470508735444,
+    "axis_h_px": 13.0,
+    "axis_v_px": 11.0,
+    "roi_bounds": [
+      1106,
+      596,
+      1148,
+      636
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q23_1",
+    "candidate_id": "fd5fb9faa5baa469",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        263,
+        1499
+      ],
+      [
+        267,
+        1499
+      ],
+      [
+        271,
+        1503
+      ],
+      [
+        271,
+        1508
+      ],
+      [
+        268,
+        1511
+      ],
+      [
+        262,
+        1511
+      ],
+      [
+        259,
+        1507
+      ],
+      [
+        260,
+        1502
+      ]
+    ],
+    "location": [
+      266,
+      1505
+    ],
+    "evidence_grid_target": "BACH_q23_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 23,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Invasive/iv052.tif",
+    "group_id": "BACH:iv052",
+    "raw_sha256": "af569e6b51259eaf21a9fe48e237f70553532719df40c6a487df49843c429601",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          263.0,
+          1499.0
+        ],
+        [
+          268.0,
+          1511.0
+        ]
+      ],
+      "diameter_px": 13.0,
+      "h": [
+        [
+          259.0,
+          1507.0
+        ],
+        [
+          271.0,
+          1507.0
+        ]
+      ],
+      "axis_h_px": 12.0,
+      "v": [
+        [
+          263.0,
+          1499.0
+        ],
+        [
+          263.0,
+          1511.0
+        ]
+      ],
+      "axis_v_px": 12.0
+    },
+    "diameter_px": 13.0,
+    "axis_h_px": 12.0,
+    "axis_v_px": 12.0,
+    "roi_bounds": [
+      245,
+      1485,
+      286,
+      1526
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q26_1",
+    "candidate_id": "e5491ff1c9a65ffb",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        777,
+        208
+      ],
+      [
+        783,
+        208
+      ],
+      [
+        787,
+        211
+      ],
+      [
+        788,
+        217
+      ],
+      [
+        784,
+        222
+      ],
+      [
+        778,
+        222
+      ],
+      [
+        774,
+        219
+      ],
+      [
+        773,
+        213
+      ]
+    ],
+    "location": [
+      787,
+      226
+    ],
+    "evidence_grid_target": "BACH_q26_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Whole dark rounded nucleus at (781,215), not the tiny locator dot at (787,226); visible boundary drawn on raw grid.",
+    "source": "BACH",
+    "queue_order": 26,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b069.tif",
+    "group_id": "BACH:b069",
+    "raw_sha256": "931a896c13cb4c94273d6745d82f03d9c6455ac003ea5fdbebf65487e5e39a8d",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          777.0,
+          208.0
+        ],
+        [
+          784.0,
+          222.0
+        ]
+      ],
+      "diameter_px": 15.652475842498529,
+      "h": [
+        [
+          773.0,
+          213.0
+        ],
+        [
+          787.3333333333334,
+          213.0
+        ]
+      ],
+      "axis_h_px": 14.333333333333371,
+      "v": [
+        [
+          778.0,
+          208.0
+        ],
+        [
+          778.0,
+          222.0
+        ]
+      ],
+      "axis_v_px": 14.0
+    },
+    "diameter_px": 15.652475842498529,
+    "axis_h_px": 14.333333333333371,
+    "axis_v_px": 14.0,
+    "roi_bounds": [
+      759,
+      194,
+      803,
+      237
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q27_1",
+    "candidate_id": "81391a41a9b837b9",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        990,
+        126
+      ],
+      [
+        997,
+        126
+      ],
+      [
+        1001,
+        130
+      ],
+      [
+        1001,
+        135
+      ],
+      [
+        997,
+        139
+      ],
+      [
+        990,
+        139
+      ],
+      [
+        986,
+        135
+      ],
+      [
+        986,
+        130
+      ]
+    ],
+    "location": [
+      995,
+      133
+    ],
+    "evidence_grid_target": "BACH_q27_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 27,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/InSitu/is099.tif",
+    "group_id": "BACH:is099",
+    "raw_sha256": "9d2fd9661a2676c36d4a437a4cbc21b25ea08b197befa18c6a3a4405a112215e",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1001.0,
+          130.0
+        ],
+        [
+          986.0,
+          135.0
+        ]
+      ],
+      "diameter_px": 15.811388300841896,
+      "h": [
+        [
+          986.0,
+          130.0
+        ],
+        [
+          1001.0,
+          130.0
+        ]
+      ],
+      "axis_h_px": 15.0,
+      "v": [
+        [
+          990.0,
+          126.0
+        ],
+        [
+          990.0,
+          139.0
+        ]
+      ],
+      "axis_v_px": 13.0
+    },
+    "diameter_px": 15.811388300841896,
+    "axis_h_px": 15.0,
+    "axis_v_px": 13.0,
+    "roi_bounds": [
+      972,
+      112,
+      1016,
+      154
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q27_2",
+    "candidate_id": "81391a41a9b837b9",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        2018,
+        348
+      ],
+      [
+        2025,
+        348
+      ],
+      [
+        2029,
+        352
+      ],
+      [
+        2028,
+        357
+      ],
+      [
+        2024,
+        360
+      ],
+      [
+        2018,
+        359
+      ],
+      [
+        2014,
+        355
+      ],
+      [
+        2014,
+        351
+      ]
+    ],
+    "location": [
+      2023,
+      353
+    ],
+    "evidence_grid_target": "BACH_q27_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 27,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/InSitu/is099.tif",
+    "group_id": "BACH:is099",
+    "raw_sha256": "9d2fd9661a2676c36d4a437a4cbc21b25ea08b197befa18c6a3a4405a112215e",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          2029.0,
+          352.0
+        ],
+        [
+          2014.0,
+          355.0
+        ]
+      ],
+      "diameter_px": 15.297058540778355,
+      "h": [
+        [
+          2014.0,
+          352.0
+        ],
+        [
+          2029.0,
+          352.0
+        ]
+      ],
+      "axis_h_px": 15.0,
+      "v": [
+        [
+          2024.0,
+          348.0
+        ],
+        [
+          2024.0,
+          360.0
+        ]
+      ],
+      "axis_v_px": 12.0
+    },
+    "diameter_px": 15.297058540778355,
+    "axis_h_px": 15.0,
+    "axis_v_px": 12.0,
+    "roi_bounds": [
+      2000,
+      334,
+      2044,
+      375
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q29_1",
+    "candidate_id": "461fd3a656143d57",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1940,
+        957
+      ],
+      [
+        1947,
+        957
+      ],
+      [
+        1952,
+        962
+      ],
+      [
+        1952,
+        968
+      ],
+      [
+        1948,
+        973
+      ],
+      [
+        1941,
+        974
+      ],
+      [
+        1937,
+        970
+      ],
+      [
+        1937,
+        962
+      ]
+    ],
+    "location": [
+      1945,
+      966
+    ],
+    "evidence_grid_target": "BACH_q29_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 29,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Normal/n068.tif",
+    "group_id": "BACH:n068",
+    "raw_sha256": "27d16acece770d4e48ec43c51e38554c52587274c0e27fd5811d057d133b1193",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1947.0,
+          957.0
+        ],
+        [
+          1941.0,
+          974.0
+        ]
+      ],
+      "diameter_px": 18.027756377319946,
+      "h": [
+        [
+          1937.0,
+          962.0
+        ],
+        [
+          1952.0,
+          962.0
+        ]
+      ],
+      "axis_h_px": 15.0,
+      "v": [
+        [
+          1941.0,
+          957.0
+        ],
+        [
+          1941.0,
+          974.0
+        ]
+      ],
+      "axis_v_px": 17.0
+    },
+    "diameter_px": 18.027756377319946,
+    "axis_h_px": 15.0,
+    "axis_v_px": 17.0,
+    "roi_bounds": [
+      1923,
+      943,
+      1967,
+      989
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q30_1",
+    "candidate_id": "383e07736604162e",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        577,
+        824
+      ],
+      [
+        583,
+        824
+      ],
+      [
+        589,
+        828
+      ],
+      [
+        592,
+        834
+      ],
+      [
+        588,
+        840
+      ],
+      [
+        581,
+        840
+      ],
+      [
+        575,
+        836
+      ],
+      [
+        573,
+        829
+      ]
+    ],
+    "location": [
+      582,
+      833
+    ],
+    "evidence_grid_target": "BACH_q30_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 30,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Normal/n073.tif",
+    "group_id": "BACH:n073",
+    "raw_sha256": "45f74b9f5f416dc4bee99b4142f5cff709e7b61e368376815222f426a23dc1b0",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          592.0,
+          834.0
+        ],
+        [
+          573.0,
+          829.0
+        ]
+      ],
+      "diameter_px": 19.6468827043885,
+      "h": [
+        [
+          574.4285714285714,
+          834.0
+        ],
+        [
+          592.0,
+          834.0
+        ]
+      ],
+      "axis_h_px": 17.571428571428555,
+      "v": [
+        [
+          581.0,
+          824.0
+        ],
+        [
+          581.0,
+          840.0
+        ]
+      ],
+      "axis_v_px": 16.0
+    },
+    "diameter_px": 19.6468827043885,
+    "axis_h_px": 17.571428571428555,
+    "axis_v_px": 16.0,
+    "roi_bounds": [
+      559,
+      810,
+      607,
+      855
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q32_1",
+    "candidate_id": "cc88574d3ea3536c",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        440,
+        1314
+      ],
+      [
+        447,
+        1314
+      ],
+      [
+        454,
+        1320
+      ],
+      [
+        454,
+        1325
+      ],
+      [
+        448,
+        1332
+      ],
+      [
+        439,
+        1333
+      ],
+      [
+        434,
+        1328
+      ],
+      [
+        434,
+        1320
+      ]
+    ],
+    "location": [
+      445,
+      1324
+    ],
+    "evidence_grid_target": "BACH_q32_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 32,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Invasive/iv054.tif",
+    "group_id": "BACH:iv054",
+    "raw_sha256": "2b77a5a031e448f69650aacbcca4febf09a12d5ca1cca2cbc221ad45c409ff53",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          454.0,
+          1320.0
+        ],
+        [
+          434.0,
+          1328.0
+        ]
+      ],
+      "diameter_px": 21.540659228538015,
+      "h": [
+        [
+          434.0,
+          1320.0
+        ],
+        [
+          454.0,
+          1320.0
+        ]
+      ],
+      "axis_h_px": 20.0,
+      "v": [
+        [
+          440.0,
+          1314.0
+        ],
+        [
+          440.0,
+          1332.888888888889
+        ]
+      ],
+      "axis_v_px": 18.888888888888914
+    },
+    "diameter_px": 21.540659228538015,
+    "axis_h_px": 20.0,
+    "axis_v_px": 18.888888888888914,
+    "roi_bounds": [
+      420,
+      1300,
+      469,
+      1348
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q36_1",
+    "candidate_id": "46d58b35be6c47f0",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        562,
+        862
+      ],
+      [
+        568,
+        862
+      ],
+      [
+        573,
+        866
+      ],
+      [
+        575,
+        872
+      ],
+      [
+        571,
+        879
+      ],
+      [
+        565,
+        880
+      ],
+      [
+        560,
+        875
+      ],
+      [
+        558,
+        868
+      ]
+    ],
+    "location": [
+      568,
+      871
+    ],
+    "evidence_grid_target": "BACH_q36_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 36,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b035.tif",
+    "group_id": "BACH:b035",
+    "raw_sha256": "8f582f3161e0bd1a7b5d4666ac23d747611c5213f5555cecf1cd35ba81e21714",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          562.0,
+          862.0
+        ],
+        [
+          571.0,
+          879.0
+        ]
+      ],
+      "diameter_px": 19.235384061671343,
+      "h": [
+        [
+          559.1428571428571,
+          872.0
+        ],
+        [
+          575.0,
+          872.0
+        ]
+      ],
+      "axis_h_px": 15.85714285714289,
+      "v": [
+        [
+          565.0,
+          862.0
+        ],
+        [
+          565.0,
+          880.0
+        ]
+      ],
+      "axis_v_px": 18.0
+    },
+    "diameter_px": 19.235384061671343,
+    "axis_h_px": 15.85714285714289,
+    "axis_v_px": 18.0,
+    "roi_bounds": [
+      544,
+      848,
+      590,
+      895
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q47_1",
+    "candidate_id": "a9108272b1b46646",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1962,
+        1060
+      ],
+      [
+        1967,
+        1061
+      ],
+      [
+        1972,
+        1065
+      ],
+      [
+        1973,
+        1071
+      ],
+      [
+        1969,
+        1076
+      ],
+      [
+        1965,
+        1076
+      ],
+      [
+        1960,
+        1071
+      ],
+      [
+        1959,
+        1065
+      ]
+    ],
+    "location": [
+      1967,
+      1068
+    ],
+    "evidence_grid_target": "BACH_q47_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 47,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Invasive/iv041.tif",
+    "group_id": "BACH:iv041",
+    "raw_sha256": "cc5060c513f3fa783823583b3fece963f2968b9e9717e5fc61aea52222baa600",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1962.0,
+          1060.0
+        ],
+        [
+          1969.0,
+          1076.0
+        ]
+      ],
+      "diameter_px": 17.46424919657298,
+      "h": [
+        [
+          1959.0,
+          1065.0
+        ],
+        [
+          1972.0,
+          1065.0
+        ]
+      ],
+      "axis_h_px": 13.0,
+      "v": [
+        [
+          1965.0,
+          1060.6
+        ],
+        [
+          1965.0,
+          1076.0
+        ]
+      ],
+      "axis_v_px": 15.400000000000091
+    },
+    "diameter_px": 17.46424919657298,
+    "axis_h_px": 13.0,
+    "axis_v_px": 15.400000000000091,
+    "roi_bounds": [
+      1945,
+      1046,
+      1988,
+      1091
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q50_1",
+    "candidate_id": "b79fe66963dff5f2",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        850,
+        290
+      ],
+      [
+        861,
+        290
+      ],
+      [
+        867,
+        293
+      ],
+      [
+        867,
+        299
+      ],
+      [
+        862,
+        303
+      ],
+      [
+        852,
+        304
+      ],
+      [
+        845,
+        301
+      ],
+      [
+        843,
+        295
+      ]
+    ],
+    "location": [
+      856,
+      297
+    ],
+    "evidence_grid_target": "BACH_q50_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 50,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/InSitu/is044.tif",
+    "group_id": "BACH:is044",
+    "raw_sha256": "c54a77396b2ceef40cc884efb60e439162fd8fa19de6a5e0e03087c8143c40c0",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          867.0,
+          299.0
+        ],
+        [
+          843.0,
+          295.0
+        ]
+      ],
+      "diameter_px": 24.331050121192877,
+      "h": [
+        [
+          843.0,
+          295.0
+        ],
+        [
+          867.0,
+          295.0
+        ]
+      ],
+      "axis_h_px": 24.0,
+      "v": [
+        [
+          852.0,
+          290.0
+        ],
+        [
+          852.0,
+          304.0
+        ]
+      ],
+      "axis_v_px": 14.0
+    },
+    "diameter_px": 24.331050121192877,
+    "axis_h_px": 24.0,
+    "axis_v_px": 14.0,
+    "roi_bounds": [
+      829,
+      276,
+      882,
+      319
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q50_2",
+    "candidate_id": "b79fe66963dff5f2",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1390,
+        746
+      ],
+      [
+        1398,
+        746
+      ],
+      [
+        1403,
+        750
+      ],
+      [
+        1403,
+        757
+      ],
+      [
+        1399,
+        762
+      ],
+      [
+        1390,
+        762
+      ],
+      [
+        1384,
+        759
+      ],
+      [
+        1383,
+        752
+      ]
+    ],
+    "location": [
+      1395,
+      755
+    ],
+    "evidence_grid_target": "BACH_q50_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 50,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/InSitu/is044.tif",
+    "group_id": "BACH:is044",
+    "raw_sha256": "c54a77396b2ceef40cc884efb60e439162fd8fa19de6a5e0e03087c8143c40c0",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1403.0,
+          750.0
+        ],
+        [
+          1384.0,
+          759.0
+        ]
+      ],
+      "diameter_px": 21.02379604162864,
+      "h": [
+        [
+          1383.0,
+          752.0
+        ],
+        [
+          1403.0,
+          752.0
+        ]
+      ],
+      "axis_h_px": 20.0,
+      "v": [
+        [
+          1390.0,
+          746.0
+        ],
+        [
+          1390.0,
+          762.0
+        ]
+      ],
+      "axis_v_px": 16.0
+    },
+    "diameter_px": 21.02379604162864,
+    "axis_h_px": 20.0,
+    "axis_v_px": 16.0,
+    "roi_bounds": [
+      1369,
+      732,
+      1418,
+      777
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q52_1",
+    "candidate_id": "b221812486b2bc7b",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        881,
+        1105
+      ],
+      [
+        889,
+        1107
+      ],
+      [
+        894,
+        1113
+      ],
+      [
+        895,
+        1123
+      ],
+      [
+        892,
+        1131
+      ],
+      [
+        883,
+        1132
+      ],
+      [
+        875,
+        1126
+      ],
+      [
+        872,
+        1116
+      ]
+    ],
+    "location": [
+      885,
+      1119
+    ],
+    "evidence_grid_target": "BACH_q52_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 52,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b067.tif",
+    "group_id": "BACH:b067",
+    "raw_sha256": "3e83987de6c449e29e1b0b59057cc8bfcf55a41b68458cca53699649793da851",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          881.0,
+          1105.0
+        ],
+        [
+          892.0,
+          1131.0
+        ]
+      ],
+      "diameter_px": 28.231188426986208,
+      "h": [
+        [
+          872.0,
+          1116.0
+        ],
+        [
+          894.3,
+          1116.0
+        ]
+      ],
+      "axis_h_px": 22.299999999999955,
+      "v": [
+        [
+          883.0,
+          1105.5
+        ],
+        [
+          883.0,
+          1132.0
+        ]
+      ],
+      "axis_v_px": 26.5
+    },
+    "diameter_px": 28.231188426986208,
+    "axis_h_px": 22.299999999999955,
+    "axis_v_px": 26.5,
+    "roi_bounds": [
+      858,
+      1091,
+      910,
+      1147
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q53_1",
+    "candidate_id": "10b3d0c46031288e",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1382,
+        44
+      ],
+      [
+        1386,
+        44
+      ],
+      [
+        1390,
+        48
+      ],
+      [
+        1389,
+        55
+      ],
+      [
+        1386,
+        62
+      ],
+      [
+        1379,
+        62
+      ],
+      [
+        1377,
+        58
+      ],
+      [
+        1378,
+        50
+      ]
+    ],
+    "location": [
+      1384,
+      54
+    ],
+    "evidence_grid_target": "BACH_q53_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 53,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Normal/n052.tif",
+    "group_id": "BACH:n052",
+    "raw_sha256": "4f68a6bda58ba12428318fd26dd215dfd751b9059b20786afbaa1c3fe1d11332",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1386.0,
+          44.0
+        ],
+        [
+          1379.0,
+          62.0
+        ]
+      ],
+      "diameter_px": 19.313207915827967,
+      "h": [
+        [
+          1378.0,
+          50.0
+        ],
+        [
+          1389.7142857142858,
+          50.0
+        ]
+      ],
+      "axis_h_px": 11.71428571428578,
+      "v": [
+        [
+          1382.0,
+          44.0
+        ],
+        [
+          1382.0,
+          62.0
+        ]
+      ],
+      "axis_v_px": 18.0
+    },
+    "diameter_px": 19.313207915827967,
+    "axis_h_px": 11.71428571428578,
+    "axis_v_px": 18.0,
+    "roi_bounds": [
+      1363,
+      30,
+      1405,
+      77
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q56_1",
+    "candidate_id": "d7cdf02d8611cf58",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1661,
+        410
+      ],
+      [
+        1667,
+        410
+      ],
+      [
+        1673,
+        414
+      ],
+      [
+        1674,
+        420
+      ],
+      [
+        1670,
+        425
+      ],
+      [
+        1660,
+        425
+      ],
+      [
+        1654,
+        421
+      ],
+      [
+        1653,
+        415
+      ]
+    ],
+    "location": [
+      1664,
+      418
+    ],
+    "evidence_grid_target": "BACH_q56_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 56,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/InSitu/is045.tif",
+    "group_id": "BACH:is045",
+    "raw_sha256": "c0b5eb46724729f7e588e2f33dcd692e3c0b0df8c802d75296dd889ad75734b9",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1674.0,
+          420.0
+        ],
+        [
+          1653.0,
+          415.0
+        ]
+      ],
+      "diameter_px": 21.587033144922902,
+      "h": [
+        [
+          1653.0,
+          415.0
+        ],
+        [
+          1673.1666666666667,
+          415.0
+        ]
+      ],
+      "axis_h_px": 20.166666666666742,
+      "v": [
+        [
+          1661.0,
+          410.0
+        ],
+        [
+          1661.0,
+          425.0
+        ]
+      ],
+      "axis_v_px": 15.0
+    },
+    "diameter_px": 21.587033144922902,
+    "axis_h_px": 20.166666666666742,
+    "axis_v_px": 15.0,
+    "roi_bounds": [
+      1639,
+      396,
+      1689,
+      440
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q16_9",
+    "candidate_id": "7ae339f2924f3a52",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      150,
+      51
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q16_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Locator at (150,51) may connect to another dark nucleus above; boundary not separable.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 16,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-NKVHDQPQ.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-NKVHDQPQ",
+    "raw_sha256": "3cd9ceefc240582e9bc0f4b8be37462c91d2ca8ccf1ed98e1e9a284e32a4bb8d",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      122,
+      23,
+      179,
+      80
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q18_9",
+    "candidate_id": "959536019f2ad4bb",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      158,
+      69
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q18_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Adjacent dark objects overlap; no reliable single-nucleus outline.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 18,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-CDWMTSLF.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-CDWMTSLF",
+    "raw_sha256": "e5db71be04688d0bfdbbb802cde96e2db7481fb397fd28b2d00914424fc3c9d4",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      130,
+      41,
+      187,
+      98
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q24_9",
+    "candidate_id": "6da09147bf1875bb",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      118,
+      83
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q24_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Dark centre with lower extension; whole-nucleus boundary uncertain.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 24,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-PPCGNHII.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-PPCGNHII",
+    "raw_sha256": "37cc4155ad2fea55a29537cc8df38bbc9543882e1b69dc389887744050c33385",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      90,
+      55,
+      147,
+      112
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q28_9",
+    "candidate_id": "2941f4224fd5dcae",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      162,
+      36
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q28_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Target (162,36) has pale/heterogeneous chromatin; identity uncertain. A different separated object in this ROI was measured.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 28,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-FLYIEMCP.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-FLYIEMCP",
+    "raw_sha256": "09a2dbce3147eb8c7bd851c714468125ec82323eb8f68153eb6bdeeebb8ea18d",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      134,
+      8,
+      191,
+      65
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q33_9",
+    "candidate_id": "4e9e13cd52a946c1",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      135,
+      108
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q33_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Overlapping pale nuclei; identity and boundary unsuitable.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 33,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-CTALSVMW.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-CTALSVMW",
+    "raw_sha256": "48ebb5d86c6c804b8d0940a2ab96e6a5afd7a8f46f98a35f353d73e8d5410d50",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      107,
+      80,
+      164,
+      137
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q36_9",
+    "candidate_id": "94c4cc220a1e6a32",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      206,
+      104
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q36_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Pale-centred dark outline; lymphocyte identity uncertain.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 36,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-HHVWDHHE.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-HHVWDHHE",
+    "raw_sha256": "db1def870584541116f7306f4e623b724f8a648838136bd1b75e253635555fb2",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      178,
+      76,
+      224,
+      133
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q36_10",
+    "candidate_id": "94c4cc220a1e6a32",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      41,
+      164
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q36_3",
+    "boundary_uncertainty_px": 1,
+    "note": "Elongated nucleus; lymphocyte identity uncertain.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 36,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-HHVWDHHE.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-HHVWDHHE",
+    "raw_sha256": "db1def870584541116f7306f4e623b724f8a648838136bd1b75e253635555fb2",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      13,
+      136,
+      70,
+      193
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q47_9",
+    "candidate_id": "b747568d30ba2eb1",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      33,
+      137
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q47_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Angular dark object among elongated stromal nuclei; identity uncertain.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 47,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-HEEMGFNV.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-HEEMGFNV",
+    "raw_sha256": "82affa0ad80c0e1c26275201619a183a9ee22b3bdbff970e3ed8596316c9a184",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      5,
+      109,
+      62,
+      166
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q47_10",
+    "candidate_id": "b747568d30ba2eb1",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      39,
+      212
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q47_3",
+    "boundary_uncertainty_px": 1,
+    "note": "Irregular pale/overlapping nuclei, not a separate uniformly dark round nucleus.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 47,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-HEEMGFNV.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-HEEMGFNV",
+    "raw_sha256": "82affa0ad80c0e1c26275201619a183a9ee22b3bdbff970e3ed8596316c9a184",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      11,
+      184,
+      68,
+      224
+    ]
+  },
+  {
+    "measurement_id": "D1_CRC_q48_9",
+    "candidate_id": "c803d085a46c694a",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      126,
+      145
+    ],
+    "evidence_grid_target": "CRC-VAL-HE-7K_q48_2",
+    "boundary_uncertainty_px": 1,
+    "note": "Elongated dark object and nearby dark neighbour; boundary/identity uncertain.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 48,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-VLGCQLEG.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-VLGCQLEG",
+    "raw_sha256": "1f7bf807d36b7bb7132c1cccd8b91a60bab57e8da5d6fef5e10ed0ba517fd01e",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      98,
+      117,
+      155,
+      174
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q25_9",
+    "candidate_id": "39cc2c1cfe7748ce",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      218,
+      935
+    ],
+    "evidence_grid_target": "BACH_q25_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Magenta object with blue lower focus: cannot identify as RBC or lymphocyte.",
+    "source": "BACH",
+    "queue_order": 25,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b010.tif",
+    "group_id": "BACH:b010",
+    "raw_sha256": "739ab10f3616e5ed7bacbf75739395e6cd8d374880c3a09c0128205205163698",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      190,
+      907,
+      247,
+      964
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q29_9",
+    "candidate_id": "461fd3a656143d57",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      602,
+      584
+    ],
+    "evidence_grid_target": "BACH_q29_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Pale internal area/eccentric chromatin; possible non-lymphocyte nucleus.",
+    "source": "BACH",
+    "queue_order": 29,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Normal/n068.tif",
+    "group_id": "BACH:n068",
+    "raw_sha256": "27d16acece770d4e48ec43c51e38554c52587274c0e27fd5811d057d133b1193",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      574,
+      556,
+      631,
+      613
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q32_9",
+    "candidate_id": "cc88574d3ea3536c",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      371,
+      874
+    ],
+    "evidence_grid_target": "BACH_q32_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Large pale nucleus in a cluster; possible epithelial nucleus.",
+    "source": "BACH",
+    "queue_order": 32,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Invasive/iv054.tif",
+    "group_id": "BACH:iv054",
+    "raw_sha256": "2b77a5a031e448f69650aacbcca4febf09a12d5ca1cca2cbc221ad45c409ff53",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      343,
+      846,
+      400,
+      903
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q35_9",
+    "candidate_id": "ad5dc7378c098bf6",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      1571,
+      872
+    ],
+    "evidence_grid_target": "BACH_q35_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Clustered dark nuclei at duct epithelium; identity not established.",
+    "source": "BACH",
+    "queue_order": 35,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b056.tif",
+    "group_id": "BACH:b056",
+    "raw_sha256": "9dd27180b7daa6aef7753e07a04a8f68c58e93daad54dce3e46339af10a3043f",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      1543,
+      844,
+      1600,
+      901
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q35_10",
+    "candidate_id": "ad5dc7378c098bf6",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      821,
+      138
+    ],
+    "evidence_grid_target": "BACH_q35_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Clustered dark nucleus; cannot exclude epithelial identity.",
+    "source": "BACH",
+    "queue_order": 35,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b056.tif",
+    "group_id": "BACH:b056",
+    "raw_sha256": "9dd27180b7daa6aef7753e07a04a8f68c58e93daad54dce3e46339af10a3043f",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      793,
+      110,
+      850,
+      167
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q36_9",
+    "candidate_id": "46d58b35be6c47f0",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      921,
+      1290
+    ],
+    "evidence_grid_target": "BACH_q36_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Locator target does not contain a separate round nucleus; nearby object elongated.",
+    "source": "BACH",
+    "queue_order": 36,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b035.tif",
+    "group_id": "BACH:b035",
+    "raw_sha256": "8f582f3161e0bd1a7b5d4666ac23d747611c5213f5555cecf1cd35ba81e21714",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      893,
+      1262,
+      950,
+      1319
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q57_9",
+    "candidate_id": "39a33d676d081a1a",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      479,
+      1070
+    ],
+    "evidence_grid_target": "BACH_q57_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Low-contrast nucleus: boundary not stable to 1-2 pixels.",
+    "source": "BACH",
+    "queue_order": 57,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Invasive/iv014.tif",
+    "group_id": "BACH:iv014",
+    "raw_sha256": "efff08acc5cf3b5d9abe873b94fc72d983da6b004783587d1b85304615ea37d8",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      451,
+      1042,
+      508,
+      1099
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q58_9",
+    "candidate_id": "6d00b3ff9f26c729",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      211,
+      386
+    ],
+    "evidence_grid_target": "BACH_q58_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Raw grid target contains pale background, not a nucleus. Locator false positive.",
+    "source": "BACH",
+    "queue_order": 58,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b076.tif",
+    "group_id": "BACH:b076",
+    "raw_sha256": "b9f4146aa2afe34b7cb8c33d8658f771e68ce3c7764f575454a21b9022baf6ec",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      183,
+      358,
+      240,
+      415
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q04_9",
+    "candidate_id": "1f041497dbf5a150",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      348,
+      48
+    ],
+    "evidence_grid_target": "BreakHis_q04_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Dark region in epithelium; cannot identify a whole lymphocyte nucleus.",
+    "source": "BreakHis",
+    "queue_order": 4,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/malignant/SOB/ductal_carcinoma/SOB_M_DC_14-2985/40X/SOB_M_DC-14-2985-40-006.png",
+    "group_id": "BreakHis:14-2985",
+    "raw_sha256": "6ee5ab222e9c69bf06bedaafc067a1d8287b7f20ba6e7131312a5d201cc3aea6",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      320,
+      20,
+      377,
+      77
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q21_9",
+    "candidate_id": "b74cc4bba2763e5b",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      535,
+      416
+    ],
+    "evidence_grid_target": "BreakHis_q21_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Blurred brown/purple object and adjacent stain; identity and boundary uncertain.",
+    "source": "BreakHis",
+    "queue_order": 21,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/malignant/SOB/ductal_carcinoma/SOB_M_DC_14-2985/40X/SOB_M_DC-14-2985-40-001.png",
+    "group_id": "BreakHis:14-2985",
+    "raw_sha256": "cdf9afc94017407d1dba33d81bc966281dace478bc214b829d79c088d426d284",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      507,
+      388,
+      564,
+      445
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q21_10",
+    "candidate_id": "b74cc4bba2763e5b",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      668,
+      434
+    ],
+    "evidence_grid_target": "BreakHis_q21_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Small dark dot amid blurred staining; cannot establish whole-nucleus boundary.",
+    "source": "BreakHis",
+    "queue_order": 21,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/malignant/SOB/ductal_carcinoma/SOB_M_DC_14-2985/40X/SOB_M_DC-14-2985-40-001.png",
+    "group_id": "BreakHis:14-2985",
+    "raw_sha256": "cdf9afc94017407d1dba33d81bc966281dace478bc214b829d79c088d426d284",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      640,
+      406,
+      697,
+      460
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q36_9",
+    "candidate_id": "8d0aec199dffbb66",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      236,
+      236
+    ],
+    "evidence_grid_target": "BreakHis_q36_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Two touching purple objects; cannot isolate one whole round nucleus.",
+    "source": "BreakHis",
+    "queue_order": 36,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/malignant/SOB/ductal_carcinoma/SOB_M_DC_14-12312/40X/SOB_M_DC-14-12312-40-032.png",
+    "group_id": "BreakHis:14-12312",
+    "raw_sha256": "14614419b22b220bb809ad94a3acd61d639574b7e8e688b266dc9b2b68353a63",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      208,
+      208,
+      265,
+      265
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q42_9",
+    "candidate_id": "2caa3dacc6ee84e2",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      393,
+      147
+    ],
+    "evidence_grid_target": "BreakHis_q42_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Black object detached in gland lumen; debris/artefact cannot be excluded.",
+    "source": "BreakHis",
+    "queue_order": 42,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/benign/SOB/fibroadenoma/SOB_B_F_14-23222AB/40X/SOB_B_F-14-23222AB-40-016.png",
+    "group_id": "BreakHis:14-23222",
+    "raw_sha256": "0bd7516295ba00def6709d0318f40eddcf4c62939b9e61e435f3e3c324323d0b",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      365,
+      119,
+      422,
+      176
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q43_9",
+    "candidate_id": "03596048d68ce494",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      11,
+      22
+    ],
+    "evidence_grid_target": "BreakHis_q43_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Low-resolution dark object; identity and true nuclear boundary uncertain.",
+    "source": "BreakHis",
+    "queue_order": 43,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/malignant/SOB/ductal_carcinoma/SOB_M_DC_14-3909/40X/SOB_M_DC-14-3909-40-007.png",
+    "group_id": "BreakHis:14-3909",
+    "raw_sha256": "1f5923afb967c6631e4d4a801ff94cccd32db3690446ebc53ab51befa1208ba7",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      0,
+      0,
+      40,
+      51
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q02_9",
+    "candidate_id": "b2d3a70ea05b701b",
+    "cell_type": "rbc",
+    "decision": "uncertain",
+    "polygon": [
+      [
+        1985,
+        421
+      ],
+      [
+        1992,
+        421
+      ],
+      [
+        1997,
+        426
+      ],
+      [
+        1996,
+        433
+      ],
+      [
+        1992,
+        438
+      ],
+      [
+        1985,
+        440
+      ],
+      [
+        1978,
+        435
+      ],
+      [
+        1978,
+        428
+      ]
+    ],
+    "location": [
+      1987,
+      432
+    ],
+    "evidence_grid_target": "BACH_q02_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Anucleate-looking magenta body in a lumen; solitary object, RBC identity not established. Not counted.",
+    "source": "BACH",
+    "queue_order": 2,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b095.tif",
+    "group_id": "BACH:b095",
+    "raw_sha256": "87c4f3cf83fd97f21ef3534803166fc430806a3a3614bc7f7f3f2c5d9142ca95",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1997.0,
+          426.0
+        ],
+        [
+          1978.0,
+          435.0
+        ]
+      ],
+      "diameter_px": 21.02379604162864,
+      "h": [
+        [
+          1978.0,
+          428.0
+        ],
+        [
+          1996.7142857142858,
+          428.0
+        ]
+      ],
+      "axis_h_px": 18.71428571428578,
+      "v": [
+        [
+          1985.0,
+          421.0
+        ],
+        [
+          1985.0,
+          440.0
+        ]
+      ],
+      "axis_v_px": 19.0
+    },
+    "diameter_px": 21.02379604162864,
+    "axis_h_px": 18.71428571428578,
+    "axis_v_px": 19.0,
+    "roi_bounds": [
+      1964,
+      407,
+      2012,
+      455
+    ]
+  },
+  {
+    "measurement_id": "D1_BACH_q49_9",
+    "candidate_id": "65817cd32ed40287",
+    "cell_type": "rbc",
+    "decision": "uncertain",
+    "polygon": [
+      [
+        221,
+        1377
+      ],
+      [
+        226,
+        1379
+      ],
+      [
+        230,
+        1384
+      ],
+      [
+        230,
+        1390
+      ],
+      [
+        226,
+        1395
+      ],
+      [
+        220,
+        1395
+      ],
+      [
+        216,
+        1391
+      ],
+      [
+        215,
+        1383
+      ]
+    ],
+    "location": [
+      211,
+      1400
+    ],
+    "evidence_grid_target": "BACH_q49_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Round magenta body adjacent to a second smaller body; RBC versus other eosinophilic structure unresolved. Not counted.",
+    "source": "BACH",
+    "queue_order": 49,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Normal/n023.tif",
+    "group_id": "BACH:n023",
+    "raw_sha256": "fefbd06303d9eec378ad146b9accbc02921adf417b63a8451fe10874654b9b3e",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          221.0,
+          1377.0
+        ],
+        [
+          226.0,
+          1395.0
+        ]
+      ],
+      "diameter_px": 18.681541692269406,
+      "h": [
+        [
+          215.125,
+          1384.0
+        ],
+        [
+          230.0,
+          1384.0
+        ]
+      ],
+      "axis_h_px": 14.875,
+      "v": [
+        [
+          221.0,
+          1377.0
+        ],
+        [
+          221.0,
+          1395.0
+        ]
+      ],
+      "axis_v_px": 18.0
+    },
+    "diameter_px": 18.681541692269406,
+    "axis_h_px": 14.875,
+    "axis_v_px": 18.0,
+    "roi_bounds": [
+      201,
+      1363,
+      245,
+      1410
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q13_11",
+    "candidate_id": "8f9f53cccfc7b2ba",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [
+      [
+        259,
+        54
+      ],
+      [
+        264,
+        54
+      ],
+      [
+        267,
+        58
+      ],
+      [
+        266,
+        65
+      ],
+      [
+        263,
+        70
+      ],
+      [
+        258,
+        71
+      ],
+      [
+        255,
+        67
+      ],
+      [
+        255,
+        61
+      ]
+    ],
+    "location": [
+      260,
+      60
+    ],
+    "evidence_grid_target": "BreakHis_q13_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Native full-image survey found an elongated low-contrast purple object. Approximate extent only, not an identified lymphocyte nucleus.",
+    "source": "BreakHis",
+    "queue_order": 13,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/malignant/SOB/ductal_carcinoma/SOB_M_DC_14-14926/40X/SOB_M_DC-14-14926-40-013.png",
+    "group_id": "BreakHis:14-14926",
+    "raw_sha256": "96a3efc2ddc6d872b1120f2823b0f1b615b37867b54d9c46bdde3c5149d453f7",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          264.0,
+          54.0
+        ],
+        [
+          258.0,
+          71.0
+        ]
+      ],
+      "diameter_px": 18.027756377319946,
+      "h": [
+        [
+          255.0,
+          61.0
+        ],
+        [
+          266.57142857142856,
+          61.0
+        ]
+      ],
+      "axis_h_px": 11.571428571428555,
+      "v": [
+        [
+          259.0,
+          54.0
+        ],
+        [
+          259.0,
+          70.8
+        ]
+      ],
+      "axis_v_px": 16.799999999999997
+    },
+    "diameter_px": 18.027756377319946,
+    "axis_h_px": 11.571428571428555,
+    "axis_v_px": 16.799999999999997,
+    "roi_bounds": [
+      241,
+      40,
+      282,
+      86
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q22_11",
+    "candidate_id": "11684cd0a582b8f7",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [
+      [
+        281,
+        319
+      ],
+      [
+        284,
+        319
+      ],
+      [
+        287,
+        324
+      ],
+      [
+        287,
+        330
+      ],
+      [
+        284,
+        335
+      ],
+      [
+        277,
+        335
+      ],
+      [
+        273,
+        332
+      ],
+      [
+        273,
+        326
+      ]
+    ],
+    "location": [
+      282,
+      328
+    ],
+    "evidence_grid_target": "BreakHis_q22_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Solitary stromal purple object, but boundary diffuse and nucleus not uniformly dark. Approximate visible outline only; excluded.",
+    "source": "BreakHis",
+    "queue_order": 22,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/malignant/SOB/lobular_carcinoma/SOB_M_LC_14-12204/40X/SOB_M_LC-14-12204-40-007.png",
+    "group_id": "BreakHis:14-12204",
+    "raw_sha256": "7b6d3b295ee71166b6f762b2363526edffbeff7a439608b8faf161c0fa1aa7d9",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          284.0,
+          319.0
+        ],
+        [
+          277.0,
+          335.0
+        ]
+      ],
+      "diameter_px": 17.46424919657298,
+      "h": [
+        [
+          273.0,
+          326.0
+        ],
+        [
+          287.0,
+          326.0
+        ]
+      ],
+      "axis_h_px": 14.0,
+      "v": [
+        [
+          281.0,
+          319.0
+        ],
+        [
+          281.0,
+          335.0
+        ]
+      ],
+      "axis_v_px": 16.0
+    },
+    "diameter_px": 17.46424919657298,
+    "axis_h_px": 14.0,
+    "axis_v_px": 16.0,
+    "roi_bounds": [
+      259,
+      305,
+      302,
+      350
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q29_11",
+    "candidate_id": "255122a952169206",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [
+      [
+        171,
+        167
+      ],
+      [
+        177,
+        167
+      ],
+      [
+        182,
+        170
+      ],
+      [
+        182,
+        174
+      ],
+      [
+        178,
+        177
+      ],
+      [
+        171,
+        177
+      ],
+      [
+        166,
+        174
+      ],
+      [
+        166,
+        170
+      ]
+    ],
+    "location": [
+      175,
+      173
+    ],
+    "evidence_grid_target": "BreakHis_q29_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Dark grey oval object lacks clear hematoxylin nuclear appearance; artefact cannot be excluded. Outline only for review.",
+    "source": "BreakHis",
+    "queue_order": 29,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/malignant/SOB/ductal_carcinoma/SOB_M_DC_14-14926/40X/SOB_M_DC-14-14926-40-018.png",
+    "group_id": "BreakHis:14-14926",
+    "raw_sha256": "0231ddf4ac43e9704f56e567d2f4b1eeba840fe6dace4a6ea0e3148169a6c829",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          182.0,
+          170.0
+        ],
+        [
+          166.0,
+          174.0
+        ]
+      ],
+      "diameter_px": 16.492422502470642,
+      "h": [
+        [
+          166.0,
+          170.0
+        ],
+        [
+          182.0,
+          170.0
+        ]
+      ],
+      "axis_h_px": 16.0,
+      "v": [
+        [
+          171.0,
+          167.0
+        ],
+        [
+          171.0,
+          177.0
+        ]
+      ],
+      "axis_v_px": 10.0
+    },
+    "diameter_px": 16.492422502470642,
+    "axis_h_px": 16.0,
+    "axis_v_px": 10.0,
+    "roi_bounds": [
+      152,
+      153,
+      197,
+      192
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q37_11",
+    "candidate_id": "ef09e533fa86330d",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [
+      [
+        541,
+        125
+      ],
+      [
+        546,
+        125
+      ],
+      [
+        549,
+        129
+      ],
+      [
+        549,
+        134
+      ],
+      [
+        545,
+        138
+      ],
+      [
+        540,
+        137
+      ],
+      [
+        537,
+        133
+      ],
+      [
+        537,
+        129
+      ]
+    ],
+    "location": [
+      544,
+      130
+    ],
+    "evidence_grid_target": "BreakHis_q37_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Low-contrast stromal object with blurry edge; not enough evidence of a whole lymphocyte nucleus.",
+    "source": "BreakHis",
+    "queue_order": 37,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/benign/SOB/adenosis/SOB_B_A_14-22549AB/40X/SOB_B_A-14-22549AB-40-002.png",
+    "group_id": "BreakHis:14-22549",
+    "raw_sha256": "6ad86f26f7631b67dea4e8b4995a47fe4b19233289fbfbfdcede3c85503a8526",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          541.0,
+          125.0
+        ],
+        [
+          545.0,
+          138.0
+        ]
+      ],
+      "diameter_px": 13.601470508735444,
+      "h": [
+        [
+          537.0,
+          129.0
+        ],
+        [
+          549.0,
+          129.0
+        ]
+      ],
+      "axis_h_px": 12.0,
+      "v": [
+        [
+          545.0,
+          125.0
+        ],
+        [
+          545.0,
+          138.0
+        ]
+      ],
+      "axis_v_px": 13.0
+    },
+    "diameter_px": 13.601470508735444,
+    "axis_h_px": 12.0,
+    "axis_v_px": 13.0,
+    "roi_bounds": [
+      523,
+      111,
+      564,
+      153
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q10_11",
+    "candidate_id": "b0003f5c93eeef05",
+    "cell_type": "rbc",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      120,
+      355
+    ],
+    "evidence_grid_target": "BreakHis_q10_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Pink/red vessel region, but individual anucleate cell boundaries cannot be separated.",
+    "source": "BreakHis",
+    "queue_order": 10,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/benign/SOB/tubular_adenoma/SOB_B_TA_14-16184CD/40X/SOB_B_TA-14-16184CD-40-007.png",
+    "group_id": "BreakHis:14-16184",
+    "raw_sha256": "6fc630b6f4be3f5d8fd5a2103726b64964809cb6a028919c4dd5549838248ab6",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      92,
+      327,
+      149,
+      384
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q50_11",
+    "candidate_id": "988c2688af5b4b1f",
+    "cell_type": "rbc",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      546,
+      335
+    ],
+    "evidence_grid_target": "BreakHis_q50_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Blood-coloured region with merged red staining; no single clear RBC boundary.",
+    "source": "BreakHis",
+    "queue_order": 50,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/benign/SOB/fibroadenoma/SOB_B_F_14-25197/40X/SOB_B_F-14-25197-40-043.png",
+    "group_id": "BreakHis:14-25197",
+    "raw_sha256": "22155bf3b87652cd84d2742991abd42b7e930885c715067d1e500705a3bfc585",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      518,
+      307,
+      575,
+      364
+    ]
+  },
+  {
+    "measurement_id": "D1_BreakHis_q50_12",
+    "candidate_id": "988c2688af5b4b1f",
+    "cell_type": "rbc",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      561,
+      214
+    ],
+    "evidence_grid_target": "BreakHis_q50_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Second vessel region; red objects merge and individual RBC identity/boundary is unresolved.",
+    "source": "BreakHis",
+    "queue_order": 50,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/benign/SOB/fibroadenoma/SOB_B_F_14-25197/40X/SOB_B_F-14-25197-40-043.png",
+    "group_id": "BreakHis:14-25197",
+    "raw_sha256": "22155bf3b87652cd84d2742991abd42b7e930885c715067d1e500705a3bfc585",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      533,
+      186,
+      590,
+      243
+    ]
+  },
+  {
+    "measurement_id": "D2_CRC_q18_1",
+    "candidate_id": "959536019f2ad4bb",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        170,
+        89
+      ],
+      [
+        174,
+        89
+      ],
+      [
+        178,
+        92
+      ],
+      [
+        180,
+        96
+      ],
+      [
+        178,
+        99
+      ],
+      [
+        172,
+        100
+      ],
+      [
+        168,
+        97
+      ],
+      [
+        168,
+        93
+      ]
+    ],
+    "location": [
+      173,
+      94
+    ],
+    "evidence_grid_target": "D2_CRC_q18_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 18,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-CDWMTSLF.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-CDWMTSLF",
+    "raw_sha256": "e5db71be04688d0bfdbbb802cde96e2db7481fb397fd28b2d00914424fc3c9d4",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          170.0,
+          89.0
+        ],
+        [
+          178.0,
+          99.0
+        ]
+      ],
+      "diameter_px": 12.806248474865697,
+      "h": [
+        [
+          168.0,
+          96.0
+        ],
+        [
+          180.0,
+          96.0
+        ]
+      ],
+      "axis_h_px": 12.0,
+      "v": [
+        [
+          172.0,
+          89.0
+        ],
+        [
+          172.0,
+          100.0
+        ]
+      ],
+      "axis_v_px": 11.0
+    },
+    "diameter_px": 12.806248474865697,
+    "axis_h_px": 12.0,
+    "axis_v_px": 11.0,
+    "roi_bounds": [
+      154,
+      75,
+      195,
+      115
+    ]
+  },
+  {
+    "measurement_id": "D2_CRC_q44_1",
+    "candidate_id": "82489239c7744ad8",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        134,
+        60
+      ],
+      [
+        138,
+        60
+      ],
+      [
+        141,
+        63
+      ],
+      [
+        143,
+        66
+      ],
+      [
+        140,
+        70
+      ],
+      [
+        135,
+        70
+      ],
+      [
+        132,
+        67
+      ],
+      [
+        131,
+        63
+      ]
+    ],
+    "location": [
+      137,
+      65
+    ],
+    "evidence_grid_target": "D2_CRC_q44_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 44,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-LPAHQYNE.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-LPAHQYNE",
+    "raw_sha256": "7adbdc5353ba8f4a9bc03b32a192a80aeb9d2e70966c27c095e59bcc37bdf2d2",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          143.0,
+          66.0
+        ],
+        [
+          131.0,
+          63.0
+        ]
+      ],
+      "diameter_px": 12.36931687685298,
+      "h": [
+        [
+          131.75,
+          66.0
+        ],
+        [
+          143.0,
+          66.0
+        ]
+      ],
+      "axis_h_px": 11.25,
+      "v": [
+        [
+          135.0,
+          60.0
+        ],
+        [
+          135.0,
+          70.0
+        ]
+      ],
+      "axis_v_px": 10.0
+    },
+    "diameter_px": 12.36931687685298,
+    "axis_h_px": 11.25,
+    "axis_v_px": 10.0,
+    "roi_bounds": [
+      117,
+      46,
+      158,
+      85
+    ]
+  },
+  {
+    "measurement_id": "D2_CRC_q36_1",
+    "candidate_id": "94c4cc220a1e6a32",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        103,
+        205
+      ],
+      [
+        107,
+        205
+      ],
+      [
+        110,
+        208
+      ],
+      [
+        109,
+        213
+      ],
+      [
+        106,
+        216
+      ],
+      [
+        102,
+        215
+      ],
+      [
+        100,
+        212
+      ],
+      [
+        100,
+        208
+      ]
+    ],
+    "location": [
+      104,
+      210
+    ],
+    "evidence_grid_target": "D2_CRC_q36_1",
+    "boundary_uncertainty_px": 1,
+    "note": "Separate rounded/oval dark nucleus at (104,210) selected visually within the grid centred on (112,201). No threshold-mask boundary used; independent identity/boundary review pending.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 36,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-HHVWDHHE.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-HHVWDHHE",
+    "raw_sha256": "db1def870584541116f7306f4e623b724f8a648838136bd1b75e253635555fb2",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          103.0,
+          205.0
+        ],
+        [
+          106.0,
+          216.0
+        ]
+      ],
+      "diameter_px": 11.40175425099138,
+      "h": [
+        [
+          100.0,
+          208.0
+        ],
+        [
+          110.0,
+          208.0
+        ]
+      ],
+      "axis_h_px": 10.0,
+      "v": [
+        [
+          106.0,
+          205.0
+        ],
+        [
+          106.0,
+          216.0
+        ]
+      ],
+      "axis_v_px": 11.0
+    },
+    "diameter_px": 11.40175425099138,
+    "axis_h_px": 10.0,
+    "axis_v_px": 11.0,
+    "roi_bounds": [
+      86,
+      191,
+      125,
+      224
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q09_1",
+    "candidate_id": "acec3fb11232f296",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1055,
+        710
+      ],
+      [
+        1059,
+        711
+      ],
+      [
+        1062,
+        715
+      ],
+      [
+        1061,
+        720
+      ],
+      [
+        1057,
+        723
+      ],
+      [
+        1052,
+        722
+      ],
+      [
+        1049,
+        719
+      ],
+      [
+        1050,
+        715
+      ]
+    ],
+    "location": [
+      1057,
+      717
+    ],
+    "evidence_grid_target": "D2_BACH_q09_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 9,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Invasive/iv058.tif",
+    "group_id": "BACH:iv058",
+    "raw_sha256": "4d2e4875f85770d08db506fe617abab268a00441673fa1722e5d48ded5b9707e",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1062.0,
+          715.0
+        ],
+        [
+          1049.0,
+          719.0
+        ]
+      ],
+      "diameter_px": 13.601470508735444,
+      "h": [
+        [
+          1049.0,
+          719.0
+        ],
+        [
+          1061.2,
+          719.0
+        ]
+      ],
+      "axis_h_px": 12.200000000000045,
+      "v": [
+        [
+          1055.0,
+          710.0
+        ],
+        [
+          1055.0,
+          722.6
+        ]
+      ],
+      "axis_v_px": 12.600000000000023
+    },
+    "diameter_px": 13.601470508735444,
+    "axis_h_px": 12.200000000000045,
+    "axis_v_px": 12.600000000000023,
+    "roi_bounds": [
+      1035,
+      696,
+      1077,
+      738
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q09_2",
+    "candidate_id": "acec3fb11232f296",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        555,
+        208
+      ],
+      [
+        559,
+        208
+      ],
+      [
+        563,
+        212
+      ],
+      [
+        563,
+        217
+      ],
+      [
+        559,
+        222
+      ],
+      [
+        554,
+        222
+      ],
+      [
+        550,
+        218
+      ],
+      [
+        550,
+        212
+      ]
+    ],
+    "location": [
+      557,
+      215
+    ],
+    "evidence_grid_target": "D2_BACH_q09_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 9,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Invasive/iv058.tif",
+    "group_id": "BACH:iv058",
+    "raw_sha256": "4d2e4875f85770d08db506fe617abab268a00441673fa1722e5d48ded5b9707e",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          559.0,
+          208.0
+        ],
+        [
+          554.0,
+          222.0
+        ]
+      ],
+      "diameter_px": 14.866068747318506,
+      "h": [
+        [
+          550.0,
+          212.0
+        ],
+        [
+          563.0,
+          212.0
+        ]
+      ],
+      "axis_h_px": 13.0,
+      "v": [
+        [
+          555.0,
+          208.0
+        ],
+        [
+          555.0,
+          222.0
+        ]
+      ],
+      "axis_v_px": 14.0
+    },
+    "diameter_px": 14.866068747318506,
+    "axis_h_px": 13.0,
+    "axis_v_px": 14.0,
+    "roi_bounds": [
+      536,
+      194,
+      578,
+      237
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q16_1",
+    "candidate_id": "7d675c181b9f6a0c",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1979,
+        1378
+      ],
+      [
+        1985,
+        1379
+      ],
+      [
+        1989,
+        1383
+      ],
+      [
+        1988,
+        1390
+      ],
+      [
+        1984,
+        1395
+      ],
+      [
+        1978,
+        1395
+      ],
+      [
+        1973,
+        1391
+      ],
+      [
+        1973,
+        1384
+      ]
+    ],
+    "location": [
+      1981,
+      1387
+    ],
+    "evidence_grid_target": "D2_BACH_q16_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 16,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Normal/n065.tif",
+    "group_id": "BACH:n065",
+    "raw_sha256": "5b8255e9965033fc3e2121f36903a4d07fc691b526d0af4737a15e9423473d00",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1989.0,
+          1383.0
+        ],
+        [
+          1973.0,
+          1391.0
+        ]
+      ],
+      "diameter_px": 17.88854381999832,
+      "h": [
+        [
+          1973.0,
+          1384.0
+        ],
+        [
+          1988.857142857143,
+          1384.0
+        ]
+      ],
+      "axis_h_px": 15.85714285714289,
+      "v": [
+        [
+          1979.0,
+          1378.0
+        ],
+        [
+          1979.0,
+          1395.0
+        ]
+      ],
+      "axis_v_px": 17.0
+    },
+    "diameter_px": 17.88854381999832,
+    "axis_h_px": 15.85714285714289,
+    "axis_v_px": 17.0,
+    "roi_bounds": [
+      1959,
+      1364,
+      2004,
+      1410
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q20_1",
+    "candidate_id": "3bd2585178d0ac9b",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        480,
+        1469
+      ],
+      [
+        486,
+        1469
+      ],
+      [
+        491,
+        1473
+      ],
+      [
+        491,
+        1480
+      ],
+      [
+        487,
+        1486
+      ],
+      [
+        481,
+        1486
+      ],
+      [
+        476,
+        1482
+      ],
+      [
+        476,
+        1475
+      ]
+    ],
+    "location": [
+      484,
+      1480
+    ],
+    "evidence_grid_target": "D2_BACH_q20_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 20,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b054.tif",
+    "group_id": "BACH:b054",
+    "raw_sha256": "61acf2e2c23ad0f49cdb7f545b2b7eaee3e111b3e581f994bb2c7d57e1816c91",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          480.0,
+          1469.0
+        ],
+        [
+          487.0,
+          1486.0
+        ]
+      ],
+      "diameter_px": 18.384776310850235,
+      "h": [
+        [
+          476.0,
+          1475.0
+        ],
+        [
+          491.0,
+          1475.0
+        ]
+      ],
+      "axis_h_px": 15.0,
+      "v": [
+        [
+          481.0,
+          1469.0
+        ],
+        [
+          481.0,
+          1486.0
+        ]
+      ],
+      "axis_v_px": 17.0
+    },
+    "diameter_px": 18.384776310850235,
+    "axis_h_px": 15.0,
+    "axis_v_px": 17.0,
+    "roi_bounds": [
+      462,
+      1455,
+      506,
+      1501
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q24_2",
+    "candidate_id": "efa85fb6eb00d101",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1287,
+        323
+      ],
+      [
+        1292,
+        324
+      ],
+      [
+        1297,
+        328
+      ],
+      [
+        1298,
+        334
+      ],
+      [
+        1294,
+        339
+      ],
+      [
+        1288,
+        341
+      ],
+      [
+        1283,
+        337
+      ],
+      [
+        1282,
+        329
+      ]
+    ],
+    "location": [
+      1290,
+      332
+    ],
+    "evidence_grid_target": "D2_BACH_q24_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 24,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b078.tif",
+    "group_id": "BACH:b078",
+    "raw_sha256": "cc340c427079e074c1bcca8be0c21f164ed8806b7a6f72d4cf7ca05fa4d59f61",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1287.0,
+          323.0
+        ],
+        [
+          1288.0,
+          341.0
+        ]
+      ],
+      "diameter_px": 18.027756377319946,
+      "h": [
+        [
+          1282.625,
+          334.0
+        ],
+        [
+          1298.0,
+          334.0
+        ]
+      ],
+      "axis_h_px": 15.375,
+      "v": [
+        [
+          1288.0,
+          323.2
+        ],
+        [
+          1288.0,
+          341.0
+        ]
+      ],
+      "axis_v_px": 17.80000000000001
+    },
+    "diameter_px": 18.027756377319946,
+    "axis_h_px": 15.375,
+    "axis_v_px": 17.80000000000001,
+    "roi_bounds": [
+      1268,
+      309,
+      1313,
+      356
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q24_3",
+    "candidate_id": "efa85fb6eb00d101",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        773,
+        155
+      ],
+      [
+        780,
+        155
+      ],
+      [
+        785,
+        158
+      ],
+      [
+        786,
+        165
+      ],
+      [
+        782,
+        172
+      ],
+      [
+        776,
+        174
+      ],
+      [
+        769,
+        170
+      ],
+      [
+        767,
+        163
+      ]
+    ],
+    "location": [
+      778,
+      165
+    ],
+    "evidence_grid_target": "D2_BACH_q24_3",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 24,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b078.tif",
+    "group_id": "BACH:b078",
+    "raw_sha256": "cc340c427079e074c1bcca8be0c21f164ed8806b7a6f72d4cf7ca05fa4d59f61",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          785.0,
+          158.0
+        ],
+        [
+          769.0,
+          170.0
+        ]
+      ],
+      "diameter_px": 20.0,
+      "h": [
+        [
+          767.0,
+          163.0
+        ],
+        [
+          785.7142857142857,
+          163.0
+        ]
+      ],
+      "axis_h_px": 18.714285714285666,
+      "v": [
+        [
+          776.0,
+          155.0
+        ],
+        [
+          776.0,
+          174.0
+        ]
+      ],
+      "axis_v_px": 19.0
+    },
+    "diameter_px": 20.0,
+    "axis_h_px": 18.714285714285666,
+    "axis_v_px": 19.0,
+    "roi_bounds": [
+      753,
+      141,
+      801,
+      189
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q25_1",
+    "candidate_id": "39cc2c1cfe7748ce",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1040,
+        240
+      ],
+      [
+        1047,
+        240
+      ],
+      [
+        1052,
+        244
+      ],
+      [
+        1052,
+        250
+      ],
+      [
+        1048,
+        255
+      ],
+      [
+        1041,
+        255
+      ],
+      [
+        1036,
+        249
+      ],
+      [
+        1037,
+        243
+      ]
+    ],
+    "location": [
+      1044,
+      248
+    ],
+    "evidence_grid_target": "D2_BACH_q25_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 25,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b010.tif",
+    "group_id": "BACH:b010",
+    "raw_sha256": "739ab10f3616e5ed7bacbf75739395e6cd8d374880c3a09c0128205205163698",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1040.0,
+          240.0
+        ],
+        [
+          1048.0,
+          255.0
+        ]
+      ],
+      "diameter_px": 17.0,
+      "h": [
+        [
+          1036.0,
+          249.0
+        ],
+        [
+          1052.0,
+          249.0
+        ]
+      ],
+      "axis_h_px": 16.0,
+      "v": [
+        [
+          1041.0,
+          240.0
+        ],
+        [
+          1041.0,
+          255.0
+        ]
+      ],
+      "axis_v_px": 15.0
+    },
+    "diameter_px": 17.0,
+    "axis_h_px": 16.0,
+    "axis_v_px": 15.0,
+    "roi_bounds": [
+      1022,
+      226,
+      1067,
+      270
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q25_2",
+    "candidate_id": "39cc2c1cfe7748ce",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        1092,
+        1145
+      ],
+      [
+        1097,
+        1146
+      ],
+      [
+        1101,
+        1150
+      ],
+      [
+        1100,
+        1156
+      ],
+      [
+        1096,
+        1161
+      ],
+      [
+        1091,
+        1162
+      ],
+      [
+        1087,
+        1158
+      ],
+      [
+        1087,
+        1151
+      ]
+    ],
+    "location": [
+      1095,
+      1153
+    ],
+    "evidence_grid_target": "D2_BACH_q25_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 25,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b010.tif",
+    "group_id": "BACH:b010",
+    "raw_sha256": "739ab10f3616e5ed7bacbf75739395e6cd8d374880c3a09c0128205205163698",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          1097.0,
+          1146.0
+        ],
+        [
+          1091.0,
+          1162.0
+        ]
+      ],
+      "diameter_px": 17.08800749063506,
+      "h": [
+        [
+          1087.0,
+          1151.0
+        ],
+        [
+          1100.8333333333333,
+          1151.0
+        ]
+      ],
+      "axis_h_px": 13.833333333333258,
+      "v": [
+        [
+          1092.0,
+          1145.0
+        ],
+        [
+          1092.0,
+          1161.8
+        ]
+      ],
+      "axis_v_px": 16.799999999999955
+    },
+    "diameter_px": 17.08800749063506,
+    "axis_h_px": 13.833333333333258,
+    "axis_v_px": 16.799999999999955,
+    "roi_bounds": [
+      1073,
+      1131,
+      1116,
+      1177
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q25_3",
+    "candidate_id": "39cc2c1cfe7748ce",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        103,
+        887
+      ],
+      [
+        109,
+        888
+      ],
+      [
+        114,
+        892
+      ],
+      [
+        114,
+        898
+      ],
+      [
+        110,
+        903
+      ],
+      [
+        103,
+        904
+      ],
+      [
+        98,
+        899
+      ],
+      [
+        98,
+        892
+      ]
+    ],
+    "location": [
+      106,
+      894
+    ],
+    "evidence_grid_target": "D2_BACH_q25_3",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 25,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b010.tif",
+    "group_id": "BACH:b010",
+    "raw_sha256": "739ab10f3616e5ed7bacbf75739395e6cd8d374880c3a09c0128205205163698",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          103.0,
+          887.0
+        ],
+        [
+          110.0,
+          903.0
+        ]
+      ],
+      "diameter_px": 17.46424919657298,
+      "h": [
+        [
+          98.0,
+          892.0
+        ],
+        [
+          114.0,
+          892.0
+        ]
+      ],
+      "axis_h_px": 16.0,
+      "v": [
+        [
+          103.0,
+          887.0
+        ],
+        [
+          103.0,
+          904.0
+        ]
+      ],
+      "axis_v_px": 17.0
+    },
+    "diameter_px": 17.46424919657298,
+    "axis_h_px": 16.0,
+    "axis_v_px": 17.0,
+    "roi_bounds": [
+      84,
+      873,
+      129,
+      919
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q47_1",
+    "candidate_id": "a9108272b1b46646",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        80,
+        1290
+      ],
+      [
+        84,
+        1290
+      ],
+      [
+        88,
+        1293
+      ],
+      [
+        88,
+        1297
+      ],
+      [
+        85,
+        1300
+      ],
+      [
+        80,
+        1300
+      ],
+      [
+        77,
+        1297
+      ],
+      [
+        77,
+        1293
+      ]
+    ],
+    "location": [
+      83,
+      1295
+    ],
+    "evidence_grid_target": "D2_BACH_q47_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 47,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Invasive/iv041.tif",
+    "group_id": "BACH:iv041",
+    "raw_sha256": "cc5060c513f3fa783823583b3fece963f2968b9e9717e5fc61aea52222baa600",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          88.0,
+          1293.0
+        ],
+        [
+          77.0,
+          1297.0
+        ]
+      ],
+      "diameter_px": 11.704699910719626,
+      "h": [
+        [
+          77.0,
+          1293.0
+        ],
+        [
+          88.0,
+          1293.0
+        ]
+      ],
+      "axis_h_px": 11.0,
+      "v": [
+        [
+          80.0,
+          1290.0
+        ],
+        [
+          80.0,
+          1300.0
+        ]
+      ],
+      "axis_v_px": 10.0
+    },
+    "diameter_px": 11.704699910719626,
+    "axis_h_px": 11.0,
+    "axis_v_px": 10.0,
+    "roi_bounds": [
+      63,
+      1276,
+      103,
+      1315
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q47_2",
+    "candidate_id": "a9108272b1b46646",
+    "cell_type": "lymph_nucleus",
+    "decision": "draft_eligible",
+    "polygon": [
+      [
+        835,
+        472
+      ],
+      [
+        840,
+        472
+      ],
+      [
+        844,
+        476
+      ],
+      [
+        843,
+        480
+      ],
+      [
+        840,
+        483
+      ],
+      [
+        834,
+        482
+      ],
+      [
+        831,
+        479
+      ],
+      [
+        831,
+        475
+      ]
+    ],
+    "location": [
+      838,
+      478
+    ],
+    "evidence_grid_target": "D2_BACH_q47_2",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed.",
+    "source": "BACH",
+    "queue_order": 47,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Invasive/iv041.tif",
+    "group_id": "BACH:iv041",
+    "raw_sha256": "cc5060c513f3fa783823583b3fece963f2968b9e9717e5fc61aea52222baa600",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": {
+      "longest": [
+        [
+          844.0,
+          476.0
+        ],
+        [
+          831.0,
+          479.0
+        ]
+      ],
+      "diameter_px": 13.341664064126334,
+      "h": [
+        [
+          831.0,
+          476.0
+        ],
+        [
+          844.0,
+          476.0
+        ]
+      ],
+      "axis_h_px": 13.0,
+      "v": [
+        [
+          840.0,
+          472.0
+        ],
+        [
+          840.0,
+          483.0
+        ]
+      ],
+      "axis_v_px": 11.0
+    },
+    "diameter_px": 13.341664064126334,
+    "axis_h_px": 13.0,
+    "axis_v_px": 11.0,
+    "roi_bounds": [
+      817,
+      458,
+      859,
+      498
+    ]
+  },
+  {
+    "measurement_id": "D2_CRC_q18_2",
+    "candidate_id": "959536019f2ad4bb",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      180,
+      116
+    ],
+    "evidence_grid_target": "D2_CRC_q18_2",
+    "boundary_uncertainty_px": 1,
+    "note": "New raw grid: elongated dark nucleus/continuation, not a separate small round nucleus; excluded, no caliper.",
+    "source": "CRC-VAL-HE-7K",
+    "queue_order": 18,
+    "image_path": "raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-CDWMTSLF.tif",
+    "group_id": "CRC-VAL-HE-7K:NORM-TCGA-CDWMTSLF",
+    "raw_sha256": "e5db71be04688d0bfdbbb802cde96e2db7481fb397fd28b2d00914424fc3c9d4",
+    "width": 224,
+    "height": 224,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      152,
+      88,
+      209,
+      145
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q20_2",
+    "candidate_id": "3bd2585178d0ac9b",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      458,
+      1139
+    ],
+    "evidence_grid_target": "D2_BACH_q20_2",
+    "boundary_uncertainty_px": 2,
+    "note": "New raw grid: low-contrast/pale internal nuclear area; identity and complete boundary not secure; no caliper.",
+    "source": "BACH",
+    "queue_order": 20,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b054.tif",
+    "group_id": "BACH:b054",
+    "raw_sha256": "61acf2e2c23ad0f49cdb7f545b2b7eaee3e111b3e581f994bb2c7d57e1816c91",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      430,
+      1111,
+      487,
+      1168
+    ]
+  },
+  {
+    "measurement_id": "D2_BACH_q24_1",
+    "candidate_id": "efa85fb6eb00d101",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      119,
+      988
+    ],
+    "evidence_grid_target": "D2_BACH_q24_1",
+    "boundary_uncertainty_px": 2,
+    "note": "New raw grid: pale internal area and asymmetric chromatin; lymphocyte identity uncertain; no caliper.",
+    "source": "BACH",
+    "queue_order": 24,
+    "image_path": "raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b078.tif",
+    "group_id": "BACH:b078",
+    "raw_sha256": "cc340c427079e074c1bcca8be0c21f164ed8806b7a6f72d4cf7ca05fa4d59f61",
+    "width": 2048,
+    "height": 1536,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      91,
+      960,
+      148,
+      1017
+    ]
+  },
+  {
+    "measurement_id": "D2_BreakHis_q35_1",
+    "candidate_id": "959523c3d8bdd072",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      9,
+      303
+    ],
+    "evidence_grid_target": "D2_BreakHis_q35_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional 60-image navigation pass: Round black object outside tissue: stain/debris cannot be excluded.",
+    "source": "BreakHis",
+    "queue_order": 35,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/malignant/SOB/papillary_carcinoma/SOB_M_PC_14-19440/40X/SOB_M_PC-14-19440-40-023.png",
+    "group_id": "BreakHis:14-19440",
+    "raw_sha256": "be648c22acf2662242f7443f92168d39b6d3899824e60ed6c58478adcbc04592",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      0,
+      275,
+      38,
+      332
+    ]
+  },
+  {
+    "measurement_id": "D2_BreakHis_q49_1",
+    "candidate_id": "30a07ba3d76cbfab",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      522,
+      306
+    ],
+    "evidence_grid_target": "D2_BreakHis_q49_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional 60-image navigation pass: Isolated black focus near epithelial tissue; cannot establish lymphocyte identity and whole-nucleus boundary.",
+    "source": "BreakHis",
+    "queue_order": 49,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/malignant/SOB/ductal_carcinoma/SOB_M_DC_14-12312/40X/SOB_M_DC-14-12312-40-026.png",
+    "group_id": "BreakHis:14-12312",
+    "raw_sha256": "41198c21409baa3638f2489ed11dc8d443321e3ae85232ab0fe6adaf085039a9",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      494,
+      278,
+      551,
+      335
+    ]
+  },
+  {
+    "measurement_id": "D2_BreakHis_q56_1",
+    "candidate_id": "b09f43d57d57af24",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      618,
+      93
+    ],
+    "evidence_grid_target": "D2_BreakHis_q56_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional 60-image navigation pass: Brown/dark rounded focus with adjacent tissue; marker identity unclear.",
+    "source": "BreakHis",
+    "queue_order": 56,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/malignant/SOB/ductal_carcinoma/SOB_M_DC_14-16336/40X/SOB_M_DC-14-16336-40-001.png",
+    "group_id": "BreakHis:14-16336",
+    "raw_sha256": "f059c3dc087756efba3872837447c7d86d49dbd44c757c6f8c884adbe5a67b61",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      590,
+      65,
+      647,
+      122
+    ]
+  },
+  {
+    "measurement_id": "D2_BreakHis_q60_1",
+    "candidate_id": "c13f20254d189e91",
+    "cell_type": "lymph_nucleus",
+    "decision": "uncertain",
+    "polygon": [],
+    "location": [
+      602,
+      67
+    ],
+    "evidence_grid_target": "D2_BreakHis_q60_1",
+    "boundary_uncertainty_px": 2,
+    "note": "Additional 60-image navigation pass: Black object in pale/empty background, artefact/debris cannot be excluded.",
+    "source": "BreakHis",
+    "queue_order": 60,
+    "image_path": "raw/BreakHis/BreaKHis_v1/histology_slides/breast/malignant/SOB/papillary_carcinoma/SOB_M_PC_14-15687B/40X/SOB_M_PC-14-15687B-40-012.png",
+    "group_id": "BreakHis:14-15687",
+    "raw_sha256": "d5177561cbdc3dac99c993cbbbf2864510119571145cc555fe8a33d46683097e",
+    "width": 700,
+    "height": 460,
+    "measurer": "Codex_visual_assist",
+    "checked_by": "",
+    "review_status": "draft_unreviewed",
+    "marking_method": "visual_raw_convex_polygon_integer_pixel_centres",
+    "geometry": null,
+    "diameter_px": null,
+    "axis_h_px": null,
+    "axis_v_px": null,
+    "roi_bounds": [
+      574,
+      39,
+      631,
+      96
+    ]
+  }
+]

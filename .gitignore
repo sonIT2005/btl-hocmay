@@ -32,3 +32,6 @@ __pycache__/
 /outputs/**/*.tiff
 /docs/provenance/**/*.png
 /docs/provenance/**/*.jpg
+
+# Local review bundle includes QA images; keep it out of Git.
+/outputs/mpp_measurements_followup_2026-10-26/*.zip
