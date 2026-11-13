@@ -33,3 +33,4 @@ __pycache__/
 !/outputs/eval/figures/**/*.png
 /docs/provenance/**/*.png
 /docs/provenance/**/*.jpg
+/outputs/features/

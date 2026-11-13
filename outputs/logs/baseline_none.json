@@ -1,0 +1,47 @@
+{
+  "feature_extractor": "convnext_tiny.fb_in1k",
+  "frozen": true,
+  "stain": "none",
+  "C_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selected_C": 0.01,
+  "selection": [
+    {
+      "C": 0.01,
+      "val_macro_f1": 0.8860442668310725,
+      "train_macro_f1": 0.9833171695409598
+    },
+    {
+      "C": 0.1,
+      "val_macro_f1": 0.8829748281531906,
+      "train_macro_f1": 0.993906604008253
+    },
+    {
+      "C": 1.0,
+      "val_macro_f1": 0.8836615275979296,
+      "train_macro_f1": 0.99840497291759
+    },
+    {
+      "C": 10.0,
+      "val_macro_f1": 0.8759652894401301,
+      "train_macro_f1": 0.9997955092813686
+    }
+  ],
+  "majority_class": 1,
+  "train_prior": [
+    0.18527,
+    0.185376,
+    0.185058,
+    0.185111,
+    0.185217,
+    0.023119,
+    0.050851
+  ],
+  "n_train": 18859,
+  "n_val": 4041,
+  "seconds": 90.1
+}
