@@ -2,7 +2,7 @@
 lung_benign,0,0,0,0,0,0,0
 lung_aca,0,0,0,0,0,0,0
 lung_scc,0,0,0,0,0,0,0
-colon_benign,14,33,17,107,15,124,431
-colon_aca,70,31,43,10,12,117,950
+colon_benign,10,32,14,124,9,127,425
+colon_aca,45,34,26,10,11,129,978
 breast_benign,0,0,0,0,0,0,0
 breast_malignant,0,0,0,0,0,0,0

@@ -1,7 +1,7 @@
 ,lung_benign,lung_aca,lung_scc,colon_benign,colon_aca,breast_benign,breast_malignant
-lung_benign,1498,34,30,27,402,904,476
-lung_aca,920,361,509,177,1563,912,1472
-lung_scc,187,135,967,150,1977,751,1105
+lung_benign,1470,39,39,44,493,801,485
+lung_aca,849,381,497,226,1745,737,1479
+lung_scc,156,126,954,183,2238,589,1026
 colon_benign,0,0,0,0,0,0,0
 colon_aca,0,0,0,0,0,0,0
 breast_benign,0,0,0,0,0,0,0
