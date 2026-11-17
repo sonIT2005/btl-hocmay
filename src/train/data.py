@@ -36,7 +36,8 @@ class ManifestDataset(Dataset):
     """Chỉ dùng phép hình học (R05): xoay 90°, lật ngang, lật dọc."""
 
     def __init__(self, df, cfg, mean, std, train):
-        self.paths = [resolve_data_root(ROOT, cfg.get('data_root')) / p for p in df.image_path]
+        data_root = resolve_data_root(ROOT, cfg.get('data_root'))  # giải một lần, không lặp theo từng ảnh
+        self.paths = [data_root / p for p in df.image_path]
         self.labels = df.label.tolist()
         self.aug = set(cfg['augmentation']) if train else set()
         self.mean = torch.tensor(mean).view(3, 1, 1)

@@ -14,3 +14,9 @@ dependencies:
       - scikit-learn
       - pillow
       - tqdm
+      # Cho test và script dữ liệu (test_grouping, test_stain, tools/*), để một môi trường chạy được mọi test
+      - opencv-python-headless
+      - torchstain
+      - imagehash
+      - scipy
+      - matplotlib
