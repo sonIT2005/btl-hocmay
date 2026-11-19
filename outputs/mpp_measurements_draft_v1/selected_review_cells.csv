@@ -1,0 +1,11 @@
+﻿measurement_id,candidate_id,source,cell_type,image_path,review_status,checked_by
+D1_CRC_q03_2,bc0682393cd7849d,CRC-VAL-HE-7K,lymph_nucleus,raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-ICPSVQMS.tif,draft_unreviewed,
+D1_CRC_q06_2,a7e26a85b05063ae,CRC-VAL-HE-7K,lymph_nucleus,raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-FSFANNYT.tif,draft_unreviewed,
+D1_CRC_q20_1,a857503e3ce33be1,CRC-VAL-HE-7K,lymph_nucleus,raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-LAFTECYD.tif,draft_unreviewed,
+D1_CRC_q20_3,a857503e3ce33be1,CRC-VAL-HE-7K,lymph_nucleus,raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-LAFTECYD.tif,draft_unreviewed,
+D1_CRC_q24_1,6da09147bf1875bb,CRC-VAL-HE-7K,lymph_nucleus,raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/NORM/NORM-TCGA-PPCGNHII.tif,draft_unreviewed,
+D1_CRC_q39_1,82e34ccc039ec8ce,CRC-VAL-HE-7K,lymph_nucleus,raw/CRC-VAL-HE-7K/CRC-VAL-HE-7K/TUM/TUM-TCGA-DRCLCVLY.tif,draft_unreviewed,
+D1_BACH_q15_1,d51742d8bd524cbf,BACH,lymph_nucleus,raw/BACH/ICIAR2018_BACH_Challenge/Photos/Normal/n048.tif,draft_unreviewed,
+D1_BACH_q20_1,3bd2585178d0ac9b,BACH,lymph_nucleus,raw/BACH/ICIAR2018_BACH_Challenge/Photos/Benign/b054.tif,draft_unreviewed,
+D1_BACH_q29_1,461fd3a656143d57,BACH,lymph_nucleus,raw/BACH/ICIAR2018_BACH_Challenge/Photos/Normal/n068.tif,draft_unreviewed,
+D1_BACH_q50_1,b79fe66963dff5f2,BACH,lymph_nucleus,raw/BACH/ICIAR2018_BACH_Challenge/Photos/InSitu/is044.tif,draft_unreviewed,

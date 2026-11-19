@@ -1,0 +1,138 @@
+[
+  {
+    "id": "D2_CRC_q18_1",
+    "candidate_id": "959536019f2ad4bb",
+    "source": "CRC-VAL-HE-7K",
+    "q": 18,
+    "cx": 173,
+    "cy": 94
+  },
+  {
+    "id": "D2_CRC_q18_2",
+    "candidate_id": "959536019f2ad4bb",
+    "source": "CRC-VAL-HE-7K",
+    "q": 18,
+    "cx": 180,
+    "cy": 116
+  },
+  {
+    "id": "D2_CRC_q44_1",
+    "candidate_id": "82489239c7744ad8",
+    "source": "CRC-VAL-HE-7K",
+    "q": 44,
+    "cx": 137,
+    "cy": 65
+  },
+  {
+    "id": "D2_CRC_q36_1",
+    "candidate_id": "94c4cc220a1e6a32",
+    "source": "CRC-VAL-HE-7K",
+    "q": 36,
+    "cx": 112,
+    "cy": 201
+  },
+  {
+    "id": "D2_BACH_q09_1",
+    "candidate_id": "acec3fb11232f296",
+    "source": "BACH",
+    "q": 9,
+    "cx": 1057,
+    "cy": 717
+  },
+  {
+    "id": "D2_BACH_q09_2",
+    "candidate_id": "acec3fb11232f296",
+    "source": "BACH",
+    "q": 9,
+    "cx": 557,
+    "cy": 215
+  },
+  {
+    "id": "D2_BACH_q16_1",
+    "candidate_id": "7d675c181b9f6a0c",
+    "source": "BACH",
+    "q": 16,
+    "cx": 1981,
+    "cy": 1387
+  },
+  {
+    "id": "D2_BACH_q20_1",
+    "candidate_id": "3bd2585178d0ac9b",
+    "source": "BACH",
+    "q": 20,
+    "cx": 484,
+    "cy": 1480
+  },
+  {
+    "id": "D2_BACH_q20_2",
+    "candidate_id": "3bd2585178d0ac9b",
+    "source": "BACH",
+    "q": 20,
+    "cx": 458,
+    "cy": 1139
+  },
+  {
+    "id": "D2_BACH_q24_1",
+    "candidate_id": "efa85fb6eb00d101",
+    "source": "BACH",
+    "q": 24,
+    "cx": 119,
+    "cy": 988
+  },
+  {
+    "id": "D2_BACH_q24_2",
+    "candidate_id": "efa85fb6eb00d101",
+    "source": "BACH",
+    "q": 24,
+    "cx": 1290,
+    "cy": 332
+  },
+  {
+    "id": "D2_BACH_q24_3",
+    "candidate_id": "efa85fb6eb00d101",
+    "source": "BACH",
+    "q": 24,
+    "cx": 778,
+    "cy": 165
+  },
+  {
+    "id": "D2_BACH_q25_1",
+    "candidate_id": "39cc2c1cfe7748ce",
+    "source": "BACH",
+    "q": 25,
+    "cx": 1044,
+    "cy": 248
+  },
+  {
+    "id": "D2_BACH_q25_2",
+    "candidate_id": "39cc2c1cfe7748ce",
+    "source": "BACH",
+    "q": 25,
+    "cx": 1095,
+    "cy": 1153
+  },
+  {
+    "id": "D2_BACH_q25_3",
+    "candidate_id": "39cc2c1cfe7748ce",
+    "source": "BACH",
+    "q": 25,
+    "cx": 106,
+    "cy": 894
+  },
+  {
+    "id": "D2_BACH_q47_1",
+    "candidate_id": "a9108272b1b46646",
+    "source": "BACH",
+    "q": 47,
+    "cx": 83,
+    "cy": 1295
+  },
+  {
+    "id": "D2_BACH_q47_2",
+    "candidate_id": "a9108272b1b46646",
+    "source": "BACH",
+    "q": 47,
+    "cx": 838,
+    "cy": 478
+  }
+]

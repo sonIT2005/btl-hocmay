@@ -1,0 +1,18 @@
+{
+  "selection_seed": 42,
+  "torch": "2.7.1+cpu",
+  "manifest_sha256": "13b2738e14fd34aa95f75a60be077934211cee11b822d3f3e33481cc2a2a07e3",
+  "frozen_sha256": "1d777e01cc4f30a860458e85e998d2f44698450bfa419b1ec0b9c8c9d59693c1",
+  "runs": [
+    {
+      "name": "e2_convnext_group_none_s0",
+      "layer": "stages.3.blocks.2",
+      "checkpoint_sha256": "1b4eadd148d8ce66f9a95af287d46c01af0783a261c87ab16456a758b8914b6a"
+    },
+    {
+      "name": "e2_swin_group_none_s0",
+      "layer": "layers.3.blocks.1.norm1",
+      "checkpoint_sha256": "927d00db972e25cd172e4db6f07a38d3562a0e86374b7d9e0da2452a10db1c80"
+    }
+  ]
+}

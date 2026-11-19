@@ -1,0 +1,7 @@
+﻿source,cell_type,n_cells,n_images,median_of_image_medians_px,missing_cells,missing_images,n_review_selected,review_status
+CRC-VAL-HE-7K,rbc,0,0,,30,15,0,draft_unreviewed
+BACH,rbc,0,0,,30,15,0,draft_unreviewed
+BreakHis,rbc,0,0,,30,15,0,draft_unreviewed
+CRC-VAL-HE-7K,lymph_nucleus,30,16,11.030786440170518,0,0,6,draft_unreviewed
+BACH,lymph_nucleus,30,18,18.52081728298996,0,0,6,draft_unreviewed
+BreakHis,lymph_nucleus,0,0,,30,15,0,draft_unreviewed
