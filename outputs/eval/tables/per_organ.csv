@@ -1,4 +1,16 @@
 organ,n,accuracy,macro_f1,within_organ_accuracy,run,set,experiment,model,split,stain,seed
+breast,13581,0.0,0.0,0.5026139459539062,b0_majority_group_none_s0,BACH,b0,majority,group,none,0
+colon,1974,0.0,0.0,0.6246200607902735,b0_majority_group_none_s0,CRC-VAL-HE-7K,b0,majority,group,none,0
+lung,14557,0.4062650271347118,0.19259765847621838,0.4062650271347118,b0_majority_group_none_s0,LungHist700,b0,majority,group,none,0
+lung,2247,0.3333333333333333,0.16666666666666666,0.3333333333333333,b0_majority_group_none_s0,test,b0,majority,group,none,0
+colon,1496,0.0,0.0,0.5006684491978609,b0_majority_group_none_s0,test,b0,majority,group,none,0
+breast,301,0.0,0.0,0.6810631229235881,b0_majority_group_none_s0,test,b0,majority,group,none,0
+breast,13581,0.2413666151240704,0.32609738401334637,0.5319195935498122,b1_logreg_group_none_s0,BACH,b1,logreg,group,none,0
+colon,1974,0.06838905775075987,0.15049321628092577,0.7922998986828774,b1_logreg_group_none_s0,CRC-VAL-HE-7K,b1,logreg,group,none,0
+lung,14557,0.19269080167616953,0.30100988917938865,0.5238029813835269,b1_logreg_group_none_s0,LungHist700,b1,logreg,group,none,0
+lung,2247,0.897196261682243,0.8977370849033348,0.8985313751668892,b1_logreg_group_none_s0,test,b1,logreg,group,none,0
+colon,1496,0.9485294117647058,0.9538489152037848,0.9592245989304813,b1_logreg_group_none_s0,test,b1,logreg,group,none,0
+breast,301,0.707641196013289,0.5683181225554107,0.707641196013289,b1_logreg_group_none_s0,test,b1,logreg,group,none,0
 breast,13581,0.10492599955820632,0.14578774777156578,0.513585155732273,e1_convnext_random_none_s0,BACH,e1,convnext,random,none,0
 colon,1974,0.10739614994934144,0.1711284409524755,0.7695035460992907,e1_convnext_random_none_s0,CRC-VAL-HE-7K,e1,convnext,random,none,0
 lung,14557,0.32918870646424403,0.3847679150721275,0.519269080167617,e1_convnext_random_none_s0,LungHist700,e1,convnext,random,none,0

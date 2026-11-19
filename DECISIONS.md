@@ -126,6 +126,59 @@ Kết quả và checkpoint cũ được lưu ở `outputs/precalibration/`.
 - Thêm: baseline (đoán lớp đa số; Logistic Regression trên embedding ConvNeXt đóng băng); learning curve
   từ log từng epoch; Grad-CAM khoảng 8 ảnh (4 đúng, 4 sai).
 - Kết quả chính báo mean ± SD qua 3 seed. Bootstrap theo `group_id` là tùy chọn.
+- Cập nhật 15/11: 15 run xong (31/10); baseline xong (D16); Grad-CAM xong (Đông, 13/11, `tools/gradcam.py`,
+  8 mẫu trên checkpoint seed 0, hình để trên Drive). Biểu đồ từ log là **đường huấn luyện theo epoch**, không
+  phải learning curve theo cỡ tập train như slide 42–43 của môn; learning curve đúng nghĩa chưa làm.
+
+## Kết quả
+
+Số liệu tính bằng `python -m src.eval.metrics`, bảng ở `outputs/eval/tables/`, hình ở `outputs/eval/figures/`.
+Mean ± SD là độ phân tán qua 3 seed, không phải khoảng tin cậy.
+
+**D15. Kết quả chính E1/E2** · 15/11 · Chốt
+
+| Cấu hình | Accuracy test | Macro-F1 test | Recall `breast_benign` | AUROC lành/ác vú |
+|---|---:|---:|---:|---:|
+| E1 ConvNeXt, chia ngẫu nhiên | 0,997 ± 0,001 | 0,994 ± 0,002 | 0,97 | 0,996 |
+| E2 ConvNeXt, `none` | 0,925 ± 0,012 | 0,827 ± 0,018 | 0,23 | 0,55 |
+| E2 ConvNeXt, `macenko` | 0,929 ± 0,003 | 0,823 ± 0,007 | 0,20 | 0,60 |
+| E2 Swin, `none` | 0,920 ± 0,012 | 0,826 ± 0,015 | 0,23 | 0,59 |
+| E2 Swin, `macenko` | 0,921 ± 0,019 | 0,815 ± 0,015 | 0,19 | 0,56 |
+
+- **Rò rỉ dữ liệu được xác nhận.** Chia ngẫu nhiên cho macro-F1 0,994, chia theo nhóm 0,827. Recall
+  `breast_benign` tăng từ 0,23 lên 0,97, nên BreakHis cũng rò rỉ theo bệnh nhân khi chia theo ảnh. E1 và E2
+  dùng hai tập test khác nhau (giới hạn 10).
+- **RQ1: không kiến trúc nào tổng quát hóa tốt hơn một cách nhất quán.** Test nội bộ ngang nhau (0,827 so
+  với 0,826). Macro-F1 test chéo nhánh `none`, ConvNeXt so với Swin: LungHist700 0,370 so với 0,274; CRC
+  0,187 so với 0,068; BACH 0,180 so với 0,254. SD giữa các seed lớn.
+- **Macenko không thay đổi kết quả nội bộ; trên test chéo kết quả lẫn lộn.** Với ConvNeXt: CRC 0,187 → 0,204,
+  BACH 0,180 → 0,243, nhưng LungHist700 0,370 → 0,079 (nhầm cơ quan 40% → 88%).
+- **Lớp vú yếu ngay trong test nội bộ:** recall `breast_benign` 0,19–0,23, AUROC lành/ác 0,55–0,60.
+  Test nội bộ chỉ có 194 nhóm, phần vú khoảng 10 nhóm: 139/1000 lần bootstrap thiếu một lớp vú và bị bỏ,
+  khoảng tin cậy 95% của macro-F1 rộng (cận dưới 0,74–0,78, cận trên 0,84–0,89 tùy run).
+- **"Vú là lớp hứng" trên test chéo.** E2 ConvNeXt `none` đoán 78% ảnh CRC và 35% ảnh LungHist700 là vú
+  (Swin: 96% và 56%). Giả thuyết: trong tập train, **cơ quan trùng với nguồn ảnh** (phổi và đại tràng chỉ từ
+  LC25000, vú chỉ từ BreakHis), nên mô hình có thể đoán cơ quan theo đặc điểm của nguồn. Baseline đóng băng
+  cũng cho hiện tượng này (D16), nên nó không do fine-tune gây ra. Cùng hướng với D11: tỷ lệ phóng đại không
+  tái hiện được lỗi.
+- **Mô hình quá tự tin:** log-loss test 0,26–0,32; reliability diagram cho thấy độ tin cậy cao hơn tỷ lệ đúng.
+- **Chi phí:** ConvNeXt 38 s/epoch, trung bình 12,8 epoch; Swin 48 s/epoch, 10,3 epoch; VRAM khoảng 2,5 GB.
+
+**D16. Baseline** · 15/11 · Chốt
+- **b0, lớp đa số:** luôn đoán `lung_aca` (18,5% tập train). Test: accuracy 0,185, macro-F1 0,045. Trên
+  LungHist700 accuracy 0,406, cao hơn E2 ConvNeXt (0,322) chỉ vì tập này nhiều patch `lung_aca`: ví dụ accuracy
+  đánh lừa khi lớp mất cân bằng.
+- **b1, Logistic Regression trên đặc trưng ConvNeXt-T ImageNet đóng băng:** StandardScaler fit trên train,
+  `class_weight='balanced'`, C chọn trên val macro-F1 trong {0,001; 0,003; 0,01; 0,1; 1; 10}. Lần đầu C = 0,01
+  nằm ở biên lưới nên mở rộng lưới; kết quả chọn **C = 0,003** (train 0,971, val 0,890). Train gần 1 mà val
+  khoảng 0,89 ở mọi C: variance cao.
+- **Test b1:** accuracy 0,902 (CI 0,861–0,931), macro-F1 **0,817** (CI 0,771–0,837), AUROC lành/ác vú **0,747**,
+  recall `breast_benign` 0,22. Toàn bộ quy trình mất 75 s.
+- **Fine-tune toàn bộ mạng chỉ hơn b1 khoảng +0,01 macro-F1** (0,827 so với 0,817), nhỏ hơn SD giữa các seed
+  và nằm trong khoảng tin cậy của b1. Fine-tune có lợi rõ ở `lung_aca` (recall 0,82 → 0,90) nhưng làm **giảm**
+  AUROC vú (0,747 → 0,55–0,60), dấu hiệu overfit trên 70 ca BreakHis.
+- **Test chéo b1:** macro-F1 LungHist700 0,301, CRC 0,150, BACH 0,326 (cao nhất trong các mô hình). b1 đoán
+  84% ảnh CRC và 35% ảnh LungHist700 là vú, cùng hiện tượng "vú là lớp hứng" như E2.
 
 ## Giới hạn phải ghi trong báo cáo
 
@@ -136,7 +189,14 @@ Kết quả và checkpoint cũ được lưu ở `outputs/precalibration/`.
 4. BACH và CRC không có mã bệnh nhân đầy đủ; bootstrap theo `group_id` có thể chưa phản ánh hết tương quan.
 5. Patch mang nhãn của ảnh gốc (nhãn yếu); đủ mô không có nghĩa có tế bào u.
 6. `none` nghĩa là nhóm không áp thêm Macenko, không có nghĩa ảnh gốc chưa từng chuẩn hóa màu.
-7. Nguyên nhân nhầm cơ quan ở test chéo chưa xác định (D11).
+7. Nguyên nhân nhầm cơ quan ở test chéo chưa xác định (D11); giả thuyết mạnh nhất là cơ quan trùng với nguồn
+   ảnh (D15).
+8. **Cơ quan trùng với nguồn ảnh trong tập train:** mỗi cơ quan chỉ đến từ một bộ dữ liệu, nên không tách được
+   "học hình thái mô" khỏi "nhận ra nguồn ảnh". Đây là giới hạn của thiết kế dữ liệu.
+9. Lớp vú chỉ có 70 nhóm mã ca, test nội bộ khoảng 10 nhóm: kết quả lớp vú dao động lớn, bootstrap có lần
+   lặp thiếu lớp (139/1000).
+10. E1 và E2 đánh giá trên hai tập test khác nhau (do hai cách chia khác nhau); chênh lệch phản ánh cả cách chia
+    lẫn tập test.
 
 ## Quy ước làm việc
 

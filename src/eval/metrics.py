@@ -39,7 +39,7 @@ ORGAN_CLASSES = {o: np.flatnonzero(ORGAN_OF == i) for i, o in enumerate(ORGANS)}
 MALIGNANT = {'lung': [1, 2], 'colon': [4], 'breast': [6]}
 XTEST_ORGAN = {'LungHist700': 'lung', 'CRC-VAL-HE-7K': 'colon', 'BACH': 'breast'}
 SET_ORDER = ['test', 'LungHist700', 'CRC-VAL-HE-7K', 'BACH']
-RUN_RE = re.compile(r'^(?P<experiment>e\d)_(?P<model>[a-z0-9]+)_(?P<split>group|random)_(?P<stain>none|macenko)_s(?P<seed>\d+)$')
+RUN_RE = re.compile(r'^(?P<experiment>[eb]\d)_(?P<model>[a-z0-9]+)_(?P<split>group|random)_(?P<stain>none|macenko)_s(?P<seed>\d+)$')
 CONFIG_KEYS = ['experiment', 'model', 'split', 'stain']
 SCALAR_METRICS = ['accuracy', 'balanced_accuracy', 'macro_f1', 'log_loss', 'organ_confusion',
                   'within_organ_accuracy', 'auroc_lung', 'auroc_colon', 'auroc_breast']
