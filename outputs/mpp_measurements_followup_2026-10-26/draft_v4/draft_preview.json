@@ -1,0 +1,128 @@
+{
+  "status": "draft_only_unreviewed",
+  "formal_accepted_cells": 0,
+  "physical_calibration_claimed": false,
+  "applies_config_changes": false,
+  "approved_mpp": null,
+  "targets": {},
+  "markers": {
+    "rbc": {
+      "counts": {
+        "CRC-VAL-HE-7K": {
+          "n_cells": 0,
+          "n_images": 0,
+          "missing_cells": 30,
+          "missing_images": 15,
+          "image_medians_px": {},
+          "median_of_image_medians_px": null,
+          "review_measurement_ids": []
+        },
+        "BACH": {
+          "n_cells": 0,
+          "n_images": 0,
+          "missing_cells": 30,
+          "missing_images": 15,
+          "image_medians_px": {},
+          "median_of_image_medians_px": null,
+          "review_measurement_ids": []
+        },
+        "BreakHis": {
+          "n_cells": 0,
+          "n_images": 0,
+          "missing_cells": 30,
+          "missing_images": 15,
+          "image_medians_px": {},
+          "median_of_image_medians_px": null,
+          "review_measurement_ids": []
+        }
+      },
+      "leave_one_out": null,
+      "reason": "insufficient_comparable_cells_or_images",
+      "method_failed": false
+    },
+    "lymph_nucleus": {
+      "counts": {
+        "CRC-VAL-HE-7K": {
+          "n_cells": 30,
+          "n_images": 16,
+          "missing_cells": 0,
+          "missing_images": 0,
+          "image_medians_px": {
+            "2941f4224fd5dcae": 10.295630140987,
+            "4e9e13cd52a946c1": 11.404811692881765,
+            "6da09147bf1875bb": 9.924428900898052,
+            "7ae339f2924f3a52": 9.899494936611665,
+            "82489239c7744ad8": 12.36931687685298,
+            "82e34ccc039ec8ce": 10.44030650891055,
+            "94c4cc220a1e6a32": 10.921030379950965,
+            "959536019f2ad4bb": 12.806248474865697,
+            "a7e26a85b05063ae": 12.859787657133866,
+            "a857503e3ce33be1": 10.44030650891055,
+            "ab053241dbcd8789": 12.987744981522187,
+            "b747568d30ba2eb1": 10.44030650891055,
+            "bc0682393cd7849d": 11.40175425099138,
+            "c803d085a46c694a": 10.770329614269007,
+            "de318d323a85aec2": 11.14054250039007,
+            "f1a171d71e20b098": 13.0
+          },
+          "median_of_image_medians_px": 11.030786440170518,
+          "review_measurement_ids": [
+            "D1_CRC_q03_2",
+            "D1_CRC_q20_1",
+            "D1_CRC_q39_1",
+            "D1_CRC_q48_1",
+            "D1_CRC_q06_2",
+            "D1_CRC_q24_1"
+          ]
+        },
+        "BACH": {
+          "n_cells": 30,
+          "n_images": 18,
+          "missing_cells": 0,
+          "missing_images": 0,
+          "image_medians_px": {
+            "10b3d0c46031288e": 19.313207915827967,
+            "383e07736604162e": 19.6468827043885,
+            "39cc2c1cfe7748ce": 17.08800749063506,
+            "3bd2585178d0ac9b": 15.99312340979284,
+            "461fd3a656143d57": 18.027756377319946,
+            "46d58b35be6c47f0": 19.235384061671343,
+            "7d675c181b9f6a0c": 17.88854381999832,
+            "81391a41a9b837b9": 15.554223420810125,
+            "a9108272b1b46646": 13.341664064126334,
+            "acec3fb11232f296": 14.866068747318506,
+            "b221812486b2bc7b": 28.231188426986208,
+            "b79fe66963dff5f2": 22.67742308141076,
+            "cc88574d3ea3536c": 21.540659228538015,
+            "d51742d8bd524cbf": 19.1049731745428,
+            "d7cdf02d8611cf58": 21.587033144922902,
+            "e5491ff1c9a65ffb": 15.652475842498529,
+            "efa85fb6eb00d101": 19.013878188659973,
+            "fd5fb9faa5baa469": 13.0
+          },
+          "median_of_image_medians_px": 18.52081728298996,
+          "review_measurement_ids": [
+            "D1_BACH_q15_1",
+            "D1_BACH_q29_1",
+            "D2_BACH_q20_1",
+            "D2_BACH_q24_3",
+            "D1_BACH_q20_1",
+            "D1_BACH_q50_1"
+          ]
+        },
+        "BreakHis": {
+          "n_cells": 0,
+          "n_images": 0,
+          "missing_cells": 30,
+          "missing_images": 15,
+          "image_medians_px": {},
+          "median_of_image_medians_px": null,
+          "review_measurement_ids": []
+        }
+      },
+      "leave_one_out": null,
+      "reason": "insufficient_comparable_cells_or_images",
+      "method_failed": false
+    }
+  }
+}

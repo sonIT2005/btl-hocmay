@@ -1,0 +1,39 @@
+{
+  "active_version": "draft_v4",
+  "status": "draft_only_unreviewed",
+  "draft_eligible": 60,
+  "excluded_objects": 43,
+  "geometric_objects": 69,
+  "raw_roi_checks": 103,
+  "max_caliper_objects_per_image": 3,
+  "raw_control_sources_sha_verified": 180,
+  "protected_files_unchanged": 36,
+  "prior_annotation_objects_preserved": 82,
+  "selected_review_cells": 12,
+  "independent_review_completed": false,
+  "formal_accepted_cells": 0,
+  "formal_gate_unchanged": true,
+  "draft_import_rejected": true,
+  "source_queue_changed": false,
+  "selection_seed": 42,
+  "review_seed": 43,
+  "navigation_pass": {
+    "CRC-VAL-HE-7K": {
+      "images": 8,
+      "rois": 48
+    },
+    "BACH": {
+      "images": 60,
+      "rois": 360
+    },
+    "BreakHis": {
+      "images": 60,
+      "rois": 360
+    }
+  },
+  "tests_passed": 53,
+  "regenerated_images": false,
+  "model_run": false,
+  "draft_tool_sha256": "cbcbb97ce6ad343ab6b17c8a118f7edadf15aca391dfe674efffd76b16dbb24f",
+  "formal_tool_sha256": "b2d982dee96eb94b0dfe1ce57178b48ab49ab7bb4f9e5b3fa84815982215e476"
+}

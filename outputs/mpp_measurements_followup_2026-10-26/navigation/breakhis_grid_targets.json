@@ -1,0 +1,34 @@
+[
+  {
+    "id": "D2_BreakHis_q35_1",
+    "candidate_id": "959523c3d8bdd072",
+    "source": "BreakHis",
+    "q": 35,
+    "cx": 9,
+    "cy": 303
+  },
+  {
+    "id": "D2_BreakHis_q49_1",
+    "candidate_id": "30a07ba3d76cbfab",
+    "source": "BreakHis",
+    "q": 49,
+    "cx": 522,
+    "cy": 306
+  },
+  {
+    "id": "D2_BreakHis_q56_1",
+    "candidate_id": "b09f43d57d57af24",
+    "source": "BreakHis",
+    "q": 56,
+    "cx": 618,
+    "cy": 93
+  },
+  {
+    "id": "D2_BreakHis_q60_1",
+    "candidate_id": "c13f20254d189e91",
+    "source": "BreakHis",
+    "q": 60,
+    "cx": 602,
+    "cy": 67
+  }
+]

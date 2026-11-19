@@ -80,7 +80,7 @@ Hai model phải đọc ảnh thật tại FrameView, metadata tại repo. Run c
 
 Mốc dữ liệu vẫn là **16/10/2026**, fingerprint `f5c641abf5b155b1`, 57.056 dòng mỗi manifest nhánh `none`/`macenko`. 51 ảnh LC25000 cách ly vẫn nằm ngoài thí nghiệm. Không đổi nhãn, cơ quan, group hoặc split trong đợt chuyển thư mục.
 
-MPP LC25000/LungHist700 vẫn là `estimated_unverified`; pilot chưa đủ tế bào tham chiếu xác nhận và review độc lập. Bộ đo ở `outputs/maintenance_2026-10-25/mpp_kit`; gói rà 180 ảnh đối chứng ở `outputs/handoff_2026-10-25/review_pack`. Xem file bàn giao để tiếp tục đúng quy trình.
+MPP LC25000/LungHist700 vẫn là `estimated_unverified`. Bộ đo chính thức ở `outputs/maintenance_2026-10-25/mpp_kit` vẫn trống. Bộ dự thảo hiện hành ở `outputs/mpp_measurements_followup_2026-10-26/draft_v4/index.html`: 60 đường biên nhân nghi lympho có tọa độ D/H/V và ảnh raw để rà; còn thiếu mẫu ba nguồn và review độc lập. Xem mục 12 trong `docs/BAN_GIAO_INSTRUCT2.md` để biết số thiếu, ảnh/bảng và mẫu review seed 43.
 
 Không chạy lại grouping hay regenerate chỉ để sửa đường dẫn. `prepare.py` được chặn trên dữ liệu frozen nếu không có `--allow-regenerate`. Cờ này chỉ dùng khi bằng chứng MPP/snapshot đã được duyệt; việc chuyển thư mục không làm thay đổi MPP.
 
@@ -92,4 +92,4 @@ Code hiện tại có thể khác hash code ghi trong freeze lịch sử. Snapsh
 
 Log/predictions run đầu được giữ trong `outputs/`. C4 cần checkpoint gốc/scores đủ precision để chốt restricted accuracy và tái chạy diagnostics; checkpoint đó hiện chưa có trên máy local. Không ghi đè kết quả cũ hoặc dùng test chéo để chọn MPP.
 
-Ảnh, QA chứa ảnh, snapshots và cấu hình đường dẫn local được ignore khỏi Git. Code/tài liệu mới chưa được stage/commit/push trong đợt hợp nhất này.
+Ảnh, QA chứa ảnh, snapshots và cấu hình đường dẫn local được ignore khỏi Git. Bộ dự thảo này là thay đổi local; khi gửi review cần kèm output/ảnh, không chỉ commit code. Không tự stage/commit/push trong phiên tạo dự thảo.

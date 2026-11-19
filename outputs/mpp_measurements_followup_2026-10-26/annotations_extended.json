@@ -1,0 +1,3753 @@
+{
+  "schema": 1,
+  "status": "draft_unreviewed",
+  "coordinate_system": "raw pixel centres; zero-based x right / y down",
+  "outline_origin": "Codex visual transcription of raw-grid images; no mask-size reuse",
+  "marker_choice": "RBC preferred; control overview survey insufficient; lymph nuclei surveyed separately across all sources before any LOO.",
+  "objects": [
+    {
+      "measurement_id": "D1_CRC_q03_1",
+      "candidate_id": "bc0682393cd7849d",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          204,
+          103
+        ],
+        [
+          210,
+          103
+        ],
+        [
+          215,
+          107
+        ],
+        [
+          214,
+          112
+        ],
+        [
+          210,
+          116
+        ],
+        [
+          203,
+          116
+        ],
+        [
+          199,
+          112
+        ],
+        [
+          199,
+          108
+        ]
+      ],
+      "location": [
+        207,
+        109
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q03_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q03_2",
+      "candidate_id": "bc0682393cd7849d",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          28,
+          30
+        ],
+        [
+          32,
+          30
+        ],
+        [
+          35,
+          33
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          32,
+          38
+        ],
+        [
+          28,
+          38
+        ],
+        [
+          25,
+          35
+        ],
+        [
+          25,
+          32
+        ]
+      ],
+      "location": [
+        30,
+        35
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q03_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q03_3",
+      "candidate_id": "bc0682393cd7849d",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          195,
+          93
+        ],
+        [
+          199,
+          93
+        ],
+        [
+          202,
+          96
+        ],
+        [
+          202,
+          99
+        ],
+        [
+          199,
+          102
+        ],
+        [
+          194,
+          102
+        ],
+        [
+          191,
+          99
+        ],
+        [
+          191,
+          96
+        ]
+      ],
+      "location": [
+        207,
+        109
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q03_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q06_1",
+      "candidate_id": "a7e26a85b05063ae",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          70,
+          145
+        ],
+        [
+          75,
+          145
+        ],
+        [
+          79,
+          148
+        ],
+        [
+          80,
+          152
+        ],
+        [
+          76,
+          156
+        ],
+        [
+          70,
+          156
+        ],
+        [
+          66,
+          153
+        ],
+        [
+          66,
+          149
+        ]
+      ],
+      "location": [
+        72,
+        150
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q06_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q06_2",
+      "candidate_id": "a7e26a85b05063ae",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          46,
+          160
+        ],
+        [
+          50,
+          160
+        ],
+        [
+          54,
+          163
+        ],
+        [
+          53,
+          167
+        ],
+        [
+          49,
+          170
+        ],
+        [
+          45,
+          169
+        ],
+        [
+          43,
+          166
+        ],
+        [
+          43,
+          163
+        ]
+      ],
+      "location": [
+        47,
+        165
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q06_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q07_1",
+      "candidate_id": "f1a171d71e20b098",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          187,
+          67
+        ],
+        [
+          192,
+          67
+        ],
+        [
+          195,
+          70
+        ],
+        [
+          195,
+          75
+        ],
+        [
+          192,
+          79
+        ],
+        [
+          188,
+          78
+        ],
+        [
+          185,
+          74
+        ],
+        [
+          184,
+          70
+        ]
+      ],
+      "location": [
+        190,
+        73
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q07_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q16_1",
+      "candidate_id": "7ae339f2924f3a52",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          124,
+          99
+        ],
+        [
+          128,
+          99
+        ],
+        [
+          130,
+          102
+        ],
+        [
+          130,
+          105
+        ],
+        [
+          128,
+          108
+        ],
+        [
+          124,
+          108
+        ],
+        [
+          122,
+          105
+        ],
+        [
+          122,
+          102
+        ]
+      ],
+      "location": [
+        126,
+        103
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q16_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q16_2",
+      "candidate_id": "7ae339f2924f3a52",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          130,
+          35
+        ],
+        [
+          134,
+          35
+        ],
+        [
+          137,
+          38
+        ],
+        [
+          137,
+          42
+        ],
+        [
+          134,
+          44
+        ],
+        [
+          130,
+          44
+        ],
+        [
+          128,
+          41
+        ],
+        [
+          128,
+          38
+        ]
+      ],
+      "location": [
+        132,
+        38
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q16_3",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q16_3",
+      "candidate_id": "7ae339f2924f3a52",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          125,
+          45
+        ],
+        [
+          129,
+          45
+        ],
+        [
+          132,
+          48
+        ],
+        [
+          131,
+          51
+        ],
+        [
+          128,
+          53
+        ],
+        [
+          124,
+          52
+        ],
+        [
+          122,
+          49
+        ],
+        [
+          123,
+          47
+        ]
+      ],
+      "location": [
+        132,
+        38
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q16_3",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q18_1",
+      "candidate_id": "959536019f2ad4bb",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [
+        [
+          151,
+          34
+        ],
+        [
+          155,
+          34
+        ],
+        [
+          159,
+          37
+        ],
+        [
+          162,
+          41
+        ],
+        [
+          159,
+          44
+        ],
+        [
+          154,
+          45
+        ],
+        [
+          150,
+          42
+        ],
+        [
+          148,
+          38
+        ]
+      ],
+      "location": [
+        145,
+        45
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q18_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Final overlay QA: angular nucleus with dark continuation below; round identity and independent lower boundary not secure. Excluded before LOO."
+    },
+    {
+      "measurement_id": "D1_CRC_q20_1",
+      "candidate_id": "a857503e3ce33be1",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          66,
+          45
+        ],
+        [
+          70,
+          45
+        ],
+        [
+          73,
+          48
+        ],
+        [
+          73,
+          51
+        ],
+        [
+          70,
+          54
+        ],
+        [
+          66,
+          54
+        ],
+        [
+          63,
+          51
+        ],
+        [
+          63,
+          48
+        ]
+      ],
+      "location": [
+        68,
+        49
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q20_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q20_2",
+      "candidate_id": "a857503e3ce33be1",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          138,
+          27
+        ],
+        [
+          142,
+          27
+        ],
+        [
+          144,
+          30
+        ],
+        [
+          144,
+          33
+        ],
+        [
+          141,
+          36
+        ],
+        [
+          137,
+          35
+        ],
+        [
+          135,
+          32
+        ],
+        [
+          135,
+          29
+        ]
+      ],
+      "location": [
+        140,
+        32
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q20_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q20_3",
+      "candidate_id": "a857503e3ce33be1",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          180,
+          140
+        ],
+        [
+          184,
+          140
+        ],
+        [
+          187,
+          143
+        ],
+        [
+          187,
+          147
+        ],
+        [
+          185,
+          150
+        ],
+        [
+          180,
+          150
+        ],
+        [
+          176,
+          147
+        ],
+        [
+          176,
+          143
+        ]
+      ],
+      "location": [
+        182,
+        145
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q20_3",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q21_1",
+      "candidate_id": "de318d323a85aec2",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          76,
+          157
+        ],
+        [
+          80,
+          157
+        ],
+        [
+          84,
+          160
+        ],
+        [
+          84,
+          164
+        ],
+        [
+          81,
+          168
+        ],
+        [
+          76,
+          168
+        ],
+        [
+          73,
+          165
+        ],
+        [
+          73,
+          161
+        ]
+      ],
+      "location": [
+        78,
+        163
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q21_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q21_2",
+      "candidate_id": "de318d323a85aec2",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          131,
+          137
+        ],
+        [
+          134,
+          138
+        ],
+        [
+          136,
+          141
+        ],
+        [
+          136,
+          144
+        ],
+        [
+          133,
+          147
+        ],
+        [
+          130,
+          146
+        ],
+        [
+          128,
+          143
+        ],
+        [
+          128,
+          140
+        ]
+      ],
+      "location": [
+        133,
+        142
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q21_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q24_1",
+      "candidate_id": "6da09147bf1875bb",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          66,
+          61
+        ],
+        [
+          69,
+          61
+        ],
+        [
+          72,
+          64
+        ],
+        [
+          72,
+          67
+        ],
+        [
+          69,
+          69
+        ],
+        [
+          66,
+          69
+        ],
+        [
+          63,
+          66
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "location": [
+        68,
+        65
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q24_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q24_2",
+      "candidate_id": "6da09147bf1875bb",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          172,
+          133
+        ],
+        [
+          176,
+          133
+        ],
+        [
+          179,
+          136
+        ],
+        [
+          178,
+          139
+        ],
+        [
+          175,
+          141
+        ],
+        [
+          171,
+          139
+        ],
+        [
+          169,
+          136
+        ],
+        [
+          170,
+          134
+        ]
+      ],
+      "location": [
+        174,
+        137
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q24_3",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q28_1",
+      "candidate_id": "2941f4224fd5dcae",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          203,
+          76
+        ],
+        [
+          207,
+          77
+        ],
+        [
+          210,
+          80
+        ],
+        [
+          210,
+          83
+        ],
+        [
+          207,
+          86
+        ],
+        [
+          203,
+          85
+        ],
+        [
+          200,
+          82
+        ],
+        [
+          199,
+          79
+        ]
+      ],
+      "location": [
+        206,
+        81
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q28_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q28_2",
+      "candidate_id": "2941f4224fd5dcae",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          95,
+          9
+        ],
+        [
+          99,
+          9
+        ],
+        [
+          102,
+          12
+        ],
+        [
+          101,
+          16
+        ],
+        [
+          98,
+          18
+        ],
+        [
+          94,
+          17
+        ],
+        [
+          92,
+          14
+        ],
+        [
+          92,
+          11
+        ]
+      ],
+      "location": [
+        97,
+        13
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q28_3",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q28_3",
+      "candidate_id": "2941f4224fd5dcae",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          169,
+          43
+        ],
+        [
+          172,
+          43
+        ],
+        [
+          176,
+          46
+        ],
+        [
+          175,
+          49
+        ],
+        [
+          172,
+          51
+        ],
+        [
+          168,
+          50
+        ],
+        [
+          166,
+          47
+        ],
+        [
+          167,
+          44
+        ]
+      ],
+      "location": [
+        162,
+        36
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q28_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q33_1",
+      "candidate_id": "4e9e13cd52a946c1",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          31,
+          193
+        ],
+        [
+          35,
+          194
+        ],
+        [
+          38,
+          198
+        ],
+        [
+          37,
+          202
+        ],
+        [
+          34,
+          205
+        ],
+        [
+          30,
+          204
+        ],
+        [
+          27,
+          201
+        ],
+        [
+          27,
+          196
+        ]
+      ],
+      "location": [
+        33,
+        198
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q33_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q33_2",
+      "candidate_id": "4e9e13cd52a946c1",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [
+        [
+          140,
+          200
+        ],
+        [
+          144,
+          200
+        ],
+        [
+          147,
+          202
+        ],
+        [
+          147,
+          205
+        ],
+        [
+          144,
+          207
+        ],
+        [
+          140,
+          206
+        ],
+        [
+          138,
+          204
+        ],
+        [
+          138,
+          202
+        ]
+      ],
+      "location": [
+        142,
+        203
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q33_3",
+      "boundary_uncertainty_px": 1,
+      "note": "Final overlay QA: pale blurred nuclear boundary and a dark internal focus; whole-boundary estimate insufficient. Excluded before LOO."
+    },
+    {
+      "measurement_id": "D1_CRC_q33_3",
+      "candidate_id": "4e9e13cd52a946c1",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          43,
+          180
+        ],
+        [
+          47,
+          180
+        ],
+        [
+          50,
+          183
+        ],
+        [
+          50,
+          186
+        ],
+        [
+          47,
+          189
+        ],
+        [
+          43,
+          189
+        ],
+        [
+          40,
+          186
+        ],
+        [
+          40,
+          183
+        ]
+      ],
+      "location": [
+        33,
+        198
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q33_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q36_1",
+      "candidate_id": "94c4cc220a1e6a32",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          95,
+          181
+        ],
+        [
+          98,
+          181
+        ],
+        [
+          101,
+          184
+        ],
+        [
+          101,
+          188
+        ],
+        [
+          98,
+          191
+        ],
+        [
+          94,
+          190
+        ],
+        [
+          92,
+          187
+        ],
+        [
+          92,
+          184
+        ]
+      ],
+      "location": [
+        97,
+        186
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q36_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q39_1",
+      "candidate_id": "82e34ccc039ec8ce",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          110,
+          131
+        ],
+        [
+          113,
+          131
+        ],
+        [
+          116,
+          134
+        ],
+        [
+          116,
+          137
+        ],
+        [
+          113,
+          141
+        ],
+        [
+          109,
+          140
+        ],
+        [
+          107,
+          137
+        ],
+        [
+          107,
+          134
+        ]
+      ],
+      "location": [
+        112,
+        136
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q39_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q47_1",
+      "candidate_id": "b747568d30ba2eb1",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          79,
+          171
+        ],
+        [
+          83,
+          171
+        ],
+        [
+          86,
+          175
+        ],
+        [
+          85,
+          179
+        ],
+        [
+          82,
+          181
+        ],
+        [
+          78,
+          180
+        ],
+        [
+          76,
+          177
+        ],
+        [
+          76,
+          174
+        ]
+      ],
+      "location": [
+        81,
+        176
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q47_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q48_1",
+      "candidate_id": "c803d085a46c694a",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          91,
+          61
+        ],
+        [
+          95,
+          61
+        ],
+        [
+          98,
+          64
+        ],
+        [
+          98,
+          68
+        ],
+        [
+          95,
+          71
+        ],
+        [
+          91,
+          70
+        ],
+        [
+          88,
+          67
+        ],
+        [
+          88,
+          64
+        ]
+      ],
+      "location": [
+        93,
+        66
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q48_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q60_1",
+      "candidate_id": "ab053241dbcd8789",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          160,
+          71
+        ],
+        [
+          164,
+          72
+        ],
+        [
+          167,
+          75
+        ],
+        [
+          167,
+          79
+        ],
+        [
+          164,
+          82
+        ],
+        [
+          159,
+          81
+        ],
+        [
+          156,
+          78
+        ],
+        [
+          156,
+          74
+        ]
+      ],
+      "location": [
+        162,
+        76
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q60_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q60_2",
+      "candidate_id": "ab053241dbcd8789",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          194,
+          112
+        ],
+        [
+          199,
+          113
+        ],
+        [
+          202,
+          117
+        ],
+        [
+          201,
+          121
+        ],
+        [
+          198,
+          125
+        ],
+        [
+          192,
+          125
+        ],
+        [
+          189,
+          121
+        ],
+        [
+          189,
+          116
+        ]
+      ],
+      "location": [
+        196,
+        119
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q60_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q60_3",
+      "candidate_id": "ab053241dbcd8789",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [
+        [
+          146,
+          147
+        ],
+        [
+          149,
+          147
+        ],
+        [
+          151,
+          150
+        ],
+        [
+          151,
+          153
+        ],
+        [
+          148,
+          155
+        ],
+        [
+          144,
+          154
+        ],
+        [
+          142,
+          151
+        ],
+        [
+          143,
+          148
+        ]
+      ],
+      "location": [
+        147,
+        151
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q60_3",
+      "boundary_uncertainty_px": 1,
+      "note": "Final overlay QA: blurred small dark object touches surrounding staining; identity/boundary uncertain. Excluded before LOO."
+    },
+    {
+      "measurement_id": "D1_BACH_q09_1",
+      "candidate_id": "acec3fb11232f296",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1677,
+          34
+        ],
+        [
+          1683,
+          34
+        ],
+        [
+          1687,
+          38
+        ],
+        [
+          1687,
+          44
+        ],
+        [
+          1684,
+          49
+        ],
+        [
+          1679,
+          50
+        ],
+        [
+          1675,
+          46
+        ],
+        [
+          1674,
+          40
+        ]
+      ],
+      "location": [
+        1681,
+        42
+      ],
+      "evidence_grid_target": "BACH_q09_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q15_1",
+      "candidate_id": "d51742d8bd524cbf",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1010,
+          598
+        ],
+        [
+          1017,
+          598
+        ],
+        [
+          1022,
+          601
+        ],
+        [
+          1023,
+          605
+        ],
+        [
+          1020,
+          610
+        ],
+        [
+          1013,
+          611
+        ],
+        [
+          1005,
+          608
+        ],
+        [
+          1004,
+          603
+        ]
+      ],
+      "location": [
+        1014,
+        605
+      ],
+      "evidence_grid_target": "BACH_q15_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q16_1",
+      "candidate_id": "7d675c181b9f6a0c",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1494,
+          558
+        ],
+        [
+          1501,
+          558
+        ],
+        [
+          1508,
+          563
+        ],
+        [
+          1509,
+          570
+        ],
+        [
+          1505,
+          576
+        ],
+        [
+          1497,
+          578
+        ],
+        [
+          1490,
+          573
+        ],
+        [
+          1489,
+          565
+        ]
+      ],
+      "location": [
+        1500,
+        567
+      ],
+      "evidence_grid_target": "BACH_q16_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q16_2",
+      "candidate_id": "7d675c181b9f6a0c",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          530,
+          1208
+        ],
+        [
+          534,
+          1209
+        ],
+        [
+          537,
+          1213
+        ],
+        [
+          537,
+          1219
+        ],
+        [
+          534,
+          1224
+        ],
+        [
+          529,
+          1224
+        ],
+        [
+          525,
+          1220
+        ],
+        [
+          525,
+          1214
+        ]
+      ],
+      "location": [
+        532,
+        1217
+      ],
+      "evidence_grid_target": "BACH_q16_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q20_1",
+      "candidate_id": "3bd2585178d0ac9b",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1124,
+          610
+        ],
+        [
+          1129,
+          610
+        ],
+        [
+          1133,
+          614
+        ],
+        [
+          1133,
+          618
+        ],
+        [
+          1129,
+          621
+        ],
+        [
+          1123,
+          621
+        ],
+        [
+          1120,
+          618
+        ],
+        [
+          1120,
+          614
+        ]
+      ],
+      "location": [
+        1127,
+        616
+      ],
+      "evidence_grid_target": "BACH_q20_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q23_1",
+      "candidate_id": "fd5fb9faa5baa469",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          263,
+          1499
+        ],
+        [
+          267,
+          1499
+        ],
+        [
+          271,
+          1503
+        ],
+        [
+          271,
+          1508
+        ],
+        [
+          268,
+          1511
+        ],
+        [
+          262,
+          1511
+        ],
+        [
+          259,
+          1507
+        ],
+        [
+          260,
+          1502
+        ]
+      ],
+      "location": [
+        266,
+        1505
+      ],
+      "evidence_grid_target": "BACH_q23_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q26_1",
+      "candidate_id": "e5491ff1c9a65ffb",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          777,
+          208
+        ],
+        [
+          783,
+          208
+        ],
+        [
+          787,
+          211
+        ],
+        [
+          788,
+          217
+        ],
+        [
+          784,
+          222
+        ],
+        [
+          778,
+          222
+        ],
+        [
+          774,
+          219
+        ],
+        [
+          773,
+          213
+        ]
+      ],
+      "location": [
+        787,
+        226
+      ],
+      "evidence_grid_target": "BACH_q26_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Whole dark rounded nucleus at (781,215), not the tiny locator dot at (787,226); visible boundary drawn on raw grid."
+    },
+    {
+      "measurement_id": "D1_BACH_q27_1",
+      "candidate_id": "81391a41a9b837b9",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          990,
+          126
+        ],
+        [
+          997,
+          126
+        ],
+        [
+          1001,
+          130
+        ],
+        [
+          1001,
+          135
+        ],
+        [
+          997,
+          139
+        ],
+        [
+          990,
+          139
+        ],
+        [
+          986,
+          135
+        ],
+        [
+          986,
+          130
+        ]
+      ],
+      "location": [
+        995,
+        133
+      ],
+      "evidence_grid_target": "BACH_q27_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q27_2",
+      "candidate_id": "81391a41a9b837b9",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          2018,
+          348
+        ],
+        [
+          2025,
+          348
+        ],
+        [
+          2029,
+          352
+        ],
+        [
+          2028,
+          357
+        ],
+        [
+          2024,
+          360
+        ],
+        [
+          2018,
+          359
+        ],
+        [
+          2014,
+          355
+        ],
+        [
+          2014,
+          351
+        ]
+      ],
+      "location": [
+        2023,
+        353
+      ],
+      "evidence_grid_target": "BACH_q27_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q29_1",
+      "candidate_id": "461fd3a656143d57",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1940,
+          957
+        ],
+        [
+          1947,
+          957
+        ],
+        [
+          1952,
+          962
+        ],
+        [
+          1952,
+          968
+        ],
+        [
+          1948,
+          973
+        ],
+        [
+          1941,
+          974
+        ],
+        [
+          1937,
+          970
+        ],
+        [
+          1937,
+          962
+        ]
+      ],
+      "location": [
+        1945,
+        966
+      ],
+      "evidence_grid_target": "BACH_q29_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q30_1",
+      "candidate_id": "383e07736604162e",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          577,
+          824
+        ],
+        [
+          583,
+          824
+        ],
+        [
+          589,
+          828
+        ],
+        [
+          592,
+          834
+        ],
+        [
+          588,
+          840
+        ],
+        [
+          581,
+          840
+        ],
+        [
+          575,
+          836
+        ],
+        [
+          573,
+          829
+        ]
+      ],
+      "location": [
+        582,
+        833
+      ],
+      "evidence_grid_target": "BACH_q30_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q32_1",
+      "candidate_id": "cc88574d3ea3536c",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          440,
+          1314
+        ],
+        [
+          447,
+          1314
+        ],
+        [
+          454,
+          1320
+        ],
+        [
+          454,
+          1325
+        ],
+        [
+          448,
+          1332
+        ],
+        [
+          439,
+          1333
+        ],
+        [
+          434,
+          1328
+        ],
+        [
+          434,
+          1320
+        ]
+      ],
+      "location": [
+        445,
+        1324
+      ],
+      "evidence_grid_target": "BACH_q32_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q36_1",
+      "candidate_id": "46d58b35be6c47f0",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          562,
+          862
+        ],
+        [
+          568,
+          862
+        ],
+        [
+          573,
+          866
+        ],
+        [
+          575,
+          872
+        ],
+        [
+          571,
+          879
+        ],
+        [
+          565,
+          880
+        ],
+        [
+          560,
+          875
+        ],
+        [
+          558,
+          868
+        ]
+      ],
+      "location": [
+        568,
+        871
+      ],
+      "evidence_grid_target": "BACH_q36_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q47_1",
+      "candidate_id": "a9108272b1b46646",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1962,
+          1060
+        ],
+        [
+          1967,
+          1061
+        ],
+        [
+          1972,
+          1065
+        ],
+        [
+          1973,
+          1071
+        ],
+        [
+          1969,
+          1076
+        ],
+        [
+          1965,
+          1076
+        ],
+        [
+          1960,
+          1071
+        ],
+        [
+          1959,
+          1065
+        ]
+      ],
+      "location": [
+        1967,
+        1068
+      ],
+      "evidence_grid_target": "BACH_q47_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q50_1",
+      "candidate_id": "b79fe66963dff5f2",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          850,
+          290
+        ],
+        [
+          861,
+          290
+        ],
+        [
+          867,
+          293
+        ],
+        [
+          867,
+          299
+        ],
+        [
+          862,
+          303
+        ],
+        [
+          852,
+          304
+        ],
+        [
+          845,
+          301
+        ],
+        [
+          843,
+          295
+        ]
+      ],
+      "location": [
+        856,
+        297
+      ],
+      "evidence_grid_target": "BACH_q50_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q50_2",
+      "candidate_id": "b79fe66963dff5f2",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1390,
+          746
+        ],
+        [
+          1398,
+          746
+        ],
+        [
+          1403,
+          750
+        ],
+        [
+          1403,
+          757
+        ],
+        [
+          1399,
+          762
+        ],
+        [
+          1390,
+          762
+        ],
+        [
+          1384,
+          759
+        ],
+        [
+          1383,
+          752
+        ]
+      ],
+      "location": [
+        1395,
+        755
+      ],
+      "evidence_grid_target": "BACH_q50_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q52_1",
+      "candidate_id": "b221812486b2bc7b",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          881,
+          1105
+        ],
+        [
+          889,
+          1107
+        ],
+        [
+          894,
+          1113
+        ],
+        [
+          895,
+          1123
+        ],
+        [
+          892,
+          1131
+        ],
+        [
+          883,
+          1132
+        ],
+        [
+          875,
+          1126
+        ],
+        [
+          872,
+          1116
+        ]
+      ],
+      "location": [
+        885,
+        1119
+      ],
+      "evidence_grid_target": "BACH_q52_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q53_1",
+      "candidate_id": "10b3d0c46031288e",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1382,
+          44
+        ],
+        [
+          1386,
+          44
+        ],
+        [
+          1390,
+          48
+        ],
+        [
+          1389,
+          55
+        ],
+        [
+          1386,
+          62
+        ],
+        [
+          1379,
+          62
+        ],
+        [
+          1377,
+          58
+        ],
+        [
+          1378,
+          50
+        ]
+      ],
+      "location": [
+        1384,
+        54
+      ],
+      "evidence_grid_target": "BACH_q53_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_BACH_q56_1",
+      "candidate_id": "d7cdf02d8611cf58",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1661,
+          410
+        ],
+        [
+          1667,
+          410
+        ],
+        [
+          1673,
+          414
+        ],
+        [
+          1674,
+          420
+        ],
+        [
+          1670,
+          425
+        ],
+        [
+          1660,
+          425
+        ],
+        [
+          1654,
+          421
+        ],
+        [
+          1653,
+          415
+        ]
+      ],
+      "location": [
+        1664,
+        418
+      ],
+      "evidence_grid_target": "BACH_q56_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Visually small round/oval densely dark nucleus, separated from gland epithelium; identity and boundary remain unreviewed."
+    },
+    {
+      "measurement_id": "D1_CRC_q16_9",
+      "candidate_id": "7ae339f2924f3a52",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        150,
+        51
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q16_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Locator at (150,51) may connect to another dark nucleus above; boundary not separable."
+    },
+    {
+      "measurement_id": "D1_CRC_q18_9",
+      "candidate_id": "959536019f2ad4bb",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        158,
+        69
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q18_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Adjacent dark objects overlap; no reliable single-nucleus outline."
+    },
+    {
+      "measurement_id": "D1_CRC_q24_9",
+      "candidate_id": "6da09147bf1875bb",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        118,
+        83
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q24_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Dark centre with lower extension; whole-nucleus boundary uncertain."
+    },
+    {
+      "measurement_id": "D1_CRC_q28_9",
+      "candidate_id": "2941f4224fd5dcae",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        162,
+        36
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q28_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Target (162,36) has pale/heterogeneous chromatin; identity uncertain. A different separated object in this ROI was measured."
+    },
+    {
+      "measurement_id": "D1_CRC_q33_9",
+      "candidate_id": "4e9e13cd52a946c1",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        135,
+        108
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q33_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Overlapping pale nuclei; identity and boundary unsuitable."
+    },
+    {
+      "measurement_id": "D1_CRC_q36_9",
+      "candidate_id": "94c4cc220a1e6a32",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        206,
+        104
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q36_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Pale-centred dark outline; lymphocyte identity uncertain."
+    },
+    {
+      "measurement_id": "D1_CRC_q36_10",
+      "candidate_id": "94c4cc220a1e6a32",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        41,
+        164
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q36_3",
+      "boundary_uncertainty_px": 1,
+      "note": "Elongated nucleus; lymphocyte identity uncertain."
+    },
+    {
+      "measurement_id": "D1_CRC_q47_9",
+      "candidate_id": "b747568d30ba2eb1",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        33,
+        137
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q47_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Angular dark object among elongated stromal nuclei; identity uncertain."
+    },
+    {
+      "measurement_id": "D1_CRC_q47_10",
+      "candidate_id": "b747568d30ba2eb1",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        39,
+        212
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q47_3",
+      "boundary_uncertainty_px": 1,
+      "note": "Irregular pale/overlapping nuclei, not a separate uniformly dark round nucleus."
+    },
+    {
+      "measurement_id": "D1_CRC_q48_9",
+      "candidate_id": "c803d085a46c694a",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        126,
+        145
+      ],
+      "evidence_grid_target": "CRC-VAL-HE-7K_q48_2",
+      "boundary_uncertainty_px": 1,
+      "note": "Elongated dark object and nearby dark neighbour; boundary/identity uncertain."
+    },
+    {
+      "measurement_id": "D1_BACH_q25_9",
+      "candidate_id": "39cc2c1cfe7748ce",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        218,
+        935
+      ],
+      "evidence_grid_target": "BACH_q25_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Magenta object with blue lower focus: cannot identify as RBC or lymphocyte."
+    },
+    {
+      "measurement_id": "D1_BACH_q29_9",
+      "candidate_id": "461fd3a656143d57",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        602,
+        584
+      ],
+      "evidence_grid_target": "BACH_q29_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Pale internal area/eccentric chromatin; possible non-lymphocyte nucleus."
+    },
+    {
+      "measurement_id": "D1_BACH_q32_9",
+      "candidate_id": "cc88574d3ea3536c",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        371,
+        874
+      ],
+      "evidence_grid_target": "BACH_q32_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Large pale nucleus in a cluster; possible epithelial nucleus."
+    },
+    {
+      "measurement_id": "D1_BACH_q35_9",
+      "candidate_id": "ad5dc7378c098bf6",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        1571,
+        872
+      ],
+      "evidence_grid_target": "BACH_q35_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Clustered dark nuclei at duct epithelium; identity not established."
+    },
+    {
+      "measurement_id": "D1_BACH_q35_10",
+      "candidate_id": "ad5dc7378c098bf6",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        821,
+        138
+      ],
+      "evidence_grid_target": "BACH_q35_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Clustered dark nucleus; cannot exclude epithelial identity."
+    },
+    {
+      "measurement_id": "D1_BACH_q36_9",
+      "candidate_id": "46d58b35be6c47f0",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        921,
+        1290
+      ],
+      "evidence_grid_target": "BACH_q36_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Locator target does not contain a separate round nucleus; nearby object elongated."
+    },
+    {
+      "measurement_id": "D1_BACH_q57_9",
+      "candidate_id": "39a33d676d081a1a",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        479,
+        1070
+      ],
+      "evidence_grid_target": "BACH_q57_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Low-contrast nucleus: boundary not stable to 1-2 pixels."
+    },
+    {
+      "measurement_id": "D1_BACH_q58_9",
+      "candidate_id": "6d00b3ff9f26c729",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        211,
+        386
+      ],
+      "evidence_grid_target": "BACH_q58_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Raw grid target contains pale background, not a nucleus. Locator false positive."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q04_9",
+      "candidate_id": "1f041497dbf5a150",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        348,
+        48
+      ],
+      "evidence_grid_target": "BreakHis_q04_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Dark region in epithelium; cannot identify a whole lymphocyte nucleus."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q21_9",
+      "candidate_id": "b74cc4bba2763e5b",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        535,
+        416
+      ],
+      "evidence_grid_target": "BreakHis_q21_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Blurred brown/purple object and adjacent stain; identity and boundary uncertain."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q21_10",
+      "candidate_id": "b74cc4bba2763e5b",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        668,
+        434
+      ],
+      "evidence_grid_target": "BreakHis_q21_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Small dark dot amid blurred staining; cannot establish whole-nucleus boundary."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q36_9",
+      "candidate_id": "8d0aec199dffbb66",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        236,
+        236
+      ],
+      "evidence_grid_target": "BreakHis_q36_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Two touching purple objects; cannot isolate one whole round nucleus."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q42_9",
+      "candidate_id": "2caa3dacc6ee84e2",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        393,
+        147
+      ],
+      "evidence_grid_target": "BreakHis_q42_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Black object detached in gland lumen; debris/artefact cannot be excluded."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q43_9",
+      "candidate_id": "03596048d68ce494",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        11,
+        22
+      ],
+      "evidence_grid_target": "BreakHis_q43_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Low-resolution dark object; identity and true nuclear boundary uncertain."
+    },
+    {
+      "measurement_id": "D1_BACH_q02_9",
+      "candidate_id": "b2d3a70ea05b701b",
+      "cell_type": "rbc",
+      "decision": "uncertain",
+      "polygon": [
+        [
+          1985,
+          421
+        ],
+        [
+          1992,
+          421
+        ],
+        [
+          1997,
+          426
+        ],
+        [
+          1996,
+          433
+        ],
+        [
+          1992,
+          438
+        ],
+        [
+          1985,
+          440
+        ],
+        [
+          1978,
+          435
+        ],
+        [
+          1978,
+          428
+        ]
+      ],
+      "location": [
+        1987,
+        432
+      ],
+      "evidence_grid_target": "BACH_q02_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Anucleate-looking magenta body in a lumen; solitary object, RBC identity not established. Not counted."
+    },
+    {
+      "measurement_id": "D1_BACH_q49_9",
+      "candidate_id": "65817cd32ed40287",
+      "cell_type": "rbc",
+      "decision": "uncertain",
+      "polygon": [
+        [
+          221,
+          1377
+        ],
+        [
+          226,
+          1379
+        ],
+        [
+          230,
+          1384
+        ],
+        [
+          230,
+          1390
+        ],
+        [
+          226,
+          1395
+        ],
+        [
+          220,
+          1395
+        ],
+        [
+          216,
+          1391
+        ],
+        [
+          215,
+          1383
+        ]
+      ],
+      "location": [
+        211,
+        1400
+      ],
+      "evidence_grid_target": "BACH_q49_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Round magenta body adjacent to a second smaller body; RBC versus other eosinophilic structure unresolved. Not counted."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q13_11",
+      "candidate_id": "8f9f53cccfc7b2ba",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [
+        [
+          259,
+          54
+        ],
+        [
+          264,
+          54
+        ],
+        [
+          267,
+          58
+        ],
+        [
+          266,
+          65
+        ],
+        [
+          263,
+          70
+        ],
+        [
+          258,
+          71
+        ],
+        [
+          255,
+          67
+        ],
+        [
+          255,
+          61
+        ]
+      ],
+      "location": [
+        260,
+        60
+      ],
+      "evidence_grid_target": "BreakHis_q13_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Native full-image survey found an elongated low-contrast purple object. Approximate extent only, not an identified lymphocyte nucleus."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q22_11",
+      "candidate_id": "11684cd0a582b8f7",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [
+        [
+          281,
+          319
+        ],
+        [
+          284,
+          319
+        ],
+        [
+          287,
+          324
+        ],
+        [
+          287,
+          330
+        ],
+        [
+          284,
+          335
+        ],
+        [
+          277,
+          335
+        ],
+        [
+          273,
+          332
+        ],
+        [
+          273,
+          326
+        ]
+      ],
+      "location": [
+        282,
+        328
+      ],
+      "evidence_grid_target": "BreakHis_q22_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Solitary stromal purple object, but boundary diffuse and nucleus not uniformly dark. Approximate visible outline only; excluded."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q29_11",
+      "candidate_id": "255122a952169206",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [
+        [
+          171,
+          167
+        ],
+        [
+          177,
+          167
+        ],
+        [
+          182,
+          170
+        ],
+        [
+          182,
+          174
+        ],
+        [
+          178,
+          177
+        ],
+        [
+          171,
+          177
+        ],
+        [
+          166,
+          174
+        ],
+        [
+          166,
+          170
+        ]
+      ],
+      "location": [
+        175,
+        173
+      ],
+      "evidence_grid_target": "BreakHis_q29_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Dark grey oval object lacks clear hematoxylin nuclear appearance; artefact cannot be excluded. Outline only for review."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q37_11",
+      "candidate_id": "ef09e533fa86330d",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [
+        [
+          541,
+          125
+        ],
+        [
+          546,
+          125
+        ],
+        [
+          549,
+          129
+        ],
+        [
+          549,
+          134
+        ],
+        [
+          545,
+          138
+        ],
+        [
+          540,
+          137
+        ],
+        [
+          537,
+          133
+        ],
+        [
+          537,
+          129
+        ]
+      ],
+      "location": [
+        544,
+        130
+      ],
+      "evidence_grid_target": "BreakHis_q37_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Low-contrast stromal object with blurry edge; not enough evidence of a whole lymphocyte nucleus."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q10_11",
+      "candidate_id": "b0003f5c93eeef05",
+      "cell_type": "rbc",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        120,
+        355
+      ],
+      "evidence_grid_target": "BreakHis_q10_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Pink/red vessel region, but individual anucleate cell boundaries cannot be separated."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q50_11",
+      "candidate_id": "988c2688af5b4b1f",
+      "cell_type": "rbc",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        546,
+        335
+      ],
+      "evidence_grid_target": "BreakHis_q50_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Blood-coloured region with merged red staining; no single clear RBC boundary."
+    },
+    {
+      "measurement_id": "D1_BreakHis_q50_12",
+      "candidate_id": "988c2688af5b4b1f",
+      "cell_type": "rbc",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        561,
+        214
+      ],
+      "evidence_grid_target": "BreakHis_q50_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Second vessel region; red objects merge and individual RBC identity/boundary is unresolved."
+    },
+    {
+      "measurement_id": "D2_CRC_q18_1",
+      "candidate_id": "959536019f2ad4bb",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          170,
+          89
+        ],
+        [
+          174,
+          89
+        ],
+        [
+          178,
+          92
+        ],
+        [
+          180,
+          96
+        ],
+        [
+          178,
+          99
+        ],
+        [
+          172,
+          100
+        ],
+        [
+          168,
+          97
+        ],
+        [
+          168,
+          93
+        ]
+      ],
+      "location": [
+        173,
+        94
+      ],
+      "evidence_grid_target": "D2_CRC_q18_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_CRC_q44_1",
+      "candidate_id": "82489239c7744ad8",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          134,
+          60
+        ],
+        [
+          138,
+          60
+        ],
+        [
+          141,
+          63
+        ],
+        [
+          143,
+          66
+        ],
+        [
+          140,
+          70
+        ],
+        [
+          135,
+          70
+        ],
+        [
+          132,
+          67
+        ],
+        [
+          131,
+          63
+        ]
+      ],
+      "location": [
+        137,
+        65
+      ],
+      "evidence_grid_target": "D2_CRC_q44_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_CRC_q36_1",
+      "candidate_id": "94c4cc220a1e6a32",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          103,
+          205
+        ],
+        [
+          107,
+          205
+        ],
+        [
+          110,
+          208
+        ],
+        [
+          109,
+          213
+        ],
+        [
+          106,
+          216
+        ],
+        [
+          102,
+          215
+        ],
+        [
+          100,
+          212
+        ],
+        [
+          100,
+          208
+        ]
+      ],
+      "location": [
+        104,
+        210
+      ],
+      "evidence_grid_target": "D2_CRC_q36_1",
+      "boundary_uncertainty_px": 1,
+      "note": "Separate rounded/oval dark nucleus at (104,210) selected visually within the grid centred on (112,201). No threshold-mask boundary used; independent identity/boundary review pending."
+    },
+    {
+      "measurement_id": "D2_BACH_q09_1",
+      "candidate_id": "acec3fb11232f296",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1055,
+          710
+        ],
+        [
+          1059,
+          711
+        ],
+        [
+          1062,
+          715
+        ],
+        [
+          1061,
+          720
+        ],
+        [
+          1057,
+          723
+        ],
+        [
+          1052,
+          722
+        ],
+        [
+          1049,
+          719
+        ],
+        [
+          1050,
+          715
+        ]
+      ],
+      "location": [
+        1057,
+        717
+      ],
+      "evidence_grid_target": "D2_BACH_q09_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_BACH_q09_2",
+      "candidate_id": "acec3fb11232f296",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          555,
+          208
+        ],
+        [
+          559,
+          208
+        ],
+        [
+          563,
+          212
+        ],
+        [
+          563,
+          217
+        ],
+        [
+          559,
+          222
+        ],
+        [
+          554,
+          222
+        ],
+        [
+          550,
+          218
+        ],
+        [
+          550,
+          212
+        ]
+      ],
+      "location": [
+        557,
+        215
+      ],
+      "evidence_grid_target": "D2_BACH_q09_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_BACH_q16_1",
+      "candidate_id": "7d675c181b9f6a0c",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1979,
+          1378
+        ],
+        [
+          1985,
+          1379
+        ],
+        [
+          1989,
+          1383
+        ],
+        [
+          1988,
+          1390
+        ],
+        [
+          1984,
+          1395
+        ],
+        [
+          1978,
+          1395
+        ],
+        [
+          1973,
+          1391
+        ],
+        [
+          1973,
+          1384
+        ]
+      ],
+      "location": [
+        1981,
+        1387
+      ],
+      "evidence_grid_target": "D2_BACH_q16_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_BACH_q20_1",
+      "candidate_id": "3bd2585178d0ac9b",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          480,
+          1469
+        ],
+        [
+          486,
+          1469
+        ],
+        [
+          491,
+          1473
+        ],
+        [
+          491,
+          1480
+        ],
+        [
+          487,
+          1486
+        ],
+        [
+          481,
+          1486
+        ],
+        [
+          476,
+          1482
+        ],
+        [
+          476,
+          1475
+        ]
+      ],
+      "location": [
+        484,
+        1480
+      ],
+      "evidence_grid_target": "D2_BACH_q20_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_BACH_q24_2",
+      "candidate_id": "efa85fb6eb00d101",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1287,
+          323
+        ],
+        [
+          1292,
+          324
+        ],
+        [
+          1297,
+          328
+        ],
+        [
+          1298,
+          334
+        ],
+        [
+          1294,
+          339
+        ],
+        [
+          1288,
+          341
+        ],
+        [
+          1283,
+          337
+        ],
+        [
+          1282,
+          329
+        ]
+      ],
+      "location": [
+        1290,
+        332
+      ],
+      "evidence_grid_target": "D2_BACH_q24_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_BACH_q24_3",
+      "candidate_id": "efa85fb6eb00d101",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          773,
+          155
+        ],
+        [
+          780,
+          155
+        ],
+        [
+          785,
+          158
+        ],
+        [
+          786,
+          165
+        ],
+        [
+          782,
+          172
+        ],
+        [
+          776,
+          174
+        ],
+        [
+          769,
+          170
+        ],
+        [
+          767,
+          163
+        ]
+      ],
+      "location": [
+        778,
+        165
+      ],
+      "evidence_grid_target": "D2_BACH_q24_3",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_BACH_q25_1",
+      "candidate_id": "39cc2c1cfe7748ce",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1040,
+          240
+        ],
+        [
+          1047,
+          240
+        ],
+        [
+          1052,
+          244
+        ],
+        [
+          1052,
+          250
+        ],
+        [
+          1048,
+          255
+        ],
+        [
+          1041,
+          255
+        ],
+        [
+          1036,
+          249
+        ],
+        [
+          1037,
+          243
+        ]
+      ],
+      "location": [
+        1044,
+        248
+      ],
+      "evidence_grid_target": "D2_BACH_q25_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_BACH_q25_2",
+      "candidate_id": "39cc2c1cfe7748ce",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          1092,
+          1145
+        ],
+        [
+          1097,
+          1146
+        ],
+        [
+          1101,
+          1150
+        ],
+        [
+          1100,
+          1156
+        ],
+        [
+          1096,
+          1161
+        ],
+        [
+          1091,
+          1162
+        ],
+        [
+          1087,
+          1158
+        ],
+        [
+          1087,
+          1151
+        ]
+      ],
+      "location": [
+        1095,
+        1153
+      ],
+      "evidence_grid_target": "D2_BACH_q25_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_BACH_q25_3",
+      "candidate_id": "39cc2c1cfe7748ce",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          103,
+          887
+        ],
+        [
+          109,
+          888
+        ],
+        [
+          114,
+          892
+        ],
+        [
+          114,
+          898
+        ],
+        [
+          110,
+          903
+        ],
+        [
+          103,
+          904
+        ],
+        [
+          98,
+          899
+        ],
+        [
+          98,
+          892
+        ]
+      ],
+      "location": [
+        106,
+        894
+      ],
+      "evidence_grid_target": "D2_BACH_q25_3",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_BACH_q47_1",
+      "candidate_id": "a9108272b1b46646",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          80,
+          1290
+        ],
+        [
+          84,
+          1290
+        ],
+        [
+          88,
+          1293
+        ],
+        [
+          88,
+          1297
+        ],
+        [
+          85,
+          1300
+        ],
+        [
+          80,
+          1300
+        ],
+        [
+          77,
+          1297
+        ],
+        [
+          77,
+          1293
+        ]
+      ],
+      "location": [
+        83,
+        1295
+      ],
+      "evidence_grid_target": "D2_BACH_q47_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_BACH_q47_2",
+      "candidate_id": "a9108272b1b46646",
+      "cell_type": "lymph_nucleus",
+      "decision": "draft_eligible",
+      "polygon": [
+        [
+          835,
+          472
+        ],
+        [
+          840,
+          472
+        ],
+        [
+          844,
+          476
+        ],
+        [
+          843,
+          480
+        ],
+        [
+          840,
+          483
+        ],
+        [
+          834,
+          482
+        ],
+        [
+          831,
+          479
+        ],
+        [
+          831,
+          475
+        ]
+      ],
+      "location": [
+        838,
+        478
+      ],
+      "evidence_grid_target": "D2_BACH_q47_2",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional raw visual inspection: separate small rounded/oval densely stained nucleus outside gland epithelium; draft identity and whole-boundary estimate remain unreviewed."
+    },
+    {
+      "measurement_id": "D2_CRC_q18_2",
+      "candidate_id": "959536019f2ad4bb",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        180,
+        116
+      ],
+      "evidence_grid_target": "D2_CRC_q18_2",
+      "boundary_uncertainty_px": 1,
+      "note": "New raw grid: elongated dark nucleus/continuation, not a separate small round nucleus; excluded, no caliper."
+    },
+    {
+      "measurement_id": "D2_BACH_q20_2",
+      "candidate_id": "3bd2585178d0ac9b",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        458,
+        1139
+      ],
+      "evidence_grid_target": "D2_BACH_q20_2",
+      "boundary_uncertainty_px": 2,
+      "note": "New raw grid: low-contrast/pale internal nuclear area; identity and complete boundary not secure; no caliper."
+    },
+    {
+      "measurement_id": "D2_BACH_q24_1",
+      "candidate_id": "efa85fb6eb00d101",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        119,
+        988
+      ],
+      "evidence_grid_target": "D2_BACH_q24_1",
+      "boundary_uncertainty_px": 2,
+      "note": "New raw grid: pale internal area and asymmetric chromatin; lymphocyte identity uncertain; no caliper."
+    },
+    {
+      "measurement_id": "D2_BreakHis_q35_1",
+      "candidate_id": "959523c3d8bdd072",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        9,
+        303
+      ],
+      "evidence_grid_target": "D2_BreakHis_q35_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional 60-image navigation pass: Round black object outside tissue: stain/debris cannot be excluded."
+    },
+    {
+      "measurement_id": "D2_BreakHis_q49_1",
+      "candidate_id": "30a07ba3d76cbfab",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        522,
+        306
+      ],
+      "evidence_grid_target": "D2_BreakHis_q49_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional 60-image navigation pass: Isolated black focus near epithelial tissue; cannot establish lymphocyte identity and whole-nucleus boundary."
+    },
+    {
+      "measurement_id": "D2_BreakHis_q56_1",
+      "candidate_id": "b09f43d57d57af24",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        618,
+        93
+      ],
+      "evidence_grid_target": "D2_BreakHis_q56_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional 60-image navigation pass: Brown/dark rounded focus with adjacent tissue; marker identity unclear."
+    },
+    {
+      "measurement_id": "D2_BreakHis_q60_1",
+      "candidate_id": "c13f20254d189e91",
+      "cell_type": "lymph_nucleus",
+      "decision": "uncertain",
+      "polygon": [],
+      "location": [
+        602,
+        67
+      ],
+      "evidence_grid_target": "D2_BreakHis_q60_1",
+      "boundary_uncertainty_px": 2,
+      "note": "Additional 60-image navigation pass: Black object in pale/empty background, artefact/debris cannot be excluded."
+    }
+  ],
+  "parent_annotations": "C:\\Users\\Admin\\Documents\\GitHub\\btl-hocmay\\outputs\\mpp_measurements_draft_v1\\draft_v3\\annotations_input.json",
+  "additional_survey": "Locked queue unchanged. Relative-contrast locator supplies navigation only; no expected diameter or LOO used to select cells.",
+  "new_measurement_ids": [
+    "D2_CRC_q18_1",
+    "D2_CRC_q44_1",
+    "D2_CRC_q36_1",
+    "D2_BACH_q09_1",
+    "D2_BACH_q09_2",
+    "D2_BACH_q16_1",
+    "D2_BACH_q20_1",
+    "D2_BACH_q24_2",
+    "D2_BACH_q24_3",
+    "D2_BACH_q25_1",
+    "D2_BACH_q25_2",
+    "D2_BACH_q25_3",
+    "D2_BACH_q47_1",
+    "D2_BACH_q47_2",
+    "D2_CRC_q18_2",
+    "D2_BACH_q20_2",
+    "D2_BACH_q24_1",
+    "D2_BreakHis_q35_1",
+    "D2_BreakHis_q49_1",
+    "D2_BreakHis_q56_1",
+    "D2_BreakHis_q60_1"
+  ]
+}
