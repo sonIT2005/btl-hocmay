@@ -14,3 +14,12 @@ e2_swin_group_macenko_s2,e2,swin,group,macenko,2,6,1,0.9062421641550742,48.46666
 e2_swin_group_none_s0,e2,swin,group,none,0,8,3,0.9219309282138445,48.5875,2.66
 e2_swin_group_none_s1,e2,swin,group,none,1,7,2,0.9254609000451187,48.128571428571426,2.66
 e2_swin_group_none_s2,e2,swin,group,none,2,12,7,0.9368938748182399,49.15,2.66
+l10_convnext_group_none_s0,l10,convnext,group,none,0,6,1,0.8049052742047637,4.833333333333333,2.42
+l10_convnext_group_none_s1,l10,convnext,group,none,1,10,5,0.7902542975787846,4.140000000000001,2.42
+l10_convnext_group_none_s2,l10,convnext,group,none,2,7,2,0.8154901653527195,4.142857142857143,2.42
+l25_convnext_group_none_s0,l25,convnext,group,none,0,10,5,0.8966585423759701,9.940000000000001,2.42
+l25_convnext_group_none_s1,l25,convnext,group,none,1,11,6,0.9193972317647033,9.92727272727273,2.42
+l25_convnext_group_none_s2,l25,convnext,group,none,2,10,5,0.9019176288168025,9.930000000000001,2.42
+l50_convnext_group_none_s0,l50,convnext,group,none,0,13,8,0.9189450920526362,19.338461538461544,2.42
+l50_convnext_group_none_s1,l50,convnext,group,none,1,11,6,0.9253131036838406,19.318181818181824,2.42
+l50_convnext_group_none_s2,l50,convnext,group,none,2,13,8,0.9193867897710442,19.300000000000004,2.42

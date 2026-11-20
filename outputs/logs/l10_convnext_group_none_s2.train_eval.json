@@ -1,0 +1,12 @@
+{
+  "run": "l10_convnext_group_none_s2",
+  "fraction": 0.1,
+  "seed": 2,
+  "best_epoch": 2,
+  "n_train": 2014,
+  "train_macro_f1": 0.9631172565725422,
+  "train_accuracy": 0.9602780536246276,
+  "n_val": 4041,
+  "val_macro_f1": 0.8154901653527195,
+  "val_accuracy": 0.894580549368968
+}
